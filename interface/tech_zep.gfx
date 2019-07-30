@@ -1,0 +1,9 @@
+spriteTypes = {	
+
+	# Zeppelin Airship
+
+	SpriteType = {
+		name = "GFX_early_airship_medium"
+		texturefile = "gfx/interface/technologies/early_airship.dds"
+	}
+}

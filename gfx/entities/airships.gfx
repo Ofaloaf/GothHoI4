@@ -1,0 +1,9 @@
+objectTypes = {
+	### START - AIRSHIPS ===============================================================
+
+	pdxmesh = {
+		name = "generic_hoi4tgw_airship_mesh"
+		file = "gfx/models/units/planes/generic_ww1_airship.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+}

@@ -81,7 +81,6 @@ units = {
 		division_template = "Division de Infantaría"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
-
 	}			
 	division = { # "2n Division de Infantaría"		
 		division_name = {
@@ -92,8 +91,15 @@ units = {
 		division_template = "Division de Infantaría"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
-
 	}		
+	
+	### PORT SECHEVAL GARRISON
+	division = { # "Garnison de Pòrt Secheval"		
+		location = 2207  #
+		division_template = "Brigade de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
 }
 
 ### Air Wings
