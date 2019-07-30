@@ -1,0 +1,19 @@
+state={
+	id=791
+	name="STATE_GETULIA"
+	
+	history={
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		1111 1152 1207 1989 4154 4933 7116 7908 7958 8046 10107 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+state={
+	id=801
+	name="STATE_ANGOLA"
+	provinces={
+		1552 2126 4735 7548 8054 8219 12981 
+	}
+	
+	history={
+		owner = BCG
+		add_core_of = BCG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8219 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			8219 1 
+		}
+	}
+	
+	manpower=100
+	buildings_max_level_factor=1.000
+	
+	state_category = rural
+}

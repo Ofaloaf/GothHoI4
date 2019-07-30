@@ -1,0 +1,75 @@
+﻿capital = 155
+
+#oob = "AUS_1936"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	early_fighter = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 10
+	democratic = 66
+	fascism = 14
+	communism = 10
+}
+
+set_stability = 0.50
+
+create_country_leader = {
+	name = "Zaurbek Kangar"
+	desc = "POLITICS_PNN_DEM_DESC"
+	picture = "Portrait_Makso_Hrovatin.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gubaz Baïtzas"
+	desc = "POLITICS_PNN_FASH_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = folk_nationalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Zenon Aini"
+	desc = "POLITICS_PNN_COMM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = syndicalism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Dzhambolat Kaïdoum"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

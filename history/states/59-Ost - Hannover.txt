@@ -1,0 +1,36 @@
+
+state={
+	id=59
+	name="STATE_59"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = FRK
+		victory_points = {
+			3326 5 
+		}
+		victory_points = {
+			6377 10 
+		}
+		victory_points = {
+			526 40
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = FRK
+
+	}
+
+	provinces={
+		526 3395 6218 6377 6513 9238 9264 9375 11402 11468 11493 
+	}
+	manpower=2038286
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

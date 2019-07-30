@@ -1,0 +1,19 @@
+state={
+	id=663
+	name="STATE_663"
+	manpower = 8808
+	
+	state_category = wasteland
+
+	history={
+		owner = KOJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TRP
+	}
+
+	provinces={
+		1186 4060 4133 7063 7206 9977 12079 13078 
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=151
+	name="STATE_RHAETIA"
+	manpower = 1854711
+	
+	
+	state_category = city
+	
+	resources={
+		aluminium=15 # was: 24
+	}
+
+	history={
+		owner = LRM
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+		}
+		victory_points = {
+			663 5
+		}
+		add_core_of = LRM
+	}
+
+	provinces={
+		658 661 663 3641 3660 3662 9600 11601 11604 11623 
+	}
+}

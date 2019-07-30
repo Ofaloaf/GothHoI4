@@ -1,0 +1,79 @@
+﻿division_template = {
+	name = "Infantry Auxiliaries"		# 'Infantry Division'
+
+	#division_names_group = SAU_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Infantry Division"  	# Standard formation for frontline divisions
+
+	#division_names_group = USA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
+	}
+}
+division_template = {
+	name = "Mounted Auxiliaries"
+
+	#division_names_group = SAU_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {			
+		name = "Royal Infantry"	
+		location = 7100
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	division= {			
+		name = "Royal Equestrians"	
+		location = 10070
+		division_template = "Mounted Auxiliaries"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+}
+
+	######## No notable air force ########
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SAU"
+		}
+		requested_factories = 1
+		progress = 0.38
+		efficiency = 100
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=70
+	name="STATE_GERULATA"
+	resources={
+		tungsten=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = CPT
+		victory_points = {
+			9692 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 3
+
+		}
+		add_core_of = CPT
+
+	}
+
+	provinces={
+		541 3716 9539 9692 
+	}
+	manpower=1230500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

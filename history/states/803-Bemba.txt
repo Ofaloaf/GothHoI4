@@ -1,0 +1,23 @@
+state={
+	id=803
+	name="STATE_BEMBA"
+	
+	history={
+		owner = BCG
+		add_core_of = BCG
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			1846 1 # Kasama
+		}
+
+	}
+	
+	provinces={
+		1846 10594 10930 13173 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

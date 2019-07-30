@@ -1,0 +1,33 @@
+
+state={
+	id=65
+	name="STATE_OPPER_ELVE"
+	resources={
+		steel=53.000
+	}
+
+	history={
+		owner = FRK
+		buildings = {
+			infrastructure = 7
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			514 5 
+		}
+		victory_points = {
+			3535 5 
+		}
+		add_core_of = FRK
+
+	}
+
+	provinces={
+		514 3535 6441 6559 9441 9471 11481 11545 
+	}
+	manpower=5592576
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

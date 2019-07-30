@@ -1,0 +1,13 @@
+spriteTypes = {	
+		#### Leader trait icons ####
+
+	spriteType = {
+		name = "GFX_trait_civilian_captain"
+		texturefile = "gfx/interface/traits/trait_civilian_captain.dds"
+	}			
+		
+	spriteType = {
+		name = "GFX_trait_militia_captain"
+		texturefile = "gfx/interface/traits/trait_militia_captain.dds"
+	}		
+}

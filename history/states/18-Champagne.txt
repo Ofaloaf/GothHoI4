@@ -1,0 +1,36 @@
+
+state={
+	id=18
+	name="STATE_MOSELA"
+
+	history={
+		owner = GTH
+		victory_points = {
+			9490 5 
+		}
+		victory_points = {
+			13011 5 
+		}
+		victory_points = {
+			3560 1 
+		}
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 10
+
+		}
+		add_core_of = GTH
+
+	}
+
+	provinces={
+		3533 3629 5291 6531 6545 9505 9559 9658 11488 11502 11516 11642 
+	}
+	manpower=1370800
+	buildings_max_level_factor=1.000
+	state_category=city
+}

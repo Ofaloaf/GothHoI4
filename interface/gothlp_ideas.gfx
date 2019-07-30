@@ -1,0 +1,18 @@
+#spriteTypes = {
+#	spriteType = {
+#		name = "GFX_select_date_CRIMSONSKIES"
+#		texturefile = "gfx/interface/select_date_CRIMSONSKIES.dds"
+#	}
+#}
+
+# GENERIC ######################
+
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_generic_no_morale"
+		texturefile = "gfx/interface/ideas/generic_no_morale.dds"
+	}	
+}
+
+# FRK - Frankia ##################################################################
+

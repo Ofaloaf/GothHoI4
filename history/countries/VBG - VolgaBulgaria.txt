@@ -1,0 +1,85 @@
+﻿capital = 249
+
+oob = "0_VBG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+}
+set_stability = 0.6
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 83
+	fascism = 11
+	communism = 6
+}
+
+add_ideas = {
+	#partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Paväl Ilteber"
+	desc = "POLITICS_VBG_DEM_DESC"
+	picture = "Vladimir_Burtsev.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Uturgur Akhasir"
+	desc = "POLITICS_VBG_COM_DESC"
+	picture = "Portrait_VBG_communist.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+	}
+}
+
+create_field_marshal = {
+	name = "Yençepi Tölis"
+	gfx = "GFX_portrait_prc_mao_zedong"
+	traits = { defensive_doctrine trait_cautious politically_connected }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Gostun Bersula"
+	gfx = "GFX_portrait_prc_zhu_de"
+	traits = { infantry_officer organizer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Timëreç Yiltabar"
+	gfx = "GFX_portrait_prc_chen_yi"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

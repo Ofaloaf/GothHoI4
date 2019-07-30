@@ -1,0 +1,23 @@
+state={
+	id=798
+	name="STATE_CONFLUENTES"
+	
+	history={
+		owner = GTH
+		victory_points = {
+			529 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+
+		}
+		add_core_of = GTH
+	}
+	
+	provinces={
+		529 
+	}
+	manpower=20000
+	state_category=large_town
+}

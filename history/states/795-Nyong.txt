@@ -1,0 +1,26 @@
+state={
+	id=795
+	name="STATE_NYONG"
+	
+	history={
+		owner = COG
+		add_core_of = COG
+		victory_points = {
+			2080 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+	
+	provinces={
+		2080 5036 5054 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

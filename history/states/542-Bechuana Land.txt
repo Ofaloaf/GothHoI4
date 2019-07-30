@@ -1,0 +1,28 @@
+
+state={
+	id=542
+	name="STATE_BECHUANENSIS"
+	manpower = 234000
+	
+	state_category = pastoral
+	
+	resources={
+		chromium=90 # was: 168
+	}
+
+	history={
+		owner = SOA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOA
+		victory_points = {
+			8214 1
+		}
+
+	}
+
+	provinces={
+		1509 1580 1874 4851 5203 8214 10525 10668 12940 12963 
+	}
+}

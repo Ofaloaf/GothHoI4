@@ -1,0 +1,73 @@
+ideas = {
+	country = {
+		FRK_sour_loser = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			picture = vittoria_mutilata
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+
+		FRK_vrijkorps_1 = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			removal_cost = -1
+			
+			picture = idea_chi_army_corruption
+			
+			research_bonus = {
+				land_doctrine = -0.10
+				naval_doctrine = -0.10
+				air_doctrine = -0.10
+			}
+
+			modifier = {
+				army_org_factor = -0.1
+				conscription_factor = 0.05
+				send_volunteer_factor = 0.5
+			}
+		}
+		
+		FRK_civil_war_reconstruction_1 = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			removal_cost = -1
+			
+			picture = generic_no_morale
+						
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+	}
+}

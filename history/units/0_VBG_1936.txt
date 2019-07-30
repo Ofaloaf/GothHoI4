@@ -1,0 +1,103 @@
+﻿division_template = {
+	name = "Pekhota"				# "Infantry"
+	#division_names_group = CHI_INF_01
+									# 	as well as two-division infantry corps (generally poorly-equipped militias),
+	regiments = {					#	and local militia groups.
+		infantry = { x = 0 y = 0 }	# Note: Chinese divisions were brigade-sized compared other nations' armies
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+
+	priority = 0 # garrison
+}
+division_template = {
+	name = "Khalakh Pekhota"			# "People's Infantry"
+	#division_names_group = CHI_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Atilar"		# Turkish for 'Horsemen'
+	#division_names_group = CHI_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+### OOB ###
+units = {
+	###### Capital Army ######
+	division = {
+		name = "37 Pekhota"
+		location = 11339
+		division_template = "Pekhota"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "38 Pekhota"
+		location = 11339
+		division_template = "Pekhota"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "132 Khalakh Pekhota"
+		location = 11339
+		division_template = "Khalakh Pekhota"
+		start_experience_factor = 0.2
+	}
+	division = {
+		name = "143 Atilar"
+		location = 11339
+		division_template = "Atilar"
+		start_experience_factor = 0.2
+	}
+}
+
+
+### Air Forces ###
+air_wings = {
+	# Samara
+	251 = { 
+		fighter_equipment_0 = { owner = "VBG" amount = 30 }	
+	}
+	# Bolghar
+	249 = {
+		fighter_equipment_0 = { owner = "VBG" amount = 70 } 	
+		tac_bomber_equipment_0 =  { owner = "VBG" amount = 15 }		
+	}
+}
+
+
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VBG"
+		}
+		requested_factories = 2
+		progress = 0.55
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "VBG"
+		}
+		requested_factories = 1
+		progress = 0.55
+		efficiency = 100
+	}	
+}

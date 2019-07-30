@@ -1,0 +1,30 @@
+
+state={
+	id=450
+	name="STATE_BERENICE"
+	manpower = 82535
+	
+	state_category = town
+
+	history={
+		owner = TRP
+		
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			11954 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TRP
+	}
+
+	provinces={
+		1062 1127 4120 10123 11954 
+	}
+}

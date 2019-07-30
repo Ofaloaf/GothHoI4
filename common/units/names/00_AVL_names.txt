@@ -1,0 +1,151 @@
+﻿AVL = {
+	#fleet_names_template = FLEET_NAME_USA
+	submarine = {
+		prefix = ""
+		generic = { "Sufmorin" }
+		unique = {
+			"SM-105" "SM-106" "SM-107" "SM-108" "SM-109" "SM-110" "SM-111" "SM-112" "SM-113" "SM-114" "SM-115" "SM-116" "SM-117" "SM-118" "SM-119" "SM-120" "SM-121" "SM-122" "SM-123" "SM-124"
+			"SM-125" "SM-126" "SM-127" "SM-128" "SM-129" "SM-130" "SM-131" "SM-132" "SM-133" "SM-134" "SM-135" "SM-136" "SM-137" "SM-138" "SM-139" "SM-140" "SM-141" "SM-142" "SM-143" "SM-144" "SM-145" "SM-146"
+			"SM-147" "SM-148" "SM-149" "SM-150" "SM-151" "SM-152" "SM-153" "SM-154" "SM-155" "SM-156" "SM-157" "SM-158" "SM-159" "SM-160" "SM-161" "SM-162" "SM-163" "SM-164" "SM-165" "SM-166" "SM-167" "SM-168"
+			"SM-169" "SM-170" "SM-171" "SM-172" "SM-173" "SM-174" "SM-175" "SM-176" "SM-177" "SM-178" "SM-179" "SM-180" "SM-181" "SM-182" "SM-183" "SM-184" "SM-185" "SM-186" "SM-187" "SM-188" "SM-189" "SM-190"
+			"SM-191" "SM-192" "SM-193" "SM-194" "SM-195" "SM-196" "SM-197" "SM-198" "SM-199" "SM-200" "SM-201" "SM-201" "SM-202" "SM-203" "SM-204" "SM-205" "SM-206" "SM-207" "SM-208" "SM-209" "SM-210" "SM-211"
+			"SM-212" "SM-213" "SM-214" "SM-215" "SM-216" "SM-217" "SM-218" "SM-219" "SM-220" "SM-221" "SM-222" "SM-223" "SM-224" "SM-225" "SM-226" "SM-227" "SM-228" "SM-229" "SM-230" "SM-231" "SM-232" "SM-233"
+			"SM-234" "SM-235" "SM-236" "SM-237" "SM-238" "SM-239" "SM-240" "SM-241" "SM-242" "SM-243" "SM-244" "SM-245" "SM-246" "SM-247" "SM-248" "SM-249" "SM-250" "SM-251" "SM-252" "SM-253" "SM-254" "SM-255"
+			"SM-256" "SM-257" "SM-258" "SM-259" "SM-260" "SM-261" "SM-262" "SM-263" "SM-264" "SM-265" "SM-266" "SM-267" "SM-268" "SM-269" "SM-270" "SM-271" "SM-272" "SM-273" "SM-274" "SM-275" "SM-276" "SM-277"
+			"SM-278" "SM-279" "SM-280" "SM-281" "SM-282" "SM-283" "SM-284" "SM-285" "SM-286" "SM-287" "SM-288" "SM-289" "SM-290" "SM-291" "SM-292" "SM-293" "SM-294" "SM-295" "SM-296" "SM-297" "SM-298" "SM-299"
+			"SM-300" "SM-301" "SM-302" "SM-303" "SM-304" "SM-305" "SM-306" "SM-307" "SM-308" "SM-309" "SM-310" "SM-311" "SM-312" "SM-313" "SM-314" "SM-315" "SM-316" "SM-317" "SM-318" "SM-319" "SM-320" "SM-321"
+			"SM-322" "SM-323" "SM-324" "SM-325" "SM-326" "SM-327" "SM-328" "SM-331" "SM-332" "SM-333" "SM-334" "SM-335" "SM-336" "SM-337" "SM-338" "SM-339" "SM-340" "SM-341" "SM-342" "SM-343" "SM-344" "SM-345"
+			"SM-346" "SM-347" "SM-348" "SM-349" "SM-350" "SM-351" "SM-352" "SM-353" "SM-354" "SM-355" "SM-356" "SM-357" "SM-358" "SM-359" "SM-360" "SM-361" "SM-362" "SM-363" "SM-364" "SM-365" "SM-366" "SM-367"
+			"SM-368" "SM-369" "SM-370" "SM-371" "SM-372" "SM-373" "SM-374" "SM-375" "SM-376" "SM-377" "SM-378" "SM-379" "SM-380" "SM-381" "SM-382" "SM-383" "SM-384" "SM-385" "SM-386" "SM-387" "SM-388" "SM-389"
+			"SM-390" "SM-391" "SM-392" "SM-393" "SM-394" "SM-396" "SM-397" "SM-398" "SM-399" "SM-400" "SM-401" "SM-402" "SM-403" "SM-404" "SM-405" "SM-406" "SM-407" "SM-408" "SM-409" "SM-410" "SM-411" "SM-412"
+			"SM-413" "SM-414" "SM-415" "SM-416" "SM-417" "SM-418" "SM-419" "SM-420" "SM-421" "SM-422" "SM-423" "SM-424" "SM-425" "SM-426" "SM-427" "SM-428" "SM-431" "SM-432" "SM-433" "SM-434" "SM-435" "SM-436"
+			"SM-437" "SM-438" "SM-439" "SM-440" "SM-441" "SM-442" "SM-443" "SM-444" "SM-445" "SM-446" "SM-447" "SM-448" "SM-449" "SM-450" "SM-451" "SM-452" "SM-453" "SM-454" "SM-455" "SM-456" "SM-457" "SM-458"
+			"SM-459" "SM-460" "SM-461" "SM-462" "SM-463" "SM-464" "SM-465" "SM-466" "SM-467" "SM-468" "SM-469" "SM-470" "SM-471" "SM-472" "SM-473" "SM-475" "SM-476" "SM-477" "SM-478" "SM-479" "SM-480" "SM-481"
+			"SM-482" "SM-483" "SM-484" "SM-485" "SM-486" "SM-487" "SM-488" "SM-489" "SM-490" "SM-491" "SM-492" "SM-493" "SM-501" "SM-502" "SM-503" "SM-504" "SM-505" "SM-506" "SM-507" "SM-508" "SM-509" "SM-510"
+			"SM-511" "SM-512" "SM-513" "SM-514" "SM-515" "SM-516" "SM-517" "SM-518" "SM-519" "SM-520" "SM-521" "SM-522" "SM-523" "SM-524" "SM-525" "SM-526" "SM-527" "SM-528" "SM-529" "SM-530" "SM-531" "SM-532"
+			"SM-533" "SM-534" "SM-535" "SM-536" "SM-537" "SM-538" "SM-539" "SM-540" "SM-541" "SM-542" "SM-543" "SM-544" "SM-545" "SM-546" "SM-547" "SM-548" "SM-549" "SM-550" "SM-551" "SM-552" "SM-553" "SM-554"
+			"SM-555" "SM-556" "SM-557" "SM-558" "SM-559" "SM-560" "SM-561" "SM-562" "SM-563" "SM-564" "SM-565" "SM-566" "SM-567" "SM-568" "SM-569" "SM-570" "SM-571" "SM-572" "SM-573" "SM-574" "SM-575" "SM-576"
+			"SM-577" "SM-578" "SM-579" "SM-580" "SM-581" "SM-582" "SM-583" "SM-584" "SM-585" "SM-586" "SM-587" "SM-588" "SM-589" "SM-590" "SM-591" "SM-592" "SM-593" "SM-594" "SM-595" "SM-596" "SM-597" "SM-598"
+			"SM-599" "SM-600" "SM-601" "SM-602" "SM-603" "SM-604" "SM-605" "SM-606" "SM-607" "SM-608" "SM-609" "SM-610" "SM-611" "SM-612" "SM-613" "SM-614" "SM-615" "SM-616" "SM-617" "SM-618" "SM-619" "SM-620"
+			"SM-621" "SM-622" "SM-623" "SM-624" "SM-625" "SM-626" "SM-627" "SM-628" "SM-629" "SM-630" "SM-631" "SM-632" "SM-633" "SM-634" "SM-635" "SM-636" "SM-637" "SM-638" "SM-639" "SM-640" "SM-641" "SM-642"
+			"SM-643" "SM-644" "SM-645" "SM-646" "SM-647" "SM-648" "SM-649" "SM-650" "SM-651" "SM-652" "SM-653" "SM-654" "SM-655" "SM-656" "SM-657" "SM-658" "SM-659" "SM-660" "SM-661" "SM-662" "SM-663" "SM-664"
+			"SM-665" "SM-666" "SM-667" "SM-668" "SM-669" "SM-670" "SM-671" "SM-672" "SM-673" "SM-674" "SM-675" "SM-676" "SM-677" "SM-678" "SM-679" "SM-680" "SM-681" "SM-682" "SM-683" "SM-701" "SM-702" "SM-703"
+			"SM-704" "SM-705" "SM-706" "SM-707" "SM-708" "SM-709" "SM-710" "SM-711" "SM-712" "SM-713" "SM-714" "SM-715" "SM-716" "SM-717" "SM-718" "SM-719" "SM-720" "SM-721" "SM-722" "SM-731" "SM-732" "SM-733"
+			"SM-734" "SM-735" "SM-736" "SM-737" "SM-738" "SM-739" "SM-740" "SM-741" "SM-742" "SM-743" "SM-744" "SM-745" "SM-746" "SM-747" "SM-748" "SM-749" "SM-750" "SM-751" "SM-752" "SM-753" "SM-754" "SM-755"
+			"SM-756" "SM-757" "SM-758" "SM-759" "SM-760" "SM-761" "SM-762" "SM-763" "SM-764" "SM-765" "SM-766" "SM-767" "SM-768" "SM-771" "SM-772" "SM-773" "SM-774" "SM-775" "SM-776" "SM-777" "SM-778" "SM-779"
+			"SM-792" "SM-793" "SM-794" "SM-795" "SM-801" "SM-802" "SM-803" "SM-804" "SM-805" "SM-806" "SM-821" "SM-822" "SM-825" "SM-826" "SM-827" "SM-828" "SM-841" "SM-842" "SM-843" "SM-844" "SM-845" "SM-846"
+			"SM-847" "SM-848" "SM-849" "SM-850" "SM-851" "SM-852" "SM-853" "SM-854" "SM-855" "SM-856" "SM-857" "SM-858" "SM-859" "SM-860" "SM-861" "SM-862" "SM-863" "SM-864" "SM-865" "SM-866" "SM-867" "SM-868"
+			"SM-869" "SM-870" "SM-871" "SM-872" "SM-873" "SM-874" "SM-875" "SM-876" "SM-877" "SM-878" "SM-879" "SM-880" "SM-881" "SM-883" "SM-889" "SM-901" "SM-903" "SM-904" "SM-905" "SM-907" "SM-921" "SM-922"
+			"SM-923" "SM-924" "SM-925" "SM-926" "SM-927" "SM-928" "SM-929" "SM-930" "SM-951" "SM-952" "SM-953" "SM-954" "SM-955" "SM-956" "SM-957" "SM-958" "SM-959" "SM-960" "SM-961" "SM-962" "SM-963" "SM-964"
+			"SM-965" "SM-966" "SM-967" "SM-968" "SM-969" "SM-970" "SM-971" "SM-972" "SM-973" "SM-974" "SM-975" "SM-976" "SM-977" "SM-978" "SM-979" "SM-980" "SM-981" "SM-982" "SM-983" "SM-984" "SM-985" "SM-986"
+			"SM-987" "SM-988" "SM-989" "SM-990" "SM-991" "SM-992" "SM-993" "SM-994" "SM-995" "SM-997" "SM-998" "SM-999" "SM-1000" "SM-1001" "SM-1002" "SM-1003" "SM-1004" "SM-1005" "SM-1006" "SM-1007" "SM-1008"
+			"SM-1009" "SM-1010" "SM-1013" "SM-1014" "SM-1015" "SM-1016" "SM-1017" "SM-1018" "SM-1019" "SM-1020" "SM-1021" "SM-1022" "SM-1023" "SM-1024" "SM-1025" "SM-1051" "SM-1052" "SM-1053" "SM-1054" "SM-1055"
+			"SM-1056" "SM-1057" "SM-1058" "SM-1059" "SM-1060" "SM-1061" "SM-1062" "SM-1063" "SM-1064" "SM-1065" "SM-1101" "SM-1102" "SM-1103" "SM-1104" "SM-1105" "SM-1106" "SM-1107" "SM-1108" "SM-1109" "SM-1110"
+			"SM-1131" "SM-1132" "SM-1161" "SM-1162" "SM-1163" "SM-1164" "SM-1165" "SM-1166" "SM-1167" "SM-1168" "SM-1169" "SM-1170" "SM-1171" "SM-1172" "SM-1191" "SM-1192" "SM-1193" "SM-1194" "SM-1195" "SM-1196"
+			"SM-1197" "SM-1198" "SM-1199" "SM-1200" "SM-1201" "SM-1202" "SM-1203" "SM-1204" "SM-1205" "SM-1206" "SM-1207" "SM-1208" "SM-1209" "SM-1210" "SM-1221" "SM-1222" "SM-1223" "SM-1224" "SM-1225" "SM-1226"
+			"SM-1227" "SM-1228" "SM-1229" "SM-1230" "SM-1231" "SM-1232" "SM-1233" "SM-1234" "SM-1235" "SM-1271" "SM-1272" "SM-1273" "SM-1274" "SM-1275" "SM-1276" "SM-1277" "SM-1278" "SM-1279" "SM-1301" "SM-1302"
+			"SM-1303" "SM-1304" "SM-1305" "SM-1306" "SM-1307" "SM-1308"
+		}
+	}	
+	destroyer = {
+		prefix = "RAN" # Rhepyblig di Avallonia Nawis
+		generic = {
+			"Dirumhur" # 'Destroyer'
+		}
+		unique = {
+			# From wiki, Farragut class and beyond by flag number.  
+			"Farragut" "Dewey" "Hull" "Macdonough" "Worden" "Dale" "Monaghan" "Aylwin" "Porter" "Selfridge" "McDougal" "Winslow" "Phelps" "Clark" "Moffett" "Balch" 
+			"Mahan" "Cummings" "Drayton" "Lamson" "Flusser" "Reid" "Case" "Conyngham" "Cassin" "Shaw" "Tucker" "Downes" "Cushing" "Perkins" "Smith" "Preston" 
+			"Gridley" "Somers" "Craven" "Warrington" "Dunlap" "Fanning" "Bagley" "Blue" "Helm" "Mugford" "Ralph Talbot" "Henley" "Patterson" "Jarvis" "Sampson" "Davis" "Jouett" 
+			"Benham" "Ellet" "Lang" "McCall" "Maury" "Mayrant" "Trippe" "Rhind" "Rowan" "Stack" "Sterett" "Wilson" "Sims" "Hughes" "Anderson" "Hammann" "Mustin" "Russell" "O Brien" "Walke" "Morris" "Roe" "Wainwright" "Buck" 
+			"Benson" "Mayo" "Gleaves" "Niblack" "Madison" "Lansdale" "Hilary P Jones" "Charles F Hughes" "Livermore" "Eberle" "Plunkett" "Kearny" "Gwin" "Meredith" "Grayson" "Monssen" "Woolsey" "Ludlow" "Edison" 
+			"Ericsson" "Wilkes" "Nicholson" "Swanson" "Ingraham" "Fletcher" "Radford" "Jenkins" "O Bannon" "Chevalier" "Bristol" "Ellyson" "Hambleton" "Rodman" "Emmons" "Macomb" "Laffey" "Woodworth" "Forrest" 
+			"Fitch" "Corry" "Hobson" "Saufley" "Waller" "Strong" "Taylor" "De Haven" "Bache" "Beale" "Guest" "Bennett" "Fullam" "Hudson" "Hutchins" "Pringle" "Stanly" "Stevens" "Halford" "Leutze" "Aaron Ward" "Buchanan" 
+			"Duncan" "Lansdowne" "Lardner" "McCalla" "Mervine" "Quick" "Farenholt" "Bailey" "Carmick" "Doyle" "Endicott" "McCook" "Frankford" "Philip" "Renshaw" "Ringgold" "Schroeder" "Sigsbee" 
+			"Conway" "Cony" "Converse" "Eaton" "Foote" "Spence" "Terry" "Thatcher" "Anthony" "Wadsworth" "Walker" "Brownson" "Daly" "Isherwood" "Kimberly" "Luce" 
+			"Abner Read" "Ammen" "Bush" "Trathen" "Hazelwood" "Heermann" "Hoel" "McCord" "Miller" "Owen" "The Sullivans" "Stephen Potter" "Tingey" "Twining" "Yarnall" "Boyd" "Bradford" "Brown" 
+			"Cowell" "Capps" "David W Taylor" "Evans" "John D Henley" "Franks" "Haggard" "Hailey" "Johnston" "Laws" "Longshaw" "Morrison" "Prichett" "Robinson" "Ross" "Rowe" "Smalley" "Stoddard" "Watts" "Wren" 
+			"Aulick" "Charles Ausburne" "Claxton" "Dyson" "Harrison" "John Rodgers" "McKee" "Murray" "Sproston" "Wickes" "William D Porter" "Young" "Charrette" "Conner" "Hall" "Halligan" "Haraden" "Newcomb" "Bell" "Burns" 
+			"Izard" "Paul Hamilton" "Twiggs" "Howorth" "Killen" "Hart" "Metcalf" "Shields" "Wiley" "Bancroft" "Barton" "Boyle" "Champlin" "Meade" "Murphy" "Parker" "Caldwell" "Coghlan" "Frazier" "Gansevoort" "Gillespie" 
+			"Hobby" "Kalk" "Kendrick" "Laub" "MacKenzie" "McLanahan" "Nields" "Ordronaux" "Davison" "Glennon" "Jeffers" "Maddox" "Nelson" "Baldwin" "Harding" "Satterlee" "Thompson" "Welles" "Abbot" "Braine" "Erben" 
+			"Cowie" "Knight" "Doran" "Earle" "Butler" "Gherardi" "Herndon" "Shubrick" "Beatty" "Tillman" "Hale" "Sigourney" "Stembel" "Stevenson" "Stockton" "Thorn" "Turner" "Albert W Grant" "Caperton" "Cogswell" 
+			"Ingersoll" "Knapp" "Bearss" "John Hood" "Van Valkenburgh" "Charles J Badger" "Colahan" "Dashiell" "Bullard" "Kidd" "Bennion" "Heywood L Edwards" "Richard P Leary" "Bryant" "Black" "Chauncey" 
+			"Clarence K Bronson" "Cotten" "Dortch" "Gatling" "Healy" "Hickox" "Hunt" "Lewis Hancock" "Marshall" "McDermut" "McGowan" "McNair" "Melvin" "Hopewell" "Porterfield" "Stockham" "Wedderburn" "Picking" 
+			"Halsey Powell" "Uhlmann" "Remey" "Wadleigh" "Norman Scott" "Mertz" "Allen M Sumner" "Moale" "Ingraham" "Cooper" "English" "Charles S Sperry" "Ault" "Waldron" "Haynsworth" 
+			"John W Weeks" "Hank" "Wallace L Lind" "Borie" "Compton" "Gainard" "Soley" "Harlan R Dickson" "Hugh Purvis" "Gearing" "Eugene A Greene" "Gyatt" "Kenneth D Bailey" "William R Rush" "William M Wood" "Wiltsie" 
+			"Theodore E Chandler" "Hamner" "Epperson" "Mansfield" "Lyman K Swenson" "Collett" "Hyman" "Mannert L Abele" "Purdy" "Robert H Smith" "Thomas E Fraser" "Shannon" "Harry F Bauer" "Adams" "Tolman" 
+			"Drexler" "Frank Knox" "Southerland" "Brush" "Taussig" "Samuel N Moore" "Harry E Hubbard" "Henry A Wiley" "Shea" "J William Ditter" "Alfred A Cunningham" "John R Pierce" "Frank E Evans" "John A Bole" 
+			"Putnam" "Lofberg" "John W Thomason" "William C Lawe" "Lloyd Thomas" "Keppler" "Seymour D Owens" "Lowry" "Lindsey" "Hugh W Hadley" "Willard Keith" "James C Owens" "Zellars" "Massey" "Douglas H Fox" "Stormes" 
+			"Robert K Huntington" "Gurke" "McKean" "Henderson" "Richard B Anderson" "James E Kyes" "Hollister" "Eversole" "Shelton" "Seaman" "Callaghan" "Cassin Young" "Irwin" "Colhoun" "Gregory" "Little" "Rooks" 
+			"Higbee" "Benner" "Dennis J Buckley" "New" "Holder" "Rich" "Robert H McCard" "Samuel B Roberts" "Basilone" "Carpenter" "Agerholm" "Robert A Owens" "Timmerman" "Myles C Fox" "Everett F Larson" "Goodrich" 
+			"Hanson" "Herbert J Thomas" "Charles P Cecil" "George K MacKenzie" "Sarsfield" "Ernest G Small" "Power" "Fiske" "Bausell" "Ozbourn" "Robert L Wilson" "Witek" "Richard E Kraus" "Joseph P Kennedy Jr" 
+			"Rupertus" "Leonard F Mason" "Charles H Roan" "Fred T Berry" "Norris" "McCaffery" "Harwood" "Vogelgesang" "Steinaker" "Harold J Ellison" "Charles R Ware" "Cone" "Stribling" "Arnold J Isbell" "Fechteler" 
+			"Damato" "Forrest Royal" "Hawkins" "Henry W Tucker" "Rogers" "Vesole" "Leary" "Dyess" "Bordelon" "Furse" "Newman K Perry" "Floyd B Parks" "John R Craig" "Orleck" "Brinkley Bass" "Stickell" "O'Hare"
+			"Mitscher" "John S McCain" "Willis A Lee" "Wilkinson" "Forrest Sherman" "John Paul Jones" "Barry" "Decatur" "Jonas Ingram" "Manley" "Du Pont" "Bigelow" "Blandy" "Mullinnix" "Edson"
+			"Morton" "Parsons" "Richard S Edwards" "Turner Joy" "Charles F Adams" "John King" "Lawrence" "Biddle" "Barney" "Henry B Wilson " "Lynde McCormick" "Towers" 
+		}
+	}
+	light_cruiser = {
+		prefix = "RAN"
+		generic = { "Cruisul" } # 'Little Cruiser'
+		unique = {
+			# From Wiki (Built/Served/Fought) 
+			"Omaha" "Milwaukee" "Cincinnati" "Raleigh" "Detroit" "Richmond" "Concord" "Trenton" "Marblehead" "Memphis" "Brooklyn" "Philadelphia" "Savannah" "Nashville" "Phoenix" "Boise" "Honolulu" 
+			"St. Louis" "Helena" "Atlanta" "Juneau" "San Diego" "San Juan" "Cleveland"	"Columbia" "Montpelier" "Denver" "Santa Fe" "Birmingham" "Mobile" "Vincennes" "Pasadena" "Springfield" 
+			"Topeka" "Biloxi" "Houston" "Providence" "Manchester" "Vicksburg" "Duluth" "Miami" "Astoria" "Oklahoma City" "Little Rock" "Galveston" "Oakland" "Reno" "Flint" "Tucson" 
+			"Amsterdam" "Portsmouth" "Wilkes-Barre" "Dayton" "Fargo" "Huntington" "Spokane" "Fresno" 
+			# From Wiki  (Unfinished/Cancelled/Converted before completion)
+			"Newark" "New Haven" "Buffalo" "Wilmington" "Vallejo" "Roanoke" "Tallahassee" "Cheyenne" "Chattanooga" "Worcester" "Gary" "Providence" "Portsmouth" 
+		}
+	}
+	heavy_cruiser = {
+		prefix = "RAN"
+		generic = { "Cruisur" } # 'Cruiser'
+		unique = {
+			"Pensacola" "Salt Lake City" "Northampton" "Chester" "Louisville" "Chicago" "Houston" "Augusta" 
+			"New Orleans" "Portland" "Astoria" "Indianapolis" "Minneapolis" "Tuscaloosa" "San Francisco" "Quincy" "Vincennes" "Wichita" 
+			"Baltimore" "Boston" "Canberra" "Pittsburgh" "St. Paul" "Columbus" "Helena" "Bremerton" "Fall River" "Macon" "Toledo" "Los Angeles" 
+			"Oregon City" "Albany" "Rochester" "Des Moines" "Salem" "Worcester" "Roanoke" "Newport News" 
+			# From Wiki  (Unfinished/Cancelled/Converted before completion)
+			"Cambridge" "Bridgeport" "Kansas City" "Tulsa" "Norfolk" "Scranton" "Dallas" "Vallejo" "Gary" 
+		}
+	}
+	battle_cruiser = {
+		prefix = "RAN"
+		generic = { "Cruisur-Bell" } # 'Cruiser-Battle/War'
+		unique = {
+			#wiki: Historic list of Alaska Class
+			"Alaska" "Guam" "Hawaii" "Philippines" "Puerto Rico" "Samoa" "Virgin Islands"  
+			#Additional US Territories/Districts during WW2 era
+			"District of Columbia" "Panama Canal" "Wake Island" "Midway Island" "Johnston Atoll" "Palmyra Island" "Baker Island" "Howland Island" "Jarvis Island"
+		}
+	}
+	battleship = {
+		prefix = "RAN"
+		generic = { "Bellnaw" } # 'Bellum-Navis', "War Ship"
+		unique = {
+			# From Wiki (Served)
+			"Arkansas" "New York" "Texas" "Nevada" "Oklahoma" "Pennsylvania" "Arizona" "New Mexico" "Mississippi" "Idaho" "Tennessee" "California" "Colorado" "Maryland" "West Virginia" 
+			"North Carolina" "Washington" "South Dakota" "Indiana" "Massachusetts" "Alabama" "Iowa" "New Jersey" "Missouri" "Wisconsin" "Illinois" "Kentucky"   
+			# From Wiki (never completed)
+			"Montana" "Ohio" "Maine" "New Hampshire" "Louisiana" "South Carolina" 
+			# Older/Other state names
+			"Minnesota" "North Dakota" "Oregon" "Connecticut" "Vermont" "New Hampshire" "Florida" "Utah" "Delaware" "Michigan" "Kansas" "Rhode Island" "Nebraska" "Virginia"
+			# Training ship, historically
+			"Wyoming"   
+		}
+	}	
+	carrier = {
+		prefix = "RAN"
+		generic = { "Porthawiwn" } # "Carry-Aviation"
+		unique = {
+			"Lexington" "Saratoga" "Ranger" "Yorktown" "Enterprise" "Wasp" "Hornet" 
+			"Essex" "Intrepid" "Franklin" "Ticonderoga" "Randolph" "Bunker Hill" "Hancock" "Bennington" "Boxer" "Bon Homme Richard" "Shangri-la" "Lake Champlain" "Tarawa" "Antietam" 
+			"Midway" "Franklin D Roosevelt" "Leyte"	"Kearsarge"	"Valley Forge" "Philippine Sea" "Coral Sea" "Oriskany" 		
+			# CVL Names
+			"Independence" "Princeton" "Belleau Wood" "Cowpens" "Monterey" "Cabot" "Bataan" "San Jacinto" "Saipan" "Wright" 
+			# Cold War and Beyond  (WW2 era Gen/Adm names excluded)
+			"United States" "Forrestal" "Kitty Hawk" "Constellation" "America" "Theodore Roosevelt" "Abraham Lincoln" "George Washington"
+		}
+	}
+}

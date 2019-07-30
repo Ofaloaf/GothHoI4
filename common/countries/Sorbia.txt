@@ -1,0 +1,6 @@
+# Sorbia also known as Lusatia
+
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d
+
+color = { 198 188 114 }

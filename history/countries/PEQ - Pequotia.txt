@@ -1,0 +1,174 @@
+﻿capital = 358
+
+#oob = "BRA_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+	
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns"}
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+	#set_naval_oob = "BRA_1936_naval_legacy"
+}
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		mtg_transport = 1
+	}
+	#set_naval_oob = "BRA_1936_naval"	
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 69
+	fascism = 1
+	democratic = 20
+	communism = 10
+}
+
+create_country_leader = {
+	name = "Othin Iacoomes"
+	desc = "POLITICS_OTHIN_IACOOMES_DESC"
+	picture = "Portrait_PEQ_civilian.dds"
+	expire = "1965.1.1"
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+
+set_convoys = 40
+
+create_field_marshal = {
+	name = "Canonicus Oneco"
+	picture = "Portrait_PEQ_Clarence_Tinker.dds"
+	traits = { career_officer organizer old_guard }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+	name = "Miantonomo Tatuppequauog"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military03.dds"
+	traits = { commando trait_reckless }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Wamsutta Patuxet"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military01.dds"
+	traits = { ranger commando }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Sassious Rolanet"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military04.dds"
+	traits = { brilliant_strategist trait_cautious }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Harald Paaske"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military05.dds"
+	traits = { old_guard career_officer infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Occom Manchaug"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military02.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Evaric Fontanel"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military06.dds"
+	traits = { career_officer }
+	skill = 2
+
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Salomon Shenecosset"
+	portrait_path = "gfx/leaders/PEQ/Portrait_PEQ_military07.dds"
+	traits = { cavalry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_navy_leader = {
+	name = "Uncas Quequechand"
+	picture = "Portrait_PEQ_navy01.dds"
+	traits = { navy_career_officer ironside }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 1
+}

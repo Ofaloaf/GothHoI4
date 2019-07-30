@@ -1,0 +1,243 @@
+﻿##### GREECE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+FRK_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+	prefix = "HrMs "
+	fallback_name = "Torpedobootjager %d"					
+
+	unique = {											
+		"Van Ghent" "Van Galen" "Pleccazze" "Panter" "Lynx"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+FRK_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+	prefix = ""
+	fallback_name = "Kruiser %d"
+
+	unique = {
+		Hastfala Lara Sturmarië Wagrië Polabië Salthga Drenthe Emesga Logenhahe Wigmodië Westergouw Bornego Oostergo IJsselhouw Betuwe
+		Umbalaha Rijnland Rustringen Oostringen Butjadingen Texla Engersgouw Noordgouw Serimunt Warnabië Bardenhouw Federgo Derlingouw
+		Harzgouw Heilangouw Liesgouw Gotzfeldgouw Almango Moronga Netga Maestem Lidbekegouw Bursibant Sudergo Patherga Wehsigo Derve
+		Grindiriga Mosde Agredingo Leriga Waldago Flehita Kinem Linagga Tholens Wostroze Murizzië Riedere Circipanië Drevanië Hostingouw
+	}
+}
+
+### HEAVY CRUISER NAMES###
+FRK_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+	prefix = ""
+	fallback_name = "Panterschip %d"
+
+	unique = {
+		Rijn Maas
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+FRK_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+	prefix = ""
+	fallback_name = "Slagschip %d"		
+
+	ordered = {
+		1={"Merovech"} 
+		2={"Clodio"} 
+		3={"Childerik"} 
+		4={"Chlodovech"}
+		5={"Sunno"}
+		6={"Marcomer"}
+		7={"Faramund"}
+		8={"Francio"}
+		9={"Priaam"}
+		10={"Sicambrië"}
+		11={"Brunswijk"}
+		12={"Friesland"}
+		13={"Hevellië"}
+		14={"Oostmark"}
+		15={"Holtlant"}
+		16={"Noordalbingië"}
+		17={"Westfalen"}
+		18={"Oostfalen"}
+		19={"Angrië"}
+		20={"Thuringië"}
+		21={"Hassia"}
+		22={"Uburzis"}
+		23={"Nida"}
+	}
+}
+
+### BATTLECRUISER NAMES ###
+FRK_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+	prefix = ""
+	fallback_name = "Slagkruiser %d"		
+
+	unique = {
+		"Flevum" "Lupia" "Ermelo" "Ampsivaria" "Tecelia" "Aliso"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+FRK_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+	prefix = ""
+	fallback_name = "Vliegdekschip %d"	
+
+	unique = {
+		"Karel Doorman" "De Zeven Provinciën" "De Ruyter" "Tromp" "Piet Hein" 
+	}
+}
+
+### SUBMARINES ###
+FRK_SS_OCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_OCLASS
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = ""
+	fallback_name = "O-%d"
+	
+	ordered = {
+		1 = {"O-%d"}
+		2 = {"O-%d"} 
+		3 = {"O-%d"} 
+		4 = {"O-%d"} 
+		5 = {"O-%d"}
+		6 = {"O-%d"}
+		7 = {"O-%d"}
+		8 = {"O-%d"}
+		9 = {"O-%d"}
+		10 = {"O-%d"}
+		11 = {"O-%d"}
+		12 = {"O-%d"}
+		13 = {"O-%d"}
+		14 = {"O-%d"}
+		15 = {"O-%d"}
+		16 = {"O-%d"}
+		17 = {"O-%d"}
+		18 = {"O-%d"}
+		19 = {"O-%d"}
+		20 = {"O-%d"}
+		21 = {"O-%d"}
+		22 = {"O-%d"}
+		23 = {"O-%d"}
+		24 = {"O-%d"}
+		25 = {"O-%d"}
+	}
+}
+FRK_SS_KCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_KCLASS
+
+	for_countries = { FRK }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	prefix = ""
+	fallback_name = "K-%s"
+	
+	ordered = {
+		1 = {"K-%s"}
+		2 = {"K-%s"} 
+		3 = {"K-%s"} 
+		4 = {"K-%s"} 
+		5 = {"K-%s"}
+		6 = {"K-%s"}
+		7 = {"K-%s"}
+		8 = {"K-%s"}
+		9 = {"K-%s"}
+		10 = {"K-%s"}
+		11 = {"K-%s"}
+		12 = {"K-%s"}
+		13 = {"K-%s"}
+		14 = {"K-%s"}
+		15 = {"K-%s"}
+		16 = {"K-%s"}
+		17 = {"K-%s"}
+		18 = {"K-%s"}
+		19 = {"K-%s"}
+		20 = {"K-%s"}
+		21 = {"K-%s"}
+		22 = {"K-%s"}
+		23 = {"K-%s"}
+		24 = {"K-%s"}
+		25 = {"K-%s"}
+	}
+}
+
+## THEME: CITIES ###
+## Names should be either in Dutch									   ###
+## in archaic German (either attested or reconstructed, both are fine) ###
+## or it can be just its normal name if the normal name looks funky    ###
+FRK_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { FRK }
+
+	type = ship
+
+	prefix = ""							
+	unique = {
+		"Brunswijk" "Berlijn" "Utrecht" "Siradisson" "Mutha" "Mimigernaford" "Kassel" "Lipsia" "Bremen" "Hamburg" "Lubeek" "Bentem"
+		"Maagdenburg" "Dessowe" "Turguo" "Steinlaga" "Stade" "Leri" "Emden" "Groningen" "Amsterdam" "'s-Gravenhage" "Sula" "Laasdorpe"
+		"Meppia" "Scapham" "Osnabrugge" "Dersaburg" "Brunin" "Oldenstad" "Bukstadin" "Pithelo" "Kovorde" "Brijlen" "Frankfort" "Gogh"
+		"Hamelen" "Noordhoorn" "Kiel" "Vechtla" "Cremlingen" "Pagin" "Wolferisbodal" "Holle" "Sehnde" "Boltessem"
+	}
+}
+
+## THEME: FISH ###
+FRK_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { FRK }
+
+	type = ship
+
+	prefix = ""							
+	unique = {
+		"Dolfijn" "Zeehond" "Zwaardvis" "Tijgerhaai" "Walrus" "Zeeleeuw" "Potvis" "Tonijn" "Zwaardvis" "Bruinvis"
+	}
+}
+

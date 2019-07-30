@@ -1,0 +1,43 @@
+
+state={
+	id=21
+	name="STATE_PROVINCIA"
+	resources={
+		aluminium=60.000
+	}
+
+	history={
+		owner = GTH
+		add_core_of = GTH
+		victory_points = {
+			9909 5 
+		}
+		victory_points = {
+			11834 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			dockyard = 2
+			fuel_silo = 1
+			air_base = 10
+			9909 = {
+				naval_base = 2
+
+			}
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+	}
+
+	provinces={
+		764 911 956 958 3762 3764 3928 3959 3961 6975 9736 9909 11834 11849 11875 
+	}
+	manpower=2060400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,30 @@
+state={
+	id=802
+	name="STATE_KATANGA"
+	resources={
+		tungsten=2.000
+		steel=1.000
+	}
+	
+	history={
+		owner = BCG
+		add_core_of = BCG
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			1817 3 # Bunkeya
+		}
+		victory_points = {
+			191 1 
+		}
+	}
+	
+	provinces={
+		191 1516 1817 1968 4515 12795 12907 
+	}
+	manpower=200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

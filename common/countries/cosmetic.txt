@@ -1,0 +1,4 @@
+BCG_BRIT = {
+	color = rgb { 151 88 100 }
+	color_ui = rgb { 151 88 100 }
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=8
+	name="STATE_TREVERIA"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = GTH
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			9418 5 
+		}
+		victory_points = {
+			9575 1 # Treveri
+		}
+		victory_points = {
+			11531 5 
+		}
+		add_core_of = GTH
+
+	}
+
+	provinces={
+		3488 6537 6583 9418 9444 9575 11407 11435 11531 
+	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=town
+}

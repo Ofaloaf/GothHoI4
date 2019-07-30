@@ -1,0 +1,29 @@
+
+state={
+	id=57
+	name="STATE_WESTPHALIA"
+	manpower = 5109333
+
+	history={
+		owner = FRK
+		victory_points = {
+			495 5 
+		}
+		#victory_points = {
+		#	9509 1
+		#}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = FRK
+	}
+
+	provinces={
+		405 495 3355 3398 3512 6535 6622 9443 9482 9509 11346 11431 
+	}
+	state_category = large_city
+}

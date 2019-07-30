@@ -1,0 +1,35 @@
+# Camaracensis
+
+state={
+	id=6
+	name="STATE_CAMARACENSIS"
+	resources={
+		steel=25.000
+	}
+
+	history={
+		victory_points = {
+			11606 5 # Camorac
+		}
+
+		victory_points = {
+			516 15 # Brusselas
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 1
+		}
+		owner = GTH
+		add_core_of = GTH
+
+	}
+
+	provinces={
+		516 3516 9536 11519 11606 13081 
+	}
+	manpower=4747700
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

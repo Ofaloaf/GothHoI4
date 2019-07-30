@@ -1,0 +1,42 @@
+# Toxandria
+
+state={
+	id=788
+	name="STATE_TOXANDRIA"
+	resources={
+		steel=15.000
+	}
+	
+	history = {
+		owner = GTH
+		victory_points = {
+			6496 3 
+		}
+		victory_points = {
+			6598 15 # Andoverpis
+		}
+		victory_points = {
+			9574 5 # Traiecto
+		}
+		buildings = {
+			infrastructure = 9
+			arms_factory = 2
+			industrial_complex = 5
+			air_base = 3
+			6598 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = GTH
+
+	}
+	
+	provinces={
+		3262 6496 6500 6598 9498 9574 11419 11456 13068 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

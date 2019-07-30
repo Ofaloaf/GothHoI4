@@ -1,0 +1,28 @@
+state={
+	id=789
+	name="STATE_HAUDENOSAUNEEGA"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = PEQ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		add_core_of = PEQ
+		victory_points = {
+			3747 5
+		}
+
+	}
+	
+	provinces={
+		598 734 1436 3602 3702 3733 3747 6717 6778 6795 6916 9664 9708 9721 9754 10381 11650 11662 11665 11680 11722 13157 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

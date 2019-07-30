@@ -1,0 +1,23 @@
+#################################
+#### GOTHIA - CLONED MEXICO  ####
+#################################
+#entity = { 
+#	clone = "NZL_infantry_entity"
+#	name = "PEQ_infantry_entity"
+#}
+#entity = { 
+#	clone = "NZL_infantry_2_entity"
+#	name = "PEQ_infantry_2_entity"
+#}
+#entity = { 
+#	clone = "NZL_infantry_3_entity"
+#	name = "PEQ_infantry_3_entity"
+#}
+#entity = { 
+#	clone = "NZL_cavalry_entity"
+#	name = "PEQ_cavalry_entity"
+#}
+#entity = { 
+#	clone = "NZL_cavalry_2_entity"
+#	name = "PEQ_cavalry_2_entity"
+#}

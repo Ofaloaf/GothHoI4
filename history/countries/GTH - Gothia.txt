@@ -1,0 +1,446 @@
+﻿capital = 20
+
+oob = "0_GTH_1936"
+#if = {
+#	limit = { has_dlc = "Man the Guns" }
+#		set_naval_oob = "FRA_1936_naval_mtg"
+#	else = {
+#		set_naval_oob = "FRA_1936_naval_legacy"
+#	}
+#}
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.15
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	basic_light_tank = 1
+	improved_light_tank = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	fuel_silos = 1
+	fuel_refining = 1
+}
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+		set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		early_battlecruiser = 1
+		basic_battlecruiser = 1
+		early_carrier = 1
+		transport = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		basic_secondary_battery = 1
+		basic_heavy_armor_scheme = 1
+		mtg_transport = 1
+	}
+}
+
+
+set_convoys = 300
+
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 30
+	fascism = 5
+	communism = 65
+}
+
+create_faction = "Commune Congress"
+add_to_faction = GTH
+add_to_faction = LRM
+add_to_faction = COG
+add_to_faction = SOA
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = COG
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = SOA
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.4
+	}
+}
+
+if = {
+	limit = { has_dlc = "Together for Victory" }
+
+	add_to_tech_sharing_group = commune_research
+}
+
+add_ideas = {
+	limited_conscription
+}
+
+create_country_leader = {
+	name = "Bàrbara Tribillac"
+	desc = "POLITICS_GTH_LEADER_DESC"
+	picture = "mrs_richard_wainwright.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		stout_defender
+	}
+}
+
+create_country_leader = {
+	name = "Alaric Fonollà"
+	desc = "POLITICS_GTH_LEADER_DESC"
+	picture = "L_M_Davis.dds"
+	expire = "1965.1.1"
+	ideology = syndicalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Perdiguer Montoliu"
+	desc = "POLITICS_GTH_LEADER_DESC"
+	picture = "A_P_Andrew.dds"
+	expire = "1965.1.1"
+	ideology = futurism
+	traits = {
+	}
+}
+
+
+### ARMY ###
+
+create_field_marshal = {
+	name = "Astrugha Blanxart"
+	picture = "salvation_army_17.dds"
+	traits = { politically_connected media_personality career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 3
+	female = yes
+}
+
+create_field_marshal = {
+	name = "Jehan Picanyol"
+	picture = "salvation_army_07.dds"
+	traits = { inflexible_strategist old_guard career_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+
+create_corps_commander = {
+	name = "Fidelis Sedassier"
+	picture = "salvation_army_20.dds"
+	traits = { career_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Miquel Camboulas"
+	picture = "salvation_army_01.dds"
+	traits = { trait_reckless }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Guarina Mercieyra"
+	picture = "salvation_army_02.dds"
+	traits = { organizer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Cebelia Fonfrega"
+	picture = "salvation_army_03.dds"
+	traits = { skilled_staffer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Tiuderic Grefolieyra"
+	picture = "salvation_army_04.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Heliot Ayceli"
+	picture = "salvation_army_05.dds"
+	traits = { old_guard career_officer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Laülf Gualhardetz"
+	picture = "salvation_army_06.dds"
+	traits = { cavalry_officer }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Estilicó Manhagha"
+	picture = "salvation_army_08.dds"
+	traits = { harsh_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Audoacre Pratmayrat"
+	picture = "salvation_army_09.dds"
+	traits = { old_guard }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ildebad Retalhada"
+	picture = "salvation_army_14_USA.dds"
+	traits = { militia_captain }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Martin Rasquanela"
+	picture = "salvation_army_15.dds"
+	traits = { career_officer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Terèsa Valharguas"
+	picture = "salvation_army_16.dds"
+	traits = { old_guard organizer }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Atila Chalnou"
+	picture = "salvation_army_18.dds"
+	traits = { old_guard }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Peironèla Bessol"
+	picture = "salvation_army_19.dds"
+	traits = { militia_captain }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Floretas Delostal"
+	picture = "salvation_army_21.dds"
+	traits = { militia_captain }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Ana Gleyzola"
+	picture = "salvation_army_22.dds"
+	traits = { old_guard trait_engineer }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Luquetas Neiro"
+	picture = "salvation_army_23_firefighter.dds"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+	female=yes
+}
+
+
+# NAVY
+
+create_navy_leader = {
+	name = "Andrai Polnerelas"
+	picture = "gothic_navy_01.dds"
+	traits = { civilian_captain }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Remistau Obax"
+	picture = "gothic_navy_02.dds"
+	traits = { old_guard_navy navy_career_officer spotter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Pèitre Larcheyr"
+	picture = "gothic_navy_03.dds"
+	traits = { chief_engineer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Riculf Longho"
+	picture = "gothic_navy_04.dds"
+	traits = { battleship_adherent bold }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Carles Aymeritz"
+	picture = "gothic_navy_05.dds"
+	traits = { seawolf }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 3
+	maneuvering_skill = 3
+	coordination_skill = 3
+}
+
+# Chalretona
+# Belon
+# Sabateyr

@@ -1,0 +1,50 @@
+leader_traits = {
+
+##################################
+# Corps Commander traits.
+##################################
+
+	militia_captain = { 
+		type = land
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			org_loss_when_moving = 0.25
+			max_planning = -0.1
+		}
+		
+		new_commander_weight = {
+			factor = 0  # Scripted starting leaders only
+		}
+	}
+
+##################################
+# Naval traits.
+##################################
+
+	civilian_captain = { 
+		type = navy
+		trait_type = personality_trait
+		
+		modifier = {
+			experience_gain_factor = -0.25 
+			naval_retreat_chance = 0.25
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		new_commander_weight = {
+			factor = 0  # Scripted starting leaders only
+		}
+	}
+}
+
+##################################
+# Field Marshal traits.
+##################################
+	
+##################################
+# Corps Commander assignabme traits.
+##################################

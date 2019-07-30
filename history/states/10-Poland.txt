@@ -1,0 +1,29 @@
+state={
+	id=10
+	name="STATE_WARSAWA"
+	manpower = 3089000
+
+	state_category = large_city
+
+	history={
+		owner = SRB
+		victory_points = {
+			3544 15
+		}
+		victory_points = {
+			402 1
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 5
+			industrial_complex = 2
+			anti_air_building = 1
+			air_base = 3
+		}
+		add_core_of = SRB
+	}
+
+	provinces={
+		402 467 524 3482 3544 6511 9400 11492 12562 
+	}
+}

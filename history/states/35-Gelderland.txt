@@ -1,0 +1,28 @@
+
+state={
+	id=35
+	name="STATE_FLANDRIA"
+
+	history={
+		owner = GTH
+		add_core_of = GTH
+		victory_points = {
+			6560 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 5
+			6560 = {
+				naval_base = 5
+
+			}
+		}
+	}
+
+	provinces={
+		480 3576 6446 6560 9431 
+	}
+	manpower=449000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

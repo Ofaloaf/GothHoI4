@@ -1,0 +1,593 @@
+﻿### Names generation for aces ###
+# Surnames can be male/female dependent or general. Fe. in Polish some surnames has different endings depending on the gender.
+# Names and Surnames are randomly picked and will sometimes repeat, but will never repeat in combinations for example there will never be generated another "John Smith".
+# Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
+# Picking up a gender is random, and is influenced by the amount of names scripted.
+
+###############################################################
+# The Majors
+###############################################################
+GTH = {
+	male = {
+		names = {  
+			Audoacre Atila Andrai
+			Diaco Dàvi
+			Clamenç Caraules Cunstantin
+			Ebles Ermengau Evaric Ervige Eraric Estilicó Esclua
+			Filip Froila Flaurènç Flaín Frodoí Frederi Faluax
+			Garçi Gausbert Gilbèrt Godesteo Guntrodo Gudafres Guillemó Gabrieù Guidéric Guidimir Gomé Gauteric Gonçalo Gundisalf
+			Irmanric Ildebad Immanuèl Istève
+			Jehan Jorge Juli Josèp Jaufret Joël
+			Laurènç Liun Lozoïc Lup Lucàs Laülf Leuberic Lixandre
+			Marçau Martin Miquel Matias Matfrei Maurici Marc Magne Melén
+			Nicaulas Narseis Nicodim
+			Olban Pordonno Oveco Oia
+			Pèitre Pol Pons Pradas
+			Quintil
+			Raolf Ranimiro Rubèrt Rodericho Raimond Romà Ricard Raugier Remistau Riculf
+			Sans Savarics Simaun Sidauni Suneario Sever Suer Sergi
+			Tiuderic Tumas Turismau Tiudermir Tiudat Tiudòsi Teia Tacite Tiudor Telo Tacite
+			Ubald Uc Úlfila
+			Vézian Vicenç Veremundo Vigitino Valaric
+			Walia Wifredo
+		}
+	}
+	female = {
+		names = {
+			Aïna Amalasunda
+			Bòna 
+			Froiloba
+			Loïsa
+			Peironèla Puelle
+			Terèsa
+			Urraca
+		}
+	}
+	surnames = { 
+		Airus Aspa Audags Aiz Aurtia Ambaur "d'Avenas" "d'Ansa" "d'Ararajovis" "d'Azœlètes" Aindis Ayrinhac "d'Aorlhac"
+		Balthes "de Berna" "de Boxum" Baira Bidagua Bolas Botsonnada Barravus Bruyas "de Bron" "de Bagnols" "de Bibost" "de Bulyi"
+		Bluss Barril Bujon Buada Brison Boussac Balansa Brossozas Brugeyra
+		Cadraut Cunce Candacius "de Carilocus" "de Cabillaun" Causidicus "de Cambes" Clavellus Cathena Crozat Cailla "de Cadartz"
+		Codax "de Caersi" "de Capduelh" Cassan Cros Coll Codorniol Clot
+		Drautine "de Decotia" "de Dibio" Dius Delyduun Daza "de Daniceus" "de Diurnus" Debrus Domenech
+		Ermengau Ecochard
+		Fanci Falgario "de Fulhonibus" "de Floriac" Fonsalada Figueira Fagedet Fellous Fournil
+		Gabics Guisardo "de Guimballo" "de Gaunus" "de Grandris" Gaido Granella Garriga Gryphius Girard
+		Hyspa Herpe
+		Imbert
+		Jalenca "de Jocus" Jourda Jolbert
+		Leuge Lagomia "de Liun" "de Laniacus" "de Lentiniacum" "de Létra" "de Limans" "de Lozana" "de Lauzuun" "de Lunel"
+		Mandubingis "de Massava" Maura Mateigs Massabuou Mercieyra Mera "de Matiscone" "de Milyeri" "de Madisus" "de Marennas"
+		Merla Menendi "de Monciocus" "de Massimiau" Malaspina Moltot
+		Natas "de Nivernum" Navarro Nicet
+		Oulher "d'Odenas" Orssa
+		Palhargues "de Potinesca" Pictavini Payrolerius Petri "de Pullenai" "de Pusiniau" Pantellus
+		Rampa "de Riobe" Regandi Rossinhol Rostanh "de Roaxio" Rainal "de Ronno" "de Rantalona" Ruiz Rosalen Raynal Rachet Rouffia
+		Sballes Seyrac Simeonis "de Saturnaz" Saisset "de Sestaro" "de las Salas" Sabatier Salas Sicart Sigal Sotoca
+		Triarius Tervinge Triggus "de Tilena" Terissa "del Troc" Trullols Trenet
+		Ultrobon "d'Usès" "d'Uisel"
+		Veziac "de Vaurmacio" "de Vallibus" "de Vaqueiras" "del Vilar" Viard Vidal
+		"de Warcia"
+		"d'Ycon"
+	}
+	callsigns = { "The Vandal" "The Scourge" "The Hun" "Nomad" "Half-Cocked" "Savage" "The Barbarian" }
+}
+
+FRK = {
+	male = {
+		names = { 
+			Arnulf Adolf Albrecht Albus Anthonij Adrianus Andries Ansbald Amalarius Agilfridus Agilulf Alberik Angilram Abel
+			Berengarius Boudewijn Badagar Basinus Bertholdus Bonifatius Bertulf Bernardus Bartholomeus Boetius
+			Charibert Childebertus Chilperik Childerik Clemens Christiaan Casparus Cornelius Christoph Constant Chararik Cloderic Clodoald Claudius Constantijn Caius
+			Dagobert Dionies David Dirk
+			Eustachius Eberhard Egbert Ebbo Egilbert Eginhard Eleutherius
+			Filips Frans Formosus Frederik Ferdinand Foppe Fulrad Fardulf Floribertus Fulco
+			Guntram Gerrit Gerold Gondulfus Grimoald
+			Hendrik Hugo Hugobert Hunold Hildebold Hildegar Hildegrim Hermannus
+			Jan Jozef Justus Jetze Jacobus Jocelin Jonas
+			Karel Koenraad Kunibert
+			Lotharius Lodewijk Leopold Laurens Levold Lambert Lantfrid
+			Meroveus Maximiliaan Matthias Michael Martin
+			Nicolaas Norbert
+			Otto Odo
+			Pepijn Pieter Paschasius Pardulus Paul
+			Rudolf Richard Ruprecht Rombertus Ragnachar Rignomer Ricchar Rorich Rigobert Rothard Ratramnus Remigius Roelof
+			Sigibert Sigismund Schelte Simon Silvanus Sulpitius Salomon
+			Theudebert Theuderich Theudebald Theodoor Teunis Theodulfus Theodard
+			Vedastus Vedulfus
+			Willem Womadus Wolfram Warnachar
+		}
+	}
+	female = {
+		names = { Amalia Bertrada Marie Ludovika Petronella Radegundis }
+	}
+	
+	surnames = { 
+		Arnulfinger "van Aitzema" Ansegisus
+		Bontemantel "van Buyten" "van Baerle" Bustijn "van Blijenburgh" Bouman Boutmy Blom Bonneveld "de Boer" Benz "van den Berge" Boot Broos Britstra Braspennincx "van den Brandeler" Braams "van Berlijn" "van Brijlen" "van Bentem" Beeuwkes Benenga Bruseker
+		Colve "ten Cate" Compter Croon Cortlever
+		Doorman "de Doot" Duijker "van Drakestein" "van Dijk" Driebergen Daniëls "van Dulm" Duijm Drost
+		Elers "van Erpe" Ellenbrecht "van Egmond" Effern Ekkart Evers "van Emmelkamp"
+		Fabritius "van Fronkfort"
+		Gerbrands "van Geuns" Groeneweg "de Graff" Greven Goetzee "van Geelkerken" "van Grijpswolde" "van Gulik" Goudeket Göckel "de Gee" Gips
+		Hoogerwerf "van Houwening" "van der Hem" "van der Hellen" "du Hen" "van der Horst" Hagens Huizenaar Hemsing Hoogveld Huijgen "van Hamelen" Höfte Hulswit
+		Innemee
+		Kieft Kip Kolling "de Korver" Klaase Kaan Kamstra "van Klaveren" Kunze Kuypers Koderitsch Kamerbeek Keemink Klapwijk Koops "van Kniphuizen" Konijn
+		Jorisdochter "van Jongestall" "de Jong" "van Jemmingen"
+		Lampsins "va Lalaing" "van Leeuwenhoek" Lipsius "van Lennep" Leene "van Leenen" Langenus Lamp Levij Lotgering Laan "van Lennep" Lotsij
+		Molijn Maas Miljon Mosman Mijer Menso Meeuwessen "van Maagdenburg" Mundt Meijer Meuring
+		Nederpeld
+		Oversloot "den Ouden" Olij "van Osnabrugge" Otten Ooms
+		Piccardt Paulen Pijnenburg Pasma "van Poelgeest" "van Pallandt"
+		Reynst "van Rossem" "van Rhijn" Roos "van Rappard" Ruimers Reeman Roodenburch Rühl
+		Scalinger "van der Sluis" Schummelketel Sprong "van der Steen" Spel Schiff Scheffer Smit Soudyn "van Straalsond" Snethlage Stikkelman Slier Sweijs
+		Tulp "van Twiller" Terpstra Thesingh Tonnet Tholen Theunissen Thijsen Terwogt
+		Usselincx "van Uylenburgh" "van Uitgeest" "van Ulsen"
+		Verburg Vos Vinnius Verhulst "van Valckenborgh" Vierdag Vermeulen Verheijen Vlietman Vosbergen Vuurman
+		Wittichius "de Wolf" Wijnveldt Wijnoldy "van der Viel" Waterreus Winkelman Welcker Welsing Wielsma "van Waas" Wijbrands
+		Zeegers "van der Zee" Zalm
+	}
+	callsigns = { "Gesel" "Sint" "Beul" "Adelaar" "Boef" "Rood" "Roofvogel" "Ridder" "Dief" "Bedelaar" }
+}
+
+PEQ = {
+	male = {
+		names = {
+			Arethas Awansamwge
+			Canonchet Canonicus Cojonoquant
+			Julius
+			Metacom Miantonomo Massasoit Magnus Mongotucksee Momometou
+			Ninigret Nowedonah
+			Occom Ousamequin Othin Oweneco
+			Pessicus Poggaticutt
+			Quequegunent Quinnapin Quissucquansh
+			Sol Salomon Sassacus Sassious Sassamon Scuttup
+			Tatobem Tisquantum
+			Uncas
+			Wopegwooit Woipeguand Wapequart Wyandanch Weyonomon Wequash Wamsutta
+		}
+	}
+	female = {
+		names = {
+			Momoho
+		}
+	}
+	surnames = {
+		Asupsuck Aukumbumsk Aushpook Assonet Assawomsett Acoaxet Apponagansett Aquidneck
+		Cosattuck Cuppunauginnit Cohannet Chippascutt Cheeschumuck
+		Iacoomes
+		Metoac Manchaug Massomuck Menunkantuck Monashackotoog Mangunckakuck Mashantucket Mohungannuck Mashpee
+		Niantic Nameauag Natchaug Noank Nonaquaket Nobnocket Nunnepog
+		Pequannock Paupttokshick Pawcatuck Poquonock Patuxet Pokanoket Pocasset
+		Oneco 
+		Quinebaug Quinnipiac Quahog Quequechand
+		Siwanoy Sauquonckackock Shenecosset Sassamon Seekonk Shawomet
+		Tatuppequauog 
+		Weinshauks Weqhetequock Wunnashowatookoog
+	}
+	callsigns = {
+		"Nighthawk" "Lightning" "Ahab" "Destroyer"
+	}
+}
+
+KOJ = {
+	male = {
+		names = {
+			Anaclet Anastasiu Adeodat Agaton Adrian Alexandru Augustin Antonie Andrei
+			Bonifaciu Benedict Bartolomeu
+			Calixt Caius Celestin Constantin Clement Chiril
+			Dionisiu Deusdedit Dumitru
+			Eusebiu Eleuteriu Eugen Emanoil
+			Felix Focas
+			Grigore Gheorghe
+			Honoriu
+			Irineu Iuliu Inocentiu Ilarie Ioan Iulian Iustin Iosif
+			Leon Longin Lazar
+			Marcel Marcelin Marcu Martin Mauriciu Mihail
+			Nicolae
+			Origen Octav
+			Petru Paul Pascal
+			Quodvuldeus
+			Relictus
+			Sixt Sivestru Sergiu Stefan Simion Seneslau
+			Teodor Teodosiu Tiberiu Theophil Toma
+			Urban
+			Victor Valentin Vasile
+			Zefirin Zosim Zaharia
+		}
+	}
+	female = {
+		names = {
+			Alexandra Ana
+			Elena
+			Irina Ioana
+			Teodora
+		}
+	}
+	surnames = {
+		Anastasiade Apostol Abraham "de Acra" Aretescu "de Arbela" "de Arabiam" "de Amouda" "de Apollonia" "de Apabella" "de Amathus" Andronescu Apostolescu
+		Bentia Berechet Borlovan "de Beersheva" "de Beirut" Brailoiu Bogdanei "de Betleem" "de Betmaus" "de Betsaida" Barlas Boerescu Barbulescu
+		Cociociaho Cratunescu Crum Crishan Calineshti Cocos Calugareanu Costescu Constantinide "de Cezarea" "de Chalpe" Cantacuzino "de Capernaum" "de Chabolo" "de Caiphas" "de Cacho" Clerides Cominovici
+		David Dolcsko Draghici "de Damasc" Dutulescu Davila
+		Evaristus Eugenius Emeterius Ene
+		Florian Fesci Farcas
+		Ghitulescu Girlesteanu Ghitescu Gaspar Ghica "de Gibelet" Grivas
+		"de Hebron"
+		Ionescu "de Ierihon" Iorga "de Iulias" Ioannou
+		Kalinderu "de Kolossi" "de Karpasia"
+		Luchide Lupu Ludu Lichiardopol Leudeanu "de Levonica" Loizou
+		Manu Marascu Marian Misu Marinescu Miclescu Matusek Mirea Mokos "de Mahumeria" Mahomedescu Mocioni "de Magdala" "de Maraclea" Moldoveanu Margulius
+		Nihailescu Nedelcovici Nemes Niculescu Nedef Nagy Niculescu "de Nazaret" "de Nephin" "de Nicosia"
+		Plagino Platareanu Panaitescu Prajescu Petrosanu Popescu "de Petra"
+		Roman Rang Raducanu Russo
+		Sfetescu Sterian Stroescu Szatmary "de Sidon" "de Sepphoris" "de Safsofa" "de Selame" "de Sennabris" Savvidis Stoenescu Savulescu
+		Tanasescu Tenescu Tudoran "de Tripolis" Thocomerescu "de Tir" "de Tiberias" "de Tarichaea" "de Theodosiana" Troli
+		Vardala Volvoreanu Vidrascu Vartolomeu Vatamanu "de Viflaim" Vulpea Voinescu Vraca
+		Zacharias
+	}
+}
+
+HWI = { # Hawaii
+	male = {
+		names = {
+			"Alapa'i" Alexander
+			Claudius
+			"'Ehu"
+			Heulu Hao Humehume "Ha'ae"
+			Ionatana
+			Julius
+			Kalakaua Kuhio Kinoiki Kahalepouli Koke "Keawe'opala" Kanekoa Kanehiwa Kuapuu Kaiponohea Keawepoepoe "Ke'eaumoku" "Kekuhaupi'o" "Kiwala'o" Keaoua Kekaulike Kapawa Keawemauhili Kuaiwa
+			Leonidas Lycurgus "La'amea" Lucas Liloa
+			Marcus Matthias Marius Mahiolole
+			Paulus Petrus
+			Romulus
+			Salomon
+			Tiberius Thomas
+		}
+	}
+	female = {
+		names = {
+			Claudia
+			Hakay
+			Julia
+			Kaleiheana
+			Maria Manono
+			Victoria
+			Wahine
+		}
+	}
+	surnames = {
+		Aholo "'Ae'a" "'Aimoku" Achi
+		Hanaike Heleluhe Huhu
+		Iona
+		Kawananakoa "Keli'iahonui" "Kalaniana'ole" Keolaloa Kealoha Kekela "Ka'oleioku" Keelikolani
+		Maipinepine Moemalie
+		Napela "Napu'uako" Nawahi Nanaulu
+		Peke "Pi'ikoi" Pua Punohu Papaiahiahi
+		Ululani
+		Waipa Walanika
+	}
+}
+
+THR = {
+	male = {
+		names = {
+			Alexandru Anastasiu Andronic Andrei Atanasie Adrian Anghel Aurel Anton Aristide Artur
+			Constantin Cristian Cosmin Catalin Cornel Ciprian Coloman Carol
+			Daniel Dragos David
+			Eugen Eremia
+			Focas Florin Flaviu Ferdinand
+			Gheorghe Gabriel Grigore
+			Ion Ioan Iulian Iustinian Iustin Iosif Ilie Iuliu Ionut Iona
+			Leon Longin Ladislau Lucian
+			Mihail Mariciu Manuel Marius Mircea Marcel
+			Nicefor Nicolae
+			Ovidiu Octav Octavian
+			Paul Petre
+			Roman
+			Simion Stelian Septimiu Silviu Solomon Samuel
+			Teodosiu Tiberiu Toma Teodor Teodosie Traian
+			Vasile Vigiliu Virgil Valentin Vlad Valeriu
+		}
+	}
+	female = {
+		names = {
+			Alexandra
+			Elena
+			Irina
+			Pulcheria
+			Teodora
+			Valeria
+		}
+	}
+	surnames = { # Romanian + a few attempts at adding some 'Jasi' (Ossetian) and 'Macedonian' (archaic South Slav) names in
+		Anastasiade Armasel Angelescu Abayti Apolzan Adrovici
+		Boldor Bentia Brezoianu Balint Biolan Bacau Benea Burghele
+		Cristescu Csegezi Cratunescu Craciun Copil Curiliuc Croitoru
+		Dolecsko Dumitras Diaconescu Dragomir Dragan Dinu
+		Florian Florescu Ferenczi
+		Gheorghiu Ghitescu Ghitulescu Girlesteanu Gal Grigorescu Guriati Getehti Ganea Goga
+		Haidu Hurdubei Hatieganu
+		Iorgulescu Iordanescu Irbecescu Ionescu Ioanovici
+		Jikeli Jenei
+		Khetagurescu
+		Lupu Luchide Lungu Lucaci Lazarescu Lascar Luca Lipovanu Lemnaru Lupescu
+		Misu Macovei Marascu Manu Marian Mihailescu Mihut Mihalachioae
+		Neculau Nedelcovici Nemes Necula
+		Orendi Onisie
+		Penescu Plagino Platareanu Popa Petrache Porojan Popescu Pirvulescu Ploesteanu
+		Rusu Rudeanu Raicu Ruslanescu Rotariu Radus
+		Savu Surugiu Stefescu Sterian Stroescu Soslanescu Sepsi Sfera
+		Tenescu Tanasescu Tamba Tarau Tampeanu
+		Vartolomeu Vatamanu Vardala Vidrascu Volvoreanu Vraciu
+	}
+}
+
+LRM = {
+	male = {
+		names = { 
+			Albert Ainrigh Alarigh Amalrigh Alexius Ajmon Antòni August Andrea Ariald Agustin
+			Bennàit Batista Bonaventura Bartomé Bernard
+			Carl Çesare Costans Caius
+			Desiderius
+			Emanuel Emilian Evarigh Erarigh Evasi
+			Felis Filip
+			Giouan Gliçeio Giaco Giusep
+			Ignassi
+			Lançerotto Lissànder Lugh
+			Majoran Medeo Manfrèid Margh Milo Majeul Marslin Maté Melchior
+			Nicolet Nicòla
+			Olderigh Oton Otavian
+			Pastor Pero Pàul Pasqual
+			Remigirus
+			Scipion Simon Siril Sgond
+			Tiuderigh Tiberi Traian Tadé Tomà
+			Vitòrio Vincens
+		}
+	}
+	female = {
+		names = {
+			Catlina
+			Gioana
+			Maria
+			Rosalìa
+		}
+	}
+	surnames = {
+		Acton  "d'Àich" "d'Alba" "d'Aquablanca" Ainardi Ayres Adalart Amularius "d'Ais"
+		Biancaman Borgèis Becut Bagnyun Bisilliat Brossa Brambilla Brocardus Bertea "ëd Boxonis" Bergera Bechis Bòsch Boromé
+		Calcahn Calcagn Costerg Canaveris Cardis Colombaris Cusa "ëd Challant" Cybo "ëd Compuys" Casana Coggiola Cotolengh Cafass
+		Déprimoz Dulbecco Dabormida Duprà
+		Etna Elia
+		Ferraris Frola Fabroa Faenza Fano Fea Fénéon Foa Frua Fumia
+		Gerdil "de Grandson" Gex Germonius Gandolfus Gallea Gachet Geda Ghia Ghigo Ghione Gonin Gulotta
+		Imoda Imparatus
+		Jona
+		Lancius "ëd Lissandria" Luria
+		Mardiyun "dël Mondvì" Minjoz Mainardus Marcellinus Martin Mastrocola Minà Murialt
+		Oggeri Oneglia Orione Ouvertus
+		Priora Prina Pollonera Pittara Pochintesta Pastoris Porro Poblilius Provana Pinchia Pajetta Perucca Pininfarina Ponsat Pons
+		Quadrone Quarata
+		Ricca Reycend Ricolfus Rignun Roveda Rama Rol Rua Ruscalla
+		Salesius "ëd Salusse" Santamans Spalla Seras Stratta Serra Sacerdote Sialoja "ëd Seyssel" "dël Sabbione" Satirana Savina Serafinus Sraffa Sola
+		Tovo "ëd Tarantasia" Tigridius Testa Terzanus Thermignon Toniol Turolla
+		Vergano Valfrè Vighi Verdura "ëd Vapeleunna" Vibò Viarisius
+		Witgerius
+		Zanon Zegna Zolla
+	}
+}
+
+
+### Brithenig-speakers
+
+GBI = {
+	male = {
+		names = {
+			Aron Andreas Aleisandr Adda Antoin Arthur Awstin
+			Bartholomew Benamin
+			Cadag Caradag Caraethag Carol Cristian Cristoffer Costenin Cornelius Carlon Cesar
+			Dewidd Drystin Dunad
+			Emreis Enrhig Erchyl
+			Ffelig
+			Garfan Geory Gereint Gregor Gwrthiern Giduion
+			Ioan Innogen Iago Ieroni Iosep Iosua
+			Junius Jowan Junius
+			Kemper Keswallon
+			Llawreint Luc Lluid
+			Madag Maelcun Marc Mathew Merthin Mewrig Migangel Moses Manuel Marcellus Miles
+			Nigol Noë
+			Oithaw Othniel
+			Pedr Pawl Padrig Philip
+			Rhaifun
+			Sergius Sedrac Senicianus Samuel
+			Tomos Timothew Tereint
+			Urbanus Urien Uturius
+			Ysteffan Ystin Yuil
+		}
+	}
+	female = {
+		names = {
+			Anastasia Anna
+			Buddeg
+			Catren
+			Sarra
+		}
+	}
+	surnames = {
+		Allt Alan
+		Boibont Bach Bloet Brydydd Brogyntyn Brycheiniog Bryffwrch Benfras Bychan Beli Bwtting Bledri Bech Bel Broch Braw Bendith Blanc
+		Cyfeiliog Cothi Ceint Casnodyn Coetmor Ceri Cab Cabw Canyd Car Cel Clig Cybidd Cynsie Coilus
+		Drwyndwn Ddu Dui Dyfi Dere Dysbellur
+		Eryi
+		Frychan Flaidd Fras Fardd Ffol Foel ffeil Ffeirth Ferreir Ffurneir
+		Griffith Gwened Glas Gwrgan Gwerthrynion Gŵr Goch Gryg Gwynhagr Gorlech Gethin Glyn Glyndŵr Gadarn Gwynoro Glythun Gran Gras Gris Gwefer Gwenadur Gwithur
+		Hir Hewlin Harri
+		Ifan Iewen
+		Llaety Llygad Leiaf Llwyd Lingo Lladda Llefan Llewein Llîneir Llewel Lloneir Lollt
+		Mechain Magr Meddig Mendes Molineir Morgan Muin
+		Nanmor Nesc Nîr Noc Nepos
+		Offeiriad Ostur
+		Penllyn Pascen Pengras Penrhys Pereirin Prefder Puin
+		Rhyfel Rhedun Rhoch Rhui Rhys
+		Sais Saeson Swrdwal Selwyn Saer Serw Silwri 
+		Teg Tew Traffer Tegeingluis Trebuill
+		Uisel
+		Wan Wladaidd
+		Ycoed Yddael Yniwr
+	}
+}
+
+AVL = {
+	male = {
+		names = {
+			Adda Aleisandr Andrew Antoin Arthur Awstin Abram Awdo
+			Bartholomew Benamin
+			Cadag Caradag Caraethag Carol Cristian Cristoffer Costenin Cornelius Carlon Cesar
+			Dewidd Drystin Dunad
+			Edwardd Emreis Enrhig Erchyl Ewein
+			Ffelig Ffrencisc
+			Garfan Geory Gereint Gregor Gioffri Girallt Gwallter Gwilim Gwrthiern
+			Hyw
+			Ioan Innogen Iago Ieroni Iosep
+			Jowan Junius Jehoiada
+			Kemper Keswallon
+			Llawreint Luc Lluid
+			Madag Maelcun Marc Mathew Merthin Mewrig Migangel Moses Manuel Marcellus
+			Nigol Noë
+			Oithaw
+			Pedr Pawl Padrig Philip
+			Rhaifun Rheinallt Rhigardd Rhoberth Rhoddyrch
+			Sergius Sedrac
+			Tomos Timothew Tereint
+			Ysteffan Ystin Yuil
+		}
+	}
+	female = {
+		names = {
+			Anna
+			Catren
+			Sarra
+		}
+	}
+	surnames = {
+		Allt Alan
+		Bech Bendith Broch Bryd Berdicguent Boibont Brecryg Bodowyr Bronllys Barclodiad
+		Cab Calw Clig Cybidd Coelan Cel
+		Dui Defed Dywyll Dryfol Dolforwyn Darwinhiwn Dysbellur Dere
+		Esca Ewlo
+		Fabricius Ffurneir Ffos Ffeil Ffeirth Fferreir
+		Gwenadur Godig Glasobrin Gwenedd Gwent Gybi Gerddinen Glas Glythun Gran Gras Griffin Gwefer Gwenadur Gwithur
+		Hewlin
+		Llewein Llewan Lleon Lêb Lladda Llîneir Llewel Lloneir Llyddwig
+		Manaw Maesycwmer Magr Meddig Mendes Molineir Morgan Muin
+		Nepus Nesc Nîr Noc
+		Pomhui Pascen Pengras Penrhys Pereirin Prefder
+		Quidgerey
+		Rhui Rhys Rhoch Rhedun Rhisgl
+		Saeson Serw
+		Tramethyck Teg Tew Traffer Tewdur
+		Uisel 
+		Yddael Yniwr
+	}
+}
+
+BRZ = {
+	male = {
+		names = {
+			Adda Aleisandr Andrew Antoin Arthur Awstin Abram Awdo
+			Bartholomew Benamin
+			Cadag Caradag Caraethag Carol Cristian Cristoffer Costenin Cornelius Carlon Cesar
+			Dewidd Drystin Dunad
+			Edwardd Emreis Enrhig Erchyl Ewein
+			Ffelig Ffrencisc
+			Garfan Geory Gereint Gregor Gioffri Girallt Gwallter Gwilim Gwrthiern
+			Hyw
+			Ioan Innogen Iago Ieroni Iosep
+			Jowan Junius Jehoiada
+			Kemper Keswallon
+			Llawreint Luc Lluid
+			Madag Maelcun Marc Mathew Merthin Mewrig Migangel Moses Manuel Marcellus
+			Nigol Noë
+			Oithaw
+			Pedr Pawl Padrig Philip
+			Rhaifun Rheinallt Rhigardd Rhoberth Rhoddyrch
+			Sergius Sedrac
+			Tomos Timothew Tereint
+			Ysteffan Ystin Yuil
+		}
+	}
+	female = {
+		names = {
+			Anna
+			Catren
+			Sarra
+		}
+	}
+	surnames = {
+		Allt Alan Arbag
+		Bech Bendith Broch Bryd Berdicguent Boibont Brecryg Bodowyr Bronllys Barclodiad
+		Cab Calw Clig Cybidd Coelan Cel Calwis Cerell
+		Dui Defed Dywyll Dryfol Dolforwyn Darwinhiwn Dysbellur Dere
+		Esca Ewlo
+		Fabricius Ffurneir Ffos Ffeil Ffeirth Fferreir
+		Gwenadur Godig Glasobrin Gwenedd Gwent Gybi Gerddinen Glas Glythun Gran Gras Griffin Gwefer Gwenadur Gwithur Gwir Gwirig
+		Hewlin
+		Isuinoffun
+		Llewein Llewan Lleon Lêb Lladda Llîneir Llewel Lloneir Llyddwig
+		Manaw Maesycwmer Magr Meddig Mendes Molineir Morgan Muin
+		Nepus Nesc Nîr Noc
+		Pomhui Pascen Pengras Penrhys Pereirin Prefder Puin
+		Quidgerey
+		Rhui Rhys Rhoch Rhedun Rhisgl Rhosc
+		Saeson Serw
+		Tramethyck Teg Tew Traffer Tewdur Tychian
+		Uisel 
+		Yddael Yniwr
+	}
+}
+
+BCG = { # British Kongo
+	male = {
+		names = {
+			Adda Aleisandr Andrew Antoin Arthur
+			Bartholemew
+			Cristian Costenhin Cynedd
+			Dewidd Drystin Dunat
+			Emreis Erchyl
+			Fubulune
+			Georgy Gereint
+			Ibibongo Ilunga Ioannes Ieroni Iosep
+			Kamana Kampompo Kamongwa
+			Lutuma Luc Llawreint
+			Mewrig Masini Marc Migangel Merthin MAthew
+			Nigol
+			Padrig Pawl Pedr Philip
+			Samuel
+			Tshoza Timothew
+			Wabanko
+			Ysteffan Ystin
+		}
+	}
+	female = {
+		names = {
+			Akonga
+			Dikanda
+			Mair
+		}
+	}
+	surnames = {
+		Amba
+		Bakombo Banko Batungile Babungu Bibiche Benga Bonzali Biembe
+		Diabateza Diba
+		Inyama
+		Kabemba Kibamba Kumbanga Kimbu Koji Kanika Kadima Kafila Kungu Kikaya Kapepula Kuku Keleku
+		Luyindula Lobela
+		Mwenze Mandjami Mukuta Mutoke Miango Mbambi Mangali Mandembo Mwamba
+		Nsimbo Nduita Ngalula Ngangola
+		Ombanzi
+		Pikinini
+		Situ Sankuru Salukombo
+		Tshijuka
+		Zatara
+	}
+}

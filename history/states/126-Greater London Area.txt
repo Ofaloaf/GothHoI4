@@ -1,0 +1,34 @@
+state={
+	id=126
+	name="STATE_TAMESIS"
+	manpower=9824296
+	
+	state_category = megalopolis
+
+	history={
+		owner = GBI
+		victory_points = {
+			11374 25
+		}
+		victory_points = {
+			6103 10
+		}
+		buildings = {
+			infrastructure = 9
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+			anti_air_building = 5
+			radar_station = 1
+			air_base = 10
+			11374 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = GBI
+	}
+
+	provinces={
+		6103 9239 11333 11374 
+	}
+}

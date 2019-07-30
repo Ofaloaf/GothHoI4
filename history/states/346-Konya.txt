@@ -1,0 +1,27 @@
+
+state={
+	id=346
+	name="STATE_346"
+	manpower = 430305
+	
+	state_category = large_town
+
+	history={
+		owner = ANT
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 3
+		}
+		
+		victory_points = {
+			940 5
+		}
+		add_core_of = ANT
+	}
+
+	provinces={
+		940 3788 6807 6894 9755 9763 9811 11792 11860 13122 
+	}
+}

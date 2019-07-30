@@ -1,0 +1,120 @@
+bookmarks = {
+	bookmark = {
+		name = "LP_CAMPAIGN_NAME"
+		desc = "LP_CAMPAIGN_DESC"
+		date = 1925.1.1.17
+		picture = "GFX_select_date_LP_CAMPAIGN"
+		default_country = "GTH"
+		default = yes
+		
+		"GTH"={
+			history = "GTH_LP_CAMPAIGN_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"FRK"={
+			history = "FRK_LP_CAMPAIGN_DESC"
+			ideology = fascism
+			ideas = {
+				FRK_sour_loser
+				FRK_vrijkorps_1
+				FRK_civil_war_reconstruction_1
+			}
+			focuses = {
+			}
+		}
+		
+		"GBI"={
+			history = "GBI_LP_CAMPAIGN_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"JAP"={
+			history = "JAP_LP_CAMPAIGN_DESC"
+			ideology = democratic
+			ideas = {
+				state_shintoism
+				JAP_zaibatsus
+			}
+			focuses = {
+			}
+		}
+		
+		"AVL"={
+			history = "AVL_LP_CAMPAIGN_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"THR"={
+			history = "THR_LP_CAMPAIGN_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"LRM"={
+			history = "LRM_LP_CAMPAIGN_DESC"
+			ideology = communism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"KOJ"={
+			minor = yes
+			history = "KOJ_LP_CAMPAIGN_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
+		"VBG"={
+			minor = yes
+			history = "VBG_LP_CAMPAIGN_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
+		#"DZH"={
+		#	minor = yes
+		#	history = "VBG_LP_CAMPAIGN_DESC"
+		#	ideology = fascism
+		#	ideas = {
+		#		
+		#	}
+		#	focuses = {
+		#	}
+		#}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

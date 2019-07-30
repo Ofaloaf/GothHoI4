@@ -1,0 +1,24 @@
+state={
+	id=797
+	name="STATE_NIDA"
+	
+	history={
+		owner = GTY
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			6488 20
+		}
+		add_core_of = GTY
+	}
+	
+	provinces={
+		589 3574 6488 
+	}
+	manpower=10
+	state_category=large_city
+}
