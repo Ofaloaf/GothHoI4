@@ -1,7 +1,7 @@
 
 state={
 	id=212
-	name="STATE_212"
+	name="STATE_MOESIA"
 	manpower = 2611100
 	
 	state_category = city
@@ -21,6 +21,6 @@ state={
 	}
 
 	provinces={
-		878 893 3796 3819 3937 3952 6814 6842 6923 6952 6982 9610 9862 11813 
+		3796 3819 3952 6814 6842 6923 6952 6982 9610 
 	}
 }

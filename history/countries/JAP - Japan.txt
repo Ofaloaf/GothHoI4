@@ -173,9 +173,10 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Sasago Okazaki"
-		picture = "Portrait_JAP_kahei_senda.dds"
+	picture = "Portrait_JAP_kahei_senda.dds"
 	traits = {
-		infantry_leader trait_engineer
+		infantry_leader
+		trait_engineer
 	}
 	skill = 3
 	attack_skill = 3
@@ -184,18 +185,122 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Shizo Mishima"
+	picture = "Portrait_JAP_Oka_Ichinosuke.dds"
+	traits = {
+		old_guard
+		JAP_samurai_lineage
+	}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Masayoshi Ogasawara"
+	picture = "Portrait_JAP_Tanaka_Shizuichi.dds"
+	traits = {
+		brilliant_strategist
+		fortress_buster
+	}
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ienobu Hotta"
+	picture = "Portrait_JAP_Jiro_Ishii.dds"
+	traits = {
+		JAP_samurai_lineage
+		trait_reckless
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tsutomu Koike"
+	picture = "Portrait_JAP_Moto_Furusho.dds"
+	traits = {
+		old_guard
+		career_officer
+		trait_engineer
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Kenkichi Yamaoka"
+	picture = "Portrait_JAP_Iwakusu_Ida.dds"
+	traits = { cavalry_leader }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Shinichi Nishida"
+	picture = "Portrait_JAP_general_01.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Tadamichi Tajima"
+	picture = "Portrait_JAP_general_02.dds"
+	traits = { 
+		substance_abuser
+		trait_reckless
+		career_officer
+	}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
 
 # NAVY
 
 create_navy_leader = {
 	name = "Souchi Naito"
 	picture = "portrait_JAP_gunichi_mikawa.dds"
-	traits = { gentlemanly naval_lineage old_guard_navy spotter }
+	traits = { naval_lineage old_guard_navy spotter }
 	skill = 2
 	attack_skill = 3
 	defense_skill = 2
 	maneuvering_skill = 3
 	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Kiyoyasu Wakazakura"
+	picture = "Portrait_JAP_Baron_Arata_Iwasa.dds"
+	traits = { gentlemanly old_guard_navy }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
 }
 
 if = {

@@ -1,5 +1,11 @@
 ﻿l_english:
  early_airship:0 "Early Airship"
  airship_equipment:0 "Airship"
- airship_equipment_0:0 "Early Airship"
- airship_equipment_0_desc:0 "Airships have undergone radical changes in design since the Great War. The rigid frames found in old zeppelins have been reinforced, and are now strong enough to heavier weaponry."
+ airship_equipment_0:0 "Great War Airship"
+ airship_equipment_0_desc:0 "Airships were built during the Great War for two purposes: Bombing, and lots of bombing. They did their job well, and so their design has changed little in the years since the end of that terrible conflict."
+ airship_equipment_1:0 "Improved Airship"
+ airship_equipment_1_desc:0 "Improved metallurgy and advances in structure design have produced lighter, stronger frames to build airships around. This reduced core weight has allowed designers to use heavier engines and give airships greater payloads."
+ airship_equipment_2:0 "Advanced Airship"
+ airship_equipment_2_desc:0 "The pressures of war demand constant improvement. The newest generation of airships will fly at greater altitudes and bear heavier payloads, while still flying further than any traditional heavier-than-air bomber."
+ airship_equipment_3:0 "Rotor-Aided Airship"
+ airship_equipment_3_desc:0 "The use of transverse rotors can boost the innate lift of airships, massively increasing their useful lift in flight. With this greater available load, we can genuinely armor our airships, and provide them with machine gun crews for much better self-defense in the air."

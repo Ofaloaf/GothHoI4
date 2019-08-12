@@ -1,0 +1,8 @@
+#################################
+#### GOTHIA - CLONED MEXICO  ####
+#################################
+entity = { 
+	clone = "MEX_heavy_plane_entity"
+	name = "GTH_light_plane_entity"
+	scale = 0.13
+}

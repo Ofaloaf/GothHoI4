@@ -1,7 +1,7 @@
 
 state={
 	id=348
-	name="STATE_348" # Kayseri
+	name="STATE_CAPPADOCIA" # Cappadocia
 	manpower = 858452
 	
 	state_category = rural

@@ -1,0 +1,39 @@
+spriteTypes = {	
+
+	# Zeppelin Airship
+
+	SpriteType = {
+		name = "GFX_early_airship_medium"
+		texturefile = "gfx/interface/technologies/airship_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_airship_2_medium"
+		texturefile = "gfx/interface/technologies/airship_2.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_airship_3_medium"
+		texturefile = "gfx/interface/technologies/airship_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_airship_4_medium"
+		texturefile = "gfx/interface/technologies/airship_4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_experimental_helicopter_medium"
+		texturefile = "gfx/interface/technologies/experimental_helicopter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_helicopter_infantry_1_medium"
+		texturefile = "gfx/interface/technologies/helicopter_inf_1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_strategic_bomber4_medium"
+		texturefile = "gfx/interface/technologies/strategic_bomber4.dds"
+	}
+}

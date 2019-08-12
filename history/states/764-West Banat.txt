@@ -1,0 +1,21 @@
+
+state={
+	id=764
+	name="STATE_PANCIOVA"
+	manpower = 585579
+	state_category = rural
+
+	history={
+		owner = ILY
+		controller = ILY
+
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = ILY
+	}
+
+	provinces={
+		614 3614 6643 11787
+	}
+}

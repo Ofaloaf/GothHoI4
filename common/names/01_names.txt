@@ -10,7 +10,7 @@
 GTH = {
 	male = {
 		names = {  
-			Audoacre Atila Andrai
+			Audoacre Atila Andrai Alaric
 			Diaco Dàvi
 			Clamenç Caraules Cunstantin
 			Ebles Ermengau Evaric Ervige Eraric Estilicó Esclua
@@ -21,7 +21,7 @@ GTH = {
 			Laurènç Liun Lozoïc Lup Lucàs Laülf Leuberic Lixandre
 			Marçau Martin Miquel Matias Matfrei Maurici Marc Magne Melén
 			Nicaulas Narseis Nicodim
-			Olban Pordonno Oveco Oia
+			Olban Ordonno Oveco Oia
 			Pèitre Pol Pons Pradas
 			Quintil
 			Raolf Ranimiro Rubèrt Rodericho Raimond Romà Ricard Raugier Remistau Riculf
@@ -591,3 +591,91 @@ BCG = { # British Kongo
 		Zatara
 	}
 }
+	
+ILY = {
+	male = {
+		names = {
+			Andre Andreas
+			Bisti Blaxius 
+			Calenda Clime Comes
+			Domagna
+			Gaucoli Gauzoli Gervasius Giuco Give
+			Jugno Juliano Junius
+			Laurenzo Leonardus Loncho Lucarus
+			Mare Marco Maroe Marinus Matheus Michael 
+			Nale Nichiforus Nicola
+			Pascalis Pasqualis Petragna Petrus Piar Perue 
+			Rassinus Rusco
+			Stane Stephanus
+			Thoma Tuone
+			Vallius Vita
+		}
+	}
+	female = {
+		names = {
+			Ana
+			Deussa
+			Jachussa
+			Regina
+		}
+	}
+	surnames = {
+		Alp Artes Arcione
+		Biret Baton Boto Bodvit Batista Bonellus Boninsegnus Brensiu Blanc Bial Bruf Broin Búrbor "de Boninis" Bunesa Buca
+		"de Curicta" "de Cattaro" "de Croja" Chasal Collin "de Chosciari" Cort Cerva Costa Cunich Caboga Chuarv
+		Diversi "de Daorson" Diastros Dalmat Diastro Dolc Darsa 
+		Elfecuat "de Enon"
+		Flores "de Fualje" Filetec Farm Figurut Fuart
+		"de Guzzei" Gregoras "de Gigantibus" Galbes Gruas
+		Infessura Illur
+		Jualb "de Japoccis" "de Johanini" Jaun
+		Kantura Kanaisa
+		Loncteint Luang Lippola
+		Mazaris Menze Medo Maur Muogro Maffo Marso
+		Nicer "de Nale"
+		Pedlo Procul Pauc Pesaint Palone "de Pallis" "de Planche"
+		Ruper "de Rab" "de Rhisan" Restius "de Restituti"
+		Suoldar "de Saurgo" "de Spalatro" "de Setovia" "de Scodra" "de Scupi" Sav "de Sorgo" Stay Saraca Saran Salamone Shalves Suant Schor
+		Tascha "de Trau" Tirunde "de Tocho"
+		Udaina
+		Valb "de Vikla" Viart "de Vizache" "de Veteranis" "de Vettoris" Vines Viard Vieclo
+		Zuola Zamanga Zerbo
+	}
+}
+
+RUM = {
+	male = {
+		names = {
+			Adem
+			Bartalmay
+			Cebrail
+			Danyal Davud
+			Eftim
+			Floriyan
+			Jülyen
+			Konstantin
+			Manuil Matta Mesrop Mikhail
+			Nikola
+			Pavlus Petrus
+			Tomas
+			Samuel Süleyman‎
+			Yuhanna Yakup Yusuf Yuşa
+			Zebedi Zevulun
+		}
+	}
+	female = {
+		names = {
+			Sofya
+		}
+	}
+	surnames = {
+		Adami
+		Bostantzoglou Bocanos
+		Chavus
+		Danishmendoglu Dallala Dayyan
+		Erenerol
+		Kostanda Kasapoglou
+		Özcan 
+	}
+}
+

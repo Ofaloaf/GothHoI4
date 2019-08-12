@@ -97,6 +97,14 @@ objectTypes = {
 	}
 }
 
+objectTypes = {
+	pdxmesh = {
+		name = "FRK_light_plane_mesh"
+		file = "gfx/models/units/planes/GER_ww1_albatros_diffuse.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+}
+
 ###################
 ###  JERUSALEM  ###
 ###################

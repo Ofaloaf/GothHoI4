@@ -1,0 +1,31 @@
+
+state={
+	id=176
+	name="STATE_CLUNIENSIS"
+	manpower = 1343760
+	
+	state_category = large_town
+
+	history={
+		owner = MOR
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+		}
+		victory_points = {
+			6903 2 # Calagurris
+		}
+		victory_points = {
+			9700 1 # Juliobria
+		}
+		victory_points = {
+			9870 3 # Clunia
+		}
+		add_core_of = SPN
+		add_core_of = MOR
+	}
+
+	provinces={
+		857 884 885 903 3820 3859 3887 3902 6903 6936 9700 9800 9827 9846 9870 9872 11684 11766 11806 11809 11825 11852 11854 
+	}
+}

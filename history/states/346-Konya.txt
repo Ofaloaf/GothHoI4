@@ -1,7 +1,7 @@
 
 state={
 	id=346
-	name="STATE_346"
+	name="STATE_LYCAONIA"
 	manpower = 430305
 	
 	state_category = large_town

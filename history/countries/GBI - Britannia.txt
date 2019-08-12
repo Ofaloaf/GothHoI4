@@ -146,7 +146,7 @@ set_convoys = 800
 
 create_country_leader = {
 	name = "Dunad Llugullt" # Donatus Lucullus
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	desc = "POLITICS_GBI_FASH_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1964.1.1"
 	ideology = fascism_ideology
@@ -167,18 +167,82 @@ create_country_leader = {
 
 ### ARMY
 
-# Tegid Gwigernow
-# Pedr Gwenadur
-# Lluid Bryd
+create_field_marshal = {
+	name = "Erchyl Rhoch"
+	picture = "GBI_general_04.dds"
+	traits = { old_guard trait_cautious inflexible_strategist }
+	skill = 4 
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tegid Gwigernow"
+	picture = "GBI_general_01.dds"
+	traits = { infantry_leader }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Pedr Gwenadur"
+	picture = "GBI_general_02.dds"
+	traits = { trickster trait_reckless }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Lluid Bryd"
+	picture = "GBI_general_03.dds"
+	traits = { career_officer harsh_leader old_guard }
+	skill = 4
+
+	attack_skill = 3
+	defense_skill = 5
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Cristen Luidoguit"
+	picture = "GBI_general_05.dds"
+	traits = { old_guard politically_connected }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 3
+	female=yes
+}
+
+create_corps_commander = {
+	name = "Geory Closenth"
+	picture = "GBI_general_06.dds"
+	traits = { politically_connected media_personality old_guard }
+	skill = 2
+
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
 # Llawreint Arn
 # Keswallon Durow
-# Cristen Luidoguit # female = yes
 # Tomos Anderith
 # Philip Alawn
 # Margell Tanath
 # Gian Manuel # female = yes
-# Erchyl Rhoch
-# Geory Closenth
+# 
 # Caraethag Ludd
 
 ### NAVY

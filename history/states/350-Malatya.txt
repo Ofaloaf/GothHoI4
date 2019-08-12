@@ -1,0 +1,35 @@
+
+state={
+	id=350
+	name="STATE_350"
+	manpower = 1047156
+	resources={
+		steel=2
+	}
+	
+	state_category = city
+
+	history={
+		owner = RUM
+		victory_points = {
+			4512 1
+		}
+		victory_points = {
+			9823 1
+		}
+		victory_points = {
+			7620 10
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = RUM
+	}
+
+	provinces={
+		3889 4512 6813 7620 9823 9893 9912 11739 11759 11871 12387 12416 
+	}
+}

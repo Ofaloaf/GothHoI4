@@ -1,0 +1,28 @@
+state={
+	id=806
+	name="STATE_OSROENE"
+	
+	history={
+		owner = RUM
+		victory_points = {
+			901 1 # Circesium
+		}
+		victory_points = {
+			1634 1 # Callinicum
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SYR
+		add_core_of = RUM
+
+	}
+	
+	provinces={
+		901 1549 1578 1606 1634 6883 10882 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

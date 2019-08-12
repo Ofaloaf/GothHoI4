@@ -1,6 +1,6 @@
 ﻿capital = 20
 
-oob = "0_GTH_1936"
+oob = "0_GTH"
 #if = {
 #	limit = { has_dlc = "Man the Guns" }
 #		set_naval_oob = "FRA_1936_naval_mtg"
@@ -93,7 +93,7 @@ set_popularities = {
 	communism = 65
 }
 
-create_faction = "Commune Congress"
+create_faction = "Commune League"
 add_to_faction = GTH
 add_to_faction = LRM
 add_to_faction = COG

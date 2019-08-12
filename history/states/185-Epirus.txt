@@ -1,0 +1,37 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+		chromium=14.000
+		steel=14.000
+	}
+
+	history={
+		victory_points = {
+			10203 1 
+		}
+		victory_points = {
+			3914 3 
+		}
+		owner = EPR
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = EPR
+
+	}
+
+	provinces={
+		3914 9805 9916 10203 
+	}
+	manpower=760900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

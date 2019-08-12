@@ -427,7 +427,7 @@ technologies = {
 		}
 
 		dependencies = {
-			jet_engines = 1
+			#jet_engines = 1
 		}
 		
 		research_cost = 2
@@ -692,10 +692,10 @@ technologies = {
 			CAS_equipment_3
 		}
 		
-		path = {
-			leads_to_tech = jet_fighter1
-			research_cost_coeff = 1
-		}
+		#path = {
+		#	leads_to_tech = jet_fighter1
+		#	research_cost_coeff = 1
+		#}
 		
 		research_cost = 2
 		start_year = 1944
@@ -995,10 +995,10 @@ technologies = {
 			nav_bomber_equipment_3
 		}
 		
-		path = {
-			leads_to_tech = jet_fighter1
-			research_cost_coeff = 1
-		}
+		#path = {
+		#	leads_to_tech = jet_fighter1
+		#	research_cost_coeff = 1
+		#}
 		
 		research_cost = 2
 		start_year = 1944
@@ -1373,7 +1373,7 @@ technologies = {
 		}
 		
 		dependencies = {
-			jet_engines = 1
+			#jet_engines = 1
 		}
 
 		research_cost = 2
@@ -1509,12 +1509,12 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_strategic_bomber1
+			leads_to_tech = strategic_bomber4
 			research_cost_coeff = 1
 		}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 8 }
@@ -1541,19 +1541,14 @@ technologies = {
 		}
 	}
 	
-	jet_strategic_bomber1 = {
+	strategic_bomber4 = {
 
 		enable_equipments = {
-			jet_strat_bomber_equipment_1
+			strat_bomber_equipment_4
 		}
-		
+
 		research_cost = 2
-		start_year = 1950
-
-		dependencies = {
-			jet_engines = 1
-		}
-
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 14 }
@@ -1561,7 +1556,7 @@ technologies = {
 		
 		categories = {
 			heavy_air
-			jet_technology
+			air_equipment
 			cat_strategic_bomber
 		}
 		
@@ -1583,16 +1578,126 @@ technologies = {
 			airship_equipment_0
 		}
 	
-		#path = {
-		#	leads_to_tech = fighter1
-		#	research_cost_coeff = 1
-		#}
+		path = {
+			leads_to_tech = airship_2
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 2
 		start_year = 1920
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			airship_tech
+			air_equipment
+		}
+		
+		#sub_technologies = {
+		#	cv_early_fighter
+		#}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	airship_2 = {
+
+		enable_equipments = {
+			airship_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = airship_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1925
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			airship_tech
+			air_equipment
+		}
+		
+		#sub_technologies = {
+		#	cv_early_fighter
+		#}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	airship_3 = {
+
+		enable_equipments = {
+			airship_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = airship_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1929
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			airship_tech
+			air_equipment
+		}
+		
+		#sub_technologies = {
+		#	cv_early_fighter
+		#}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+		}
+	}
+	
+	airship_4 = {
+
+		enable_equipments = {
+			airship_equipment_3
+		}
+		
+		dependencies = {
+			experimental_helicopter = 1
+		}
+		
+		research_cost = 2
+		start_year = 1933
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 10 }
 		}
 		
 		categories = {
@@ -1637,5 +1742,52 @@ technologies = {
 			factor = 0
 		}
 		################
+	}
+	
+	helicopter_CAS_1 = {
+
+		enable_equipments = {
+			helicopter_CAS_equipment_1
+		}
+				
+		research_cost = 3.5 #Carrier Variant
+		start_year = 1933
+
+		# only from focus!!! #####
+		allow = {
+			always = no
+		}
+	
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	helicopter_infantry_1 = {
+		enable_equipments = {
+			helicopter_inf_equipment_1
+		}		
+		#allow = {
+		#	always = no
+		#}
+		
+		folder = {
+			name = air_techs_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			air_equipment
+		}
+
+		research_cost = 1
+		start_year = 1933
+
+		enable_subunits = {
+			helicopter_battalion
+		}
+		on_research_complete = {
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE	
+		}		
 	}
 }

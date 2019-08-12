@@ -1,7 +1,7 @@
 state=
 {
 	id=456
-	name="STATE_456" # Aswan
+	name="STATE_THEBAIS" # Thebais
 	manpower = 4224516
 	
 	state_category = rural

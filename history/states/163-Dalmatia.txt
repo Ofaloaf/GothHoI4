@@ -1,0 +1,22 @@
+state=
+{
+	id=163
+	name="STATE_JADERA"
+	manpower = 18000
+	
+	state_category = town
+	
+	history={
+		owner = ILY
+		add_core_of = ILY
+		buildings = {
+			infrastructure = 5
+			3943 = {
+				naval_base = 1
+			}
+		}
+	} 
+	provinces={	
+		3943 
+	}
+}

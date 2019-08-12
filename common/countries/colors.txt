@@ -115,7 +115,39 @@ SOA = {
 	color_ui = rgb { 197 92 106 }
 }
 
+ILY = {
+	color = rgb { 174 227 95 }
+	color_ui = rgb { 174 227 95 }
+}
+
+EPR = {
+	color = rgb { 230 228 214 }
+	color_ui = rgb { 230 228 214 }
+}
+
+RUM = {
+	color = rgb { 149 45 102 }
+	color_ui = rgb { 149 45 102 }
+}
+
+CRT = {
+	color = rgb { 122 102 174 }
+	color_ui = rgb { 122 102 174 }
+}
+
+RUT = {
+	color = rgb { 124 183 151 }
+	color_ui = rgb { 124 183 151 }
+}
+
+SPN = {
+	color = rgb { 231 181 12 }
+	color_ui = rgb { 231 181 12 }
+}
+
+###############
 ### VANILLA ###
+###############
 
 #reload countrycolors
 

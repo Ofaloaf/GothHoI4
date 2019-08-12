@@ -23,6 +23,32 @@ division_template = {
 	}
 }
 
+units = {
+	#####LAND UNITS #####
+	### MAINLAND UNITS ###
+	division = { # "1. Puiddes Difisiwn"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11374
+		division_template = "Puiddes Difisiwn"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Cafal di Zambesia"		
+		#division_name = {
+		#		is_name_ordered = yes
+		#		name_order = 1
+		#}
+		location = 8178
+		division_template = "Cafal Difisiwn"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

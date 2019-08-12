@@ -10,7 +10,7 @@
 objectTypes = {
 
 
-	pdxmesh = { name = "GBI_infantry_rifle_mesh"
+	pdxmesh = { name = "GBI_cav_rifle_mesh"
 		file = "gfx/models/units/XSM_cavalry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_rifle_idle_animation" }
@@ -36,7 +36,7 @@ objectTypes = {
 		animation = { id = "aim_exercise"	type = "GER_infantry_aim_exercise_animation" }
 	}
 	
-	pdxmesh = { name = "GBI_infantry_mg_mesh"
+	pdxmesh = { name = "GBI_cav_mg_mesh"
 		file = "gfx/models/units/XSM_cavalry.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }

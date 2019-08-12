@@ -1,0 +1,7 @@
+#################################
+#### GOTHIA - CLONED MEXICO  ####
+#################################
+entity = { 
+	clone = "POL_light_plane_entity"
+	name = "GBI_light_plane_entity"
+}

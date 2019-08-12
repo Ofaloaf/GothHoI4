@@ -1,0 +1,12 @@
+#################################
+#### GOTHIA - CLONED MEXICO  ####
+#################################
+entity = { 
+	clone = "ITA_heavy_plane_entity"
+	name = "FRK_heavy_plane_entity"
+}
+
+entity = { 
+	clone = "ITA_heavy_plane_entity"
+	name = "FRK_THR_plane_entity"
+}
