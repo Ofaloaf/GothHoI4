@@ -34,13 +34,15 @@ GTH = {
 	}
 	female = {
 		names = {
-			Aïna Amalasunda
+			Aïna Amalasunda Alissia
 			Bòna 
+			Dulça
 			Froiloba
 			Loïsa
+			Maria
 			Peironèla Puelle
-			Terèsa
-			Urraca
+			Terèsa Tiudora
+			Urraca Ursa
 		}
 	}
 	surnames = { 
@@ -56,7 +58,7 @@ GTH = {
 		Hyspa Herpe
 		Imbert
 		Jalenca "de Jocus" Jourda Jolbert
-		Leuge Lagomia "de Liun" "de Laniacus" "de Lentiniacum" "de Létra" "de Limans" "de Lozana" "de Lauzuun" "de Lunel"
+		Leuge Lagomia "de Liun" "de Laniacus" "de Lentinhac" "de Létra" "de Limans" "de Lozana" "de Lauzuun" "de Lunel"
 		Mandubingis "de Massava" Maura Mateigs Massabuou Mercieyra Mera "de Matiscone" "de Milyeri" "de Madisus" "de Marennas"
 		Merla Menendi "de Monciocus" "de Massimiau" Malaspina Moltot
 		Natas "de Nivernum" Navarro Nicet
@@ -108,12 +110,12 @@ FRK = {
 		Colve "ten Cate" Compter Croon Cortlever
 		Doorman "de Doot" Duijker "van Drakestein" "van Dijk" Driebergen Daniëls "van Dulm" Duijm Drost
 		Elers "van Erpe" Ellenbrecht "van Egmond" Effern Ekkart Evers "van Emmelkamp"
-		Fabritius "van Fronkfort"
+		Fabritius "van Fronkfort" Frobenius
 		Gerbrands "van Geuns" Groeneweg "de Graff" Greven Goetzee "van Geelkerken" "van Grijpswolde" "van Gulik" Goudeket Göckel "de Gee" Gips
 		Hoogerwerf "van Houwening" "van der Hem" "van der Hellen" "du Hen" "van der Horst" Hagens Huizenaar Hemsing Hoogveld Huijgen "van Hamelen" Höfte Hulswit
 		Innemee
 		Kieft Kip Kolling "de Korver" Klaase Kaan Kamstra "van Klaveren" Kunze Kuypers Koderitsch Kamerbeek Keemink Klapwijk Koops "van Kniphuizen" Konijn
-		Jorisdochter "van Jongestall" "de Jong" "van Jemmingen"
+		"van Jongestall" "de Jong" "van Jemmingen"
 		Lampsins "va Lalaing" "van Leeuwenhoek" Lipsius "van Lennep" Leene "van Leenen" Langenus Lamp Levij Lotgering Laan "van Lennep" Lotsij
 		Molijn Maas Miljon Mosman Mijer Menso Meeuwessen "van Maagdenburg" Mundt Meijer Meuring
 		Nederpeld
@@ -679,3 +681,217 @@ RUM = {
 	}
 }
 
+RUT = {
+	male = {
+		names = {
+			Hryhoriy
+			Ivan
+			Kyrylo
+			Mikhailo Mecheslav Myroslav Marko
+			Nykon
+			Okelsander Olek
+			Symon
+			Yosip
+		}
+	}
+	female = {
+		names = {
+			Kalyna
+			Oxana
+			Zoya
+		}
+	}
+	surnames = {
+		Formin
+		Lysenko
+		Davydova Sydorenko Lysenko Babko Shchukarev 
+		Trfimenko Tyutyunnikov Hlushkov Filitov Kondratyuk 
+		Antonovych Horbachov Doroshenko Drahomanov Maksymovych 
+		Ohloblyn Stojko Yavornytsky Bogolyubov Bunyakovskii 
+		Chebotaryov Cholesky Hnedenko Kravchuk Fomenko Korolyuk
+		Mytropolsky Oleinik Ostrogradsky Petryshyn Pogorelov
+		Poretsky Potapow Samoilenko Shafarevich Sharkovsky
+		Shatunovsky Skorokhod Shtokalo Sleszynski Urysohn Vashchenko
+		Voronoy Avramenko Chuperchuk Dmytrenko Krivokhyzha Pryma
+		Shekera Vantukh Vasylenko Verkhovynets 
+	}
+}
+
+GUN = {
+	male = {
+		names = {
+			Andrai Ainric Alaric Amalric Audon Austremonius
+			Benexet Bartoumiéu
+			Claudi Carolus
+			Draco
+			Godesteus
+			Immanuèl
+			Jehan Josephus Juli
+			Lixandre Lisander Leonidas Luc
+			Magne Matias Marc
+			Poms Pèitre
+			Romulus Remistau Remigius
+			Solon Scipio Saturninus Suarius Sans
+			Theophilus Tiberius Tiuderic Tacite Trophimus Tumas Tiudor
+			Urbanus Uc
+			Viteges
+			Waltharius
+		}
+	}
+	female = {
+		names = {
+			Anna Andrieva
+			Bertha
+			Hippolyta
+		}
+	}
+	surnames = {
+		Amoros
+		Benezeyt "del Bruelh" Beguo Blinliuetus Brossozas
+		Cebial "lo Ceralheyr" Crosilh
+		Daude Dalbrat
+		Ferreyr Fer
+		Gralhart "de Graymont" Galvannus Germana
+		Lespaser Lors
+		Mostel Mansset Manhagha
+		Nicolau Nicholet
+		Oulher Orricus
+		Payrat "del Pors"
+		Rinas Rotgeirola
+		Sartro Sabateir
+		"de Tineyras"
+	}
+}
+
+TRT = {
+	male = {
+		names = {
+			Aleisandr Adda Austolus
+			Bartholemew
+			Emreis
+			Gregor
+			Hieronymus
+			Iewan Ignatius
+			Llewfelen Luc
+			Marc Migangel
+			Nigol
+			Owain
+			Pedr Pawl Pedrog Pyran
+			Rhyssin
+			Salomon
+			Tomos Theonus
+			Ysteffan
+		}
+	}
+	female = {
+		names = {
+			Catren
+			Mallt
+			Sarra
+		}
+	}
+	surnames = {
+		Aurelianus Artoruis
+		Branuvelladurus Briog
+		Calrogus Concarius Credus Carantocus
+		Dysbellur Dui Dygain
+		Ffelis
+		Goeznovius
+		Kynrede
+		Maor Mancus Melinus Manaccus Meubred
+		Neot
+		Penrhys Penros
+		Trammelpila Tramethyck Tregonan Trevisa Tresulyan Tallanus Teonan
+		Wyllow
+	}
+}
+
+KAI = {
+	male = {
+		names = {
+			Fujitaka
+			Genroku
+			Harumoto Harukazu Hidesada Hidemasa Hidetaka Hideyoshi Hazno
+			Katsunaga Kazunari Katsuie Kazumaru
+			Iwanojo
+			Kawajiri
+			Masamoto Mitsuhide Murashige
+			Naoyuki Naritada Nagahide Nagashige Nobumori Narimasa Nagaharu Nobutomo
+			Okimoto
+			Ranmaru
+			Sumimoto Sumiyuki Shigenori Sadakatsu Shigemasa Sadatsugu
+			Takeaki Tadaoki Takayuki Tsuneoki Toshiie Toshinaga
+			Ujisato
+			Yoshiharu Yukinaga Yoshizumi Yoshitaka Yusai Yukitaka Yoritaka Yoshikatsu Yasuharu
+		}
+	}
+	female = {
+		names = {
+			Asami Asuka
+		}
+	}
+	surnames = {
+		Akatsuka Arima Akechi Araki Azai Ashikaga
+		Bessho
+		Enomoto
+		Gamo
+		Hosokawa Hachiya Hayashi Hori Hatakeyama Hatano Hattori Hino Honda
+		Ichijo Ishikawa Isono
+		Kawajiri Kuki Kenchu Kizawa Kamimura Kikuchi
+		Matsudaira Miyoshi Mitsubuchi Maeda Mori Murai
+		Nagai Numata Nakagawa Niwa
+		Saito Saji Sakuna Sassa Shibata Sakazaki Sumitomo
+		Toki Takigawa Toyotomi Tsusui Takatsukasa Tateoka
+		Yagyu
+	}
+}
+
+SEC = {
+	male = {
+		names = {
+			Audoacre Ainric Alaric Amalaric Atilan Atanaric Alaviv Àchila Ardó
+			Benexet
+			Diaco
+			Estilicó Ègica
+			Fritigern Froila Frumagild
+			Garsia Godas Geila
+			Hilderic
+			Ildebad
+			Liuva Lixandre Luc
+			Marc Miquel
+			Pèitre Pol
+			Ricimer
+			Safrax Sabas Segga Suíntila
+			Tiuderic Tiudor Tiudòsi Teia Tacite
+			Ulfilas
+			Valent
+			Walia
+		}
+	}
+	female = {
+		names = {
+			Ana
+			Romula
+		}
+	}
+	surnames = {
+		Anguera Aspina Argentat Albiol Aysa Arenós Amargós Athalenc
+		Borièr Boix Bayarri Baldoví Blanca Boter Bugatell
+		Comes Carro Coscolano Civilla Carbonel Cols Ciach Castelar Calafar Corder
+		Dagunenc
+		Esbri Espareguera Elies Erman Espardenyer
+		Forcadell Ferrer Fabre Fresquet Fabregat Ferriols Fita Fransesch Freixens Farnobius
+		Gonbau Garsiet Giner Gironi Gonbarder Goçalbo
+		Imbert
+		Lopis
+		Martí Matamoros Miralles Montoliu Miles Mossèn Menor Mestre Maior Mareschaldus Monrós
+		Nicholau Ninou Notari
+		Ortisa Ortís Ostaler
+		Planella Paris Palas Pomar Puig
+		Riguas Rohes Rostanh Raedor Reboleda
+		Sarel Samella Serrada Serrat Simó Salvador Sans Saurina Sebastià
+		Teixidor
+		Uys Ufardgudia
+		Vals Vidal Vidiella
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=808
+	name="STATE_OSCA"
+	
+	history={
+		owner = MOR
+		victory_points = {
+			9840 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = SPN
+		add_core_of = MOR
+	}
+	provinces={
+		899 915 9840 9842 11793 11819 11821 11838 
+	}
+	manpower=231440
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

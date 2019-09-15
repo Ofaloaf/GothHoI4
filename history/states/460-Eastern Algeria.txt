@@ -1,7 +1,7 @@
 
 state={
 	id=460
-	name="STATE_460" # Constantine
+	name="STATE_NUMIDIA" # Constantine
 	manpower = 2343837
 	
 	state_category = town

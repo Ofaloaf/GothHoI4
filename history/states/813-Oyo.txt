@@ -1,0 +1,26 @@
+state={
+	id=813
+	name="STATE_OYO"
+
+	history={
+		owner = GBI
+		#add_core_of = COG
+		victory_points = {
+			2050 1 
+		}
+		buildings = {
+			infrastructure = 3
+			2050 = {
+				naval_base = 3
+
+			}
+		}
+	}
+	
+	provinces={
+		2050 4952 12731 12817 12900 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

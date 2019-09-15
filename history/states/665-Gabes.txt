@@ -1,6 +1,6 @@
 state={
 	id=665
-	name="STATE_665"
+	name="STATE_BYZACENA"
 
 	history={
 		owner = MOR

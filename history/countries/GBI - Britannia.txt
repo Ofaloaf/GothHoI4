@@ -159,7 +159,7 @@ create_country_leader = {
 	desc = "POLITICS_GBI_MALLT_SULPIC_DESC"
 	picture = "frances_davidson.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		headstrong
 	}
@@ -322,7 +322,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "County Class"
+		name = "Comitatus Class"
 		type = heavy_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -334,7 +334,7 @@ if = {
 	}
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Admiral Class"
+		name = "Mawr Class"
 		type = battle_cruiser_1
 		parent_version = 0
 		upgrades = {
@@ -346,7 +346,7 @@ if = {
 	}
 	# Battleships #
 	create_equipment_variant = {
-		name = "Nelson Class"
+		name = "Lluigr Class"
 		type = battleship_1
 		parent_version = 0
 		upgrades = {
@@ -357,7 +357,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Queen Elizabeth Class"
+		name = "Calidon Class"
 		type = battleship_1
 		parent_version = 0
 		upgrades = {
@@ -499,7 +499,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Emerald Class"
+		name = "Atalanta Class"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CL_HISTORICAL
 		parent_version = 0
@@ -535,7 +535,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Adventure Class"						# cruiser minelayer
+		name = "Gloria Class"						# cruiser minelayer
 		type = ship_hull_cruiser_1
 		name_group = ENG_MINELAYERS_HISTORICAL
 		parent_version = 0
@@ -552,7 +552,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-			name = "Town Class"
+			name = "Tref Class"
 			type = ship_hull_cruiser_2
 			name_group = ENG_CL_HISTORICAL
 			parent_version = 0
@@ -571,7 +571,7 @@ if = {
 		}
 	# Heavy Cruisers #
 	create_equipment_variant = {
-		name = "County Class"
+		name = "Comitatus Class"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
@@ -589,7 +589,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "York Class"
+		name = "Ebrauc Class"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
@@ -606,7 +606,7 @@ if = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Hawkins Class"
+		name = "Molmutius Class"
 		type = ship_hull_cruiser_1
 		name_group = ENG_CA_HISTORICAL
 		parent_version = 0
@@ -625,7 +625,7 @@ if = {
 	}
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Renown Class"
+		name = "Artorius Class"
 		type = ship_hull_heavy_1
 		name_group = ENG_BC_HISTORICAL
 		parent_version = 0
@@ -646,7 +646,7 @@ if = {
 	}
 	# Battlecruisers #
 	create_equipment_variant = {
-		name = "Admiral Class"
+		name = "Invicta Class"
 		type = ship_hull_heavy_1
 		name_group = ENG_BC_HISTORICAL
 		parent_version = 0
@@ -793,19 +793,19 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-			name = "Ark Royal Class"
-			type = ship_hull_carrier_1
-			name_group = ENG_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				front_1_custom_slot = ship_deck_space
-			}
+		name = "Ark Royal Class"
+		type = ship_hull_carrier_1
+		name_group = ENG_CV_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = carrier_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_deck_space
 		}
+	}
 	
 }

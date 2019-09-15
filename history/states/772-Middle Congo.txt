@@ -12,7 +12,10 @@ state={
 		owner = COG
 		add_core_of = COG
 		victory_points = {
-			8193 2
+			12975 3
+		}
+		victory_points = {
+			8193 1
 		}
 		buildings = {
 			infrastructure = 3

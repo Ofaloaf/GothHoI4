@@ -145,6 +145,91 @@ SPN = {
 	color_ui = rgb { 231 181 12 }
 }
 
+ARB = {
+	color = rgb { 85 102 0 }
+	color_ui = rgb { 85 102 0 }
+}
+
+CLD = {
+	color = rgb { 69 76 173 } 
+	color_ui = rgb { 69 76 173 }
+}
+
+ANC = {
+	color = rgb { 92 224 244 }
+	color_ui = rgb { 92 224 244 }
+}
+
+AEG = {
+	color = rgb { 24 50 123 }
+	color_ui = rgb { 24 50 123 }
+}
+
+SAR = {
+	color = rgb { 117  146  167 }
+	color_ui = rgb { 117  146  167 }
+}
+
+MCD = {
+	color = rgb { 64 30 80 }
+	color_ui = rgb { 64 30 80 }
+}
+
+GTR = {
+	color = rgb { 87 199 130 }
+	color_ui = rgb { 87  199  130 }
+}
+
+IWD = {
+	color = rgb { 80 159 90 }
+	color_ui = rgb { 104 207 117 }
+}
+
+CAG = {
+	color = rgb { 160 90 20 }
+	color_ui = rgb { 160 90 20 }
+}
+
+GAL = {
+	color = rgb { 240 167 130 }
+	color_ui = rgb { 240 167 130 }
+}
+
+PCN = {
+	color = rgb { 6 150 198 }
+	color_ui = rgb { 6 150 198 }
+}
+
+HAU = {
+	color = rgb { 211  184  179 }
+	color_ui = rgb { 211  184  179 }
+}
+
+GUN = {
+	color = rgb { 135 161 135 }
+	color_ui = rgb { 135 161 135 }
+}
+
+GJT = {
+	color = rgb { 231 224 107 }
+	color_ui = rgb { 231 224 107 }
+}
+
+CUA = {
+	color = rgb { 113 112 96 }
+	color_ui = rgb { 113 112 96 }
+}
+
+TRT = {
+	color = rgb { 101 102 163 }
+	color_ui = rgb { 101 102 163 }
+}
+
+SLT = {
+	color = rgb { 144 60 75 }
+	color_ui = rgb { 144 60 75 }
+}
+
 ###############
 ### VANILLA ###
 ###############

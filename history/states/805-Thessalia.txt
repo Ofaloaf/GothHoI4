@@ -3,8 +3,8 @@ state={
 	name="STATE_THESSALIA"
 	
 	history={
-		owner = GRE
-		add_core_of = GRE
+		owner = MCD
+		add_core_of = MCD
 		
 
 		victory_points = {

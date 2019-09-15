@@ -1,0 +1,21 @@
+state={
+	id=807
+	name="STATE_ABIDU"
+	
+	history={
+		owner = THR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = THR
+	}
+	
+	provinces={
+		6864 6912 9799 9887 11778 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

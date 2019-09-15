@@ -2,16 +2,12 @@
 state={
 	id=172
 	name="STATE_VASCONIA"
-	manpower = 1794880
-	
-	state_category = city
-	
 	resources={
-		steel=8 # was: 12
+		steel=8.000
 	}
 
 	history={
-		owner = MOR
+		owner = CAG
 		victory_points = {
 			740 3 
 		}
@@ -22,13 +18,18 @@ state={
 			air_base = 1
 			740 = {
 				naval_base = 1
+
 			}
+
 		}
-		add_core_of = SPN
-		add_core_of = MOR
+		add_core_of = CAG
+
 	}
 
 	provinces={
-		738 740 932 3735 3737 3931 3933 6756 9703 9857 11688 
+		740 932 3735 3737 3931 3933 6756 9857 
 	}
+	manpower=564680
+	buildings_max_level_factor=1.000
+	state_category=city
 }

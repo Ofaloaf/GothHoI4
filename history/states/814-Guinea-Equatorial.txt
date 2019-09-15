@@ -1,0 +1,26 @@
+state={
+	id=814
+	name="STATE_GUINEA_EQUATORIAL"
+
+	history={
+		owner = GUN
+		add_core_of = GUN
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 3
+			5139 = {
+				naval_base = 1
+
+			}
+		}
+	}
+	
+	provinces={
+		2115 5139 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

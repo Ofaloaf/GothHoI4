@@ -4,8 +4,8 @@ state={
 	name="STATE_773"
 
 	history={
-		owner = FRA
-		add_core_of = CMR
+		owner = GUN
+		add_core_of = GUN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -14,9 +14,7 @@ state={
 				naval_base = 1
 
 			}
-
 		}
-
 	}
 
 	provinces={

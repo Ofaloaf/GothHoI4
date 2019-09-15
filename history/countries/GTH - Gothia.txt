@@ -83,7 +83,7 @@ set_convoys = 300
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1932.5.1"
+	last_election = "1922.5.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -438,6 +438,17 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 
-# Chalretona
+# 
+create_navy_leader = {
+	name = "Pol Chalretona"
+	picture = "gothic_navy_05.dds"
+	traits = { civilian_captain }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 1
+}
+
 # Belon
 # Sabateyr

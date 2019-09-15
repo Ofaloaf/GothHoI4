@@ -91,6 +91,22 @@ set_popularities = {
 	neutrality = 65
 }
 
+CRT = {
+	set_politics = {
+		ruling_party = neutrality
+		last_election = "1920.9.15"
+		election_frequency = 48
+		elections_allowed = no
+	}
+
+	set_popularities = {
+		neutrality = 72
+		democratic = 10
+		fascism = 9
+		communism = 9
+	}
+}
+
 set_stability = 0.75
 
 create_country_leader = {

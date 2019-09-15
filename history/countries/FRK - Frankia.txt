@@ -100,12 +100,11 @@ set_stability = 0.5
 
 create_country_leader = {
 	name = "Ludewijn Ysbrants"
-	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
+	desc = "POLITICS_FRK_DEM_DESC"
 	picture = "Portrait_louis_gentil.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		strict_austerity_adherent
 	}
 }
 
@@ -120,9 +119,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Odulfus Vingboons"
+	name = "Euphemia Vingboons"
 	desc = "POLITICS_FRK_COMMUNISM_DESC"
-	picture = "max_hussarek.dds"
+	picture = "elizabeth_g_fox.dds"
 	expire = "1965.1.1"
 	ideology = syndicalism
 	traits = {
@@ -230,9 +229,18 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-# Jeroen Peutemans
+create_corps_commander = {
+	name = "Jeroen Peutemans"
+	picture = "frankish_general_10.dds"
+	traits = { infantry_leader career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
 # Charibert Houbraken
-# Cornelis van den Brouck
 # Agobard Lydius
 # Frans Moninckx
 # Theuderik Verstappen
@@ -261,6 +269,17 @@ create_navy_leader = {
 	defense_skill = 4
 	maneuvering_skill = 3
 	coordination_skill = 3
+}
+
+create_navy_leader = {
+	name = "Cornelis van den Brouck"
+	picture = "frankish_admiral_03.dds"
+	traits = { navy_career_officer old_guard_navy }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
 }
 
 

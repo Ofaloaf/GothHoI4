@@ -1,0 +1,26 @@
+
+state={
+	id=688
+	name="STATE_PORTH_GUARANI"
+	resources={
+		tungsten=3.000
+		steel=2.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = BRA
+
+	}
+
+	provinces={
+		5165 8203 10973 
+	}
+	manpower=45900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,23 @@
+state={
+	id=818
+	name="STATE_GUARANIA"
+	
+	history={
+		owner = TRT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			12943 1
+		}
+		add_core_of = TRT
+	}
+	
+	provinces={
+		2195 2209 10944 12922 12943 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
