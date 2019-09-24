@@ -1,7 +1,7 @@
 
 state={
 	id=401
-	name="STATE_401"
+	name="STATE_KARA_OZEN"
 	manpower = 927795
 	
 	state_category = rural
@@ -18,7 +18,7 @@ state={
 		}
 		add_core_of = VBG
 		victory_points = {
-			6502 1
+			3490 1
 		}
 	}
 

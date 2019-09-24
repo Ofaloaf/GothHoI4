@@ -11,12 +11,14 @@
  AVL_neutrality_party:0 "Party Newdinal"
  AVL_neutrality_party_long:0 "Party Newdinal"
  #
- FRK_communism_party:0 "Anarchistisches"
+ FRK_communism_party:0 "Anarchisten"
  FRK_communism_party_long:0 "Anarchistische Congres"
  FRK_democratic_party:0 "Radicale Partij"
  FRK_democratic_party_long:0 "Radicale Partij"
  FRK_fascism_party:0 "Merovingen Bond"
  FRK_fascism_party_long:0 "Merovingen Bond"
+ FRK_neutrality_party:0 "Nationale Partij"
+ FRK_neutrality_party_long:0 "Nationale Partij"
  #
  GBI_communism_party:0 "Party Comiwnist"
  GBI_communism_party_long:0 "Party Comiwnist"
@@ -38,10 +40,24 @@
  #
  LRM_communism_party:0 "Partì Radical"
  LRM_communism_party_long:0 "Partì Radical"
+ LRM_democratic_party:0 "Partì Popular"
+ LRM_democratic_party_long:0 "Partì Popular"
+ LRM_fascism_party:0 "Frej dël Romania"
+ LRM_fascism_party_long:0 "Frej dël Romania"
+ LRM_neutrality_party:0 "Union Taurinjeis"
+ LRM_neutrality_party_long:0 "Union Taurinjeis"
  #
+ MOR_communism_party:0 "Partitu Cumunista"
+ MOR_communism_party_long:0 "Partitu Cumunista Mauretanianu"
+ MOR_fascism_party:0 "Unioni Africana"
+ MOR_fascism_party_long:0 "Unioni Africana"
+ MOR_democratic_party:0 "Muvumentu Pòpulari"
+ MOR_democratic_party_long:0 "Muvumentu Pòpulari"
  MOR_neutrality_party:0 "Unioni Mauretania"
  MOR_neutrality_party_long:0 "Unioni Mauretania"
  #
+ NOR_communism_party:0 "Syndikalistisk Forbund"
+ NOR_communism_party_long:0 "Norsk Syndikalistisk Forbund"
  NOR_democratic_party:0 "Moderate Venstre"
  NOR_democratic_party_long:0 "Moderate Venstre"
  #
