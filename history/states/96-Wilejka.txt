@@ -14,6 +14,7 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = VBG
+		add_core_of = MDV
 	}
 
 	provinces={

@@ -1,0 +1,44 @@
+﻿capital = 253
+
+#oob = "0_VBG_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	early_airship = 1
+}
+set_stability = 0.6
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1932.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 20
+	neutrality = 40
+	fascism = 20
+	communism = 20
+}
+
+add_ideas = {
+	#partial_economic_mobilisation
+}
+
+create_country_leader = {
+	name = "Purgaz Savin"
+	desc = "POLITICS_MDV_NEUT_DESC"
+	picture = "berthold_laufer.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+	}
+}
