@@ -2,19 +2,23 @@
 state={
 	id=499
 	name="STATE_BAI"
-	manpower = 4233900
 	
-	state_category = large_town
+	resources = {
+		oil=32
+	}
 
 	history={
 		owner = AVL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
 			air_base = 1
 			10946 = {
-				naval_base = 1
+				naval_base = 2
 			}
+
 		}
 		add_core_of = AVL
 		victory_points = {
@@ -24,6 +28,9 @@ state={
 	}
 
 	provinces={
-		4617 5194 8143 8177 8184 8197 8242 10392 10926 10946 5174 8129 5218 12422 10419 11002
+		2190 2218 4617 5174 5194 5218 5223 8129 8143 8177 8184 8197 8233 8242 10392 10419 10926 10946 11002 12422 12903 12923 
 	}
+	manpower=4233900
+	buildings_max_level_factor=1.000
+	state_category=city
 }

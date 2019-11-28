@@ -15,10 +15,10 @@ state={
 			6380 15
 		}
 		buildings = {
-			infrastructure = 8
-			arms_factory = 7
+			infrastructure = 7
+			arms_factory = 3
 			industrial_complex = 2
-			air_base = 10
+			air_base = 4
 		}
 		add_core_of = MDV
 		add_core_of = VBG

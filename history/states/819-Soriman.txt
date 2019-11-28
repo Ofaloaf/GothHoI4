@@ -1,0 +1,22 @@
+
+state={
+	id=819
+	name="STATE_SORIMAN"
+
+	history={
+		owner = AVL
+		add_core_of = AVL
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2198 5083 5216 8185 8254 10960 12917 12919 12965 13083 
+	}
+	manpower=2401920
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

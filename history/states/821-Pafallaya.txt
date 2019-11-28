@@ -1,0 +1,28 @@
+state={
+	id=821
+	name="STATE_PAFALLAYA"
+	
+	resources = {
+		steel = 12
+	}
+	
+	history={
+		owner = SEC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+		}
+		add_core_of = SEC
+		victory_points = {
+			12735 2
+		}
+	}
+	
+	provinces={
+		1587 5059 10192 12735 12803 
+	}
+	manpower=1208230
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

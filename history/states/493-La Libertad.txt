@@ -1,0 +1,24 @@
+
+state={
+	id=493
+	name="STATE_493"
+	resources={
+		oil=5.000
+	}
+
+	history={
+		owner = PAN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PAN
+
+	}
+
+	provinces={
+		4969 10494 12872 
+	}
+	manpower=72080
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

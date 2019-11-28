@@ -1,0 +1,30 @@
+
+state={
+	id=500
+	name="STATE_AFON_D_IANEIR" # Afon d'Ianeir
+	manpower = 1440800
+	
+	state_category = city
+	
+	history={
+		owner = BRZ
+		add_core_of = BRZ
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			air_base = 3
+			10980 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			10980 10 # Afon d'Ianeir
+		}
+	}
+
+	provinces={
+		5172 8190 10980 12996 
+	}
+}

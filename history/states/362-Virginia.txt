@@ -1,0 +1,28 @@
+
+state={
+	id=362
+	name="STATE_362"
+	
+	resources={
+		steel = 16
+	}
+
+	history={
+		owner = MIS
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			dockyard = 4
+			air_base = 4
+			fuel_silo = 1
+		}
+		add_core_of = MIS
+	}
+
+	provinces={
+		801 865 873 951 3823 3917 3941 3975 4627 6846 6850 6958 6971 7466 7588 7646 9923 10343 10441 11873 11888 
+	}
+	manpower=4151054
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

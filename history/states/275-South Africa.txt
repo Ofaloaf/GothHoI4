@@ -1,28 +1,28 @@
 
 state={
 	id=275
-	name="STATE_275" # Transvaal
+	name="STATE_GARIEP" # Transvaal/Gariep
 	manpower = 3680363
 	
-	state_category = city
+	state_category = town
 	
 	resources={
-		steel=5 # was: 8
-		chromium=53 # was: 80
+		steel=5
+		chromium=40
 	}
 
 	history={
-		owner = SAF
+		owner = ZBZ
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
+			industrial_complex = 1
+			air_base = 1
 		}
 		victory_points = {
-			10400 10
+			10400 5 # Tref Gariep
 		}
-		add_core_of = SAF
+		add_core_of = ZBZ
 	}
 
 	provinces={

@@ -235,6 +235,66 @@ MDV = {
 	color_ui = rgb { 203 234 26 }
 }
 
+WAL = {
+	color = rgb { 161 126 128 }
+	color_ui = rgb { 161 126 128 }
+}
+
+OST = {
+	color = rgb { 182 134 100 }
+	color_ui = rgb { 182 134 100 }
+}
+
+BRZ = {
+	color = rgb { 129 177 125 }
+	color_ui = rgb { 129 177 125 }
+}
+
+BSP = {
+	color = rgb { 119 159 114 }
+	color_ui = rgb { 119 159 114 }
+}
+
+SEC = {
+	color = rgb { 151 143 119  }
+	color_ui = rgb { 151 143 119  }
+}
+
+PEU = {
+	color = rgb { 97 132 146 }
+	color_ui = rgb { 97 132 146 }
+}
+
+MIS = {
+	color = rgb { 226 154 3 }
+	color_ui = rgb { 226 154 3 }
+}
+
+ZBZ = {
+	color = rgb { 90 113 70 }
+	color_ui = rgb { 90 113 70 }
+}
+
+DZH = {
+	color = rgb { 165 253 254 }
+	color_ui = rgb { 165 253 254 }
+}
+
+TNK = {
+	color = rgb { 82 150 150 }
+	color_ui = rgb { 82 150 150 }
+}
+
+MAN = {
+	color = rgb { 165  132  57 }
+	color_ui = rgb { 165  132  57 }
+}
+
+KOR = {
+	color = rgb { 157  144  97 }
+	color_ui = rgb { 157  144  97 }	
+}
+
 ###############
 ### VANILLA ###
 ###############
@@ -663,10 +723,7 @@ BLR = {
 	color = rgb { 180 220 190 }
 	color_ui = rgb { 180 220 190 }
 }
-MAN = {
-	color = rgb { 255 120 71 }
-	color_ui = rgb { 255 120 71 }
-}
+
 ANG = {
 	color = rgb { 37 140 61 }
 	color_ui = rgb { 37 140 61 }
@@ -704,10 +761,7 @@ DDR = {
     color = rgb { 120 150 80 }
     color_ui = rgb { 150 180 120 }
 }
-KOR = {
-	color = rgb { 255  240  195 }
-	color_ui = rgb { 255 248 229 }	
-}
+
 ISR = {
 	color = rgb { 152  130  191 }
 	color_ui = rgb { 152  130  191 }

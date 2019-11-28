@@ -8,19 +8,19 @@ state={
 	}
 
 	history={
-		owner = BRA
+		owner = BRZ
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = BRA
+		add_core_of = BRZ
 
 	}
 
 	provinces={
 		5165 8203 10973 
 	}
-	manpower=45900
+	manpower=22880
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

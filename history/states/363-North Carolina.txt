@@ -1,0 +1,32 @@
+
+state={
+	id=363
+	name="STATE_363"
+
+	history={
+		owner = MIS
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			air_base = 3
+			788 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = MIS
+		victory_points = {
+			788 5
+		}
+		victory_points = {
+			10412 12 
+		}
+	}
+
+	provinces={
+		788 1077 1506 3925 4168 6943 7045 7558 9779 9876 9931 10081 10412 10439 11738 11783 11841 12445 
+	}
+	manpower=3170274
+	buildings_max_level_factor=1.000
+	state_category=city
+}

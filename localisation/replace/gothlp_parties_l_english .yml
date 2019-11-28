@@ -11,6 +11,13 @@
  AVL_neutrality_party:0 "Party Newdinal"
  AVL_neutrality_party_long:0 "Party Newdinal"
  #
+ DZH_democratic_party:0 "Reformist Democrats"
+ DZH_democratic_party_long:0 "Reformist Democrats"
+ DZH_fascism_party:0 "Reformist Nationalists"
+ DZH_fascism_party_long:0 "Reformist Nationalists"
+ DZH_neutrality_party:0 "Imperial Clique"
+ DZH_neutrality_party_long:0 "Imperial Clique"
+ #
  FRK_communism_party:0 "Anarchisten"
  FRK_communism_party_long:0 "Anarchistische Congres"
  FRK_democratic_party:0 "Radicale Partij"

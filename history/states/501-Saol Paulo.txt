@@ -1,0 +1,39 @@
+
+state={
+	id=501
+	name="STATE_LLO_PARIKWERA" # Llo Parikwera. "Parikwera" is the Tupi word for "dam", so the state is "The Dams".
+	manpower = 1908040
+	state_category = large_city
+	
+	resources = {
+		oil=18
+		rubber=10
+	}
+
+	history={
+		owner = BRZ
+		add_core_of = BRZ
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 1
+			infrastructure = 6
+			5112 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			7553 15 # Castr Busc
+		}		
+		victory_points = {
+			10513 10 # Saeth Pawl
+		}
+		victory_points = {
+			5112 1
+		}
+	}
+
+	provinces={
+		1583 5186 7636 10513 10947 10994 11003 11008 12937 12972 10432 5112 5167 7553
+	}
+}

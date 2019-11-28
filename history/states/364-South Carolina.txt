@@ -1,0 +1,37 @@
+
+state={
+	id=364
+	name="STATE_SANTEE"
+	
+	resources={
+		steel = 5
+	}
+
+	history={
+		owner = SEC
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			dockyard = 1
+			7202 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = SEC
+		victory_points = {
+			7138 1 # Peytris
+		}
+		victory_points = {
+			7202 3 # Ciutadèla
+		}
+
+	}
+
+	provinces={
+		1019 1132 1163 1485 1547 3994 4491 4653 7012 7083 7134 7138 7202 7527 7643 9967 10029 10047 10051 10096 10468 10495 11927 12054 
+	}
+	manpower=7960000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

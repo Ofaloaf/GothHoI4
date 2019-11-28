@@ -1,0 +1,26 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 47341
+
+	state_category = rural
+
+	history={
+		owner = AVL
+		add_core_of = AVL
+		buildings = {
+			infrastructure = 2
+			12885 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12885 1 
+		}
+	}
+
+	provinces={
+		4934 12885 
+	}
+}

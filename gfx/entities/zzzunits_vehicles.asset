@@ -55,3 +55,56 @@ entity = {
 		attach = { 	name = "infantry"			infantry = "generic_western_vehicle_infantry_rifle_entity" }
 	}
 	
+	entity = {
+		name = "GTH_helicopter_infantry_entity"
+		pdxmesh = "HELI_INF_frame_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		scale = 1.0
+		
+		attach = { 	name = "vehicle"			vehicle = "HELI_GER_INFHELI_1_Drache_entity" }
+		attach = { 	name = "infantry"			infantry = "GTH_vehicle_infantry_rifle_entity" }
+	}
+
+	entity = {
+		name = "DZH_helicopter_infantry_entity"
+		pdxmesh = "HELI_INF_frame_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		scale = 1.0
+		
+		attach = { 	name = "vehicle"			vehicle = "HELI_GER_INFHELI_1_Drache_entity" }
+		attach = { 	name = "infantry"			infantry = "XSM_vehicle_infantry_rifle_entity" }
+	}
+
+	entity = {
+		name = "JAP_helicopter_infantry_entity"
+		pdxmesh = "HELI_INF_frame_mesh"
+		
+		state = { name = "idle"				animation = "idle" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		state = { name = "retreat"			animation = "move" 	 				animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "training"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "death"			animation = "idle" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "support_attack"	animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "attack"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "defend"			animation = "attack" 					animation_blend_time = 0.3 animation_speed = 1.0 }
+		state = { name = "move"				animation = "move" 					animation_blend_time = 0.0 animation_speed = 1.0 }
+		scale = 1.0
+		
+		attach = { 	name = "vehicle"			vehicle = "HELI_GER_INFHELI_1_Drache_entity" }
+		attach = { 	name = "infantry"			infantry = "JAP_vehicle_infantry_rifle_entity" }
+	}

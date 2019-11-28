@@ -1,0 +1,36 @@
+
+state={
+	id=496
+	name="STATE_LLO_MUINEIR_GENERAL"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = BRZ
+		victory_points = {
+			7476 3 
+		}
+		victory_points = {
+			10999 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			10999 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BRZ
+
+	}
+
+	provinces={
+		2153 2167 2185 4570 7476 7589 8148 8196 8210 8226 10360 10931 10945 10999 12334 12438 12479 12909 12938 12977 
+	}
+	manpower=1272240
+	buildings_max_level_factor=1.000
+	state_category=town
+}

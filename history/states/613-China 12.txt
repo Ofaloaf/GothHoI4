@@ -1,0 +1,37 @@
+
+state={
+	id=613
+	name="STATE_SUZHOU" # SUZHOU
+	manpower = 17305100
+	
+	state_category = large_city
+	
+	history={
+		owner = DZH
+		add_core_of = DZH
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 3
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = {
+			11913 5 
+		}
+		victory_points = {
+			7014 3
+		}
+		victory_points = {
+			10076 20 # Suzhou
+		}
+	}
+
+	provinces={
+		996 1089 4091 7014 7120 10034 10076 11913 11928 11982 12052 12076 13142 
+	}
+}

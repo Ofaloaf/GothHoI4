@@ -6,7 +6,7 @@ state={
 	name="STATE_SHONA"
 
 	history={
-		owner = GBI
+		owner = ZBZ
 		buildings = {
 			infrastructure = 3
 
@@ -14,7 +14,7 @@ state={
 		victory_points = {
 			10929 1 
 		}
-		#add_core_of = SOA
+		add_core_of = ZBZ
 	}
 
 	provinces={

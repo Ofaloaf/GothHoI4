@@ -1,0 +1,22 @@
+
+state={
+	id=280
+	name="STATE_MATH_GROS"
+
+	history={
+		owner = AVL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = AVL
+
+	}
+
+	provinces={
+		2142 2147 8175 10982 11010 12939 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

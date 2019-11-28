@@ -1,16 +1,20 @@
 
 state={
 	id=544
-	name="STATE_544" #Mozambique
+	name="STATE_ZAMBESIA" #Mozambique/Zambesia
 	manpower = 4125000
 	
-	state_category = rural
+	state_category = large_town
 	
 	history={
-		owner = GBI
+		owner = ZBZ
+		add_core_of = ZBZ
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			air_base = 1
 			8245 = {
 				naval_base = 1
 			}
@@ -20,6 +24,9 @@ state={
 		}
 		victory_points = {
 			8245 1 
+		}
+		victory_points = {
+			12971 10 # Llo Fon Sein / Quelimane
 		}
 	}
 

@@ -18,6 +18,7 @@ IWD = "countries/Iwerddon.txt"
 LRM = "countries/LatinRomania.txt"
 MCD = "countries/MacedoniaGothLP.txt"
 MDV = "countries/Mordovia.txt"
+OST = "countries/Osterland.txt"
 PCN	= "countries/Pacensis.txt"
 PNN = "countries/Pannonia.txt"
 RIP	= "countries/Ripuaria.txt"
@@ -28,6 +29,7 @@ SPN = "countries/Spania.txt"
 SRB	= "countries/Sorbia.txt"
 THR = "countries/Thrace.txt"
 VBG = "countries/VolgaBulgaria.txt"
+WAL = "countries/Wallachia.txt"
 
 ANT = "countries/Anatolia.txt"
 ARB = "countries/Arabia.txt"
@@ -35,22 +37,30 @@ KOJ = "countries/Jerusalem.txt"
 RUM = "countries/Rum.txt"
 
 # ASIA
+DZH = "countries/Dazhou.txt"
 GJT = "countries/Gujarat.txt"
 SLT = "countries/Selatan.txt"
+TNK = "countries/Tonkin.txt"
 
 # Africa
 BCG = "countries/BritishKongo.txt"
+BSP = "countries/Bonasperantia.txt"
 GUN = "countries/Guinea.txt"
 HAU = "countries/Hausa.txt"
 #MOR	= "countries/Mauretania.txt"
 SOA = "countries/SudOestAfrica.txt"
 TRP	= "countries/Tripoli.txt"
+ZBZ = "countries/BritishZambesia.txt"
 
 # NORTH AMERICA
 ANC		= "countries/Anahuac.txt"
+MIS		= "countries/Missori.txt"
 PEQ		= "countries/Pequot.txt"
+SEC		= "countries/SudEst.txt"
 
 # South America
 AVL		= "countries/Avallonia.txt"
+BRZ		= "countries/Brasil.txt"
 CUA		= "countries/Charrua.txt"
+PEU		= "countries/GothPeru.txt"
 TRT		= "countries/Terarient.txt"

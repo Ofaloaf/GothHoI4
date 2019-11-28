@@ -2,3 +2,13 @@ BCG_BRIT = {
 	color = rgb { 151 88 100 }
 	color_ui = rgb { 151 88 100 }
 }
+
+ZBZ_BRIT = {
+	color = rgb { 105 61 82 }
+	color_ui = rgb { 105 61 82 }
+}
+
+MON_DZH = {
+	color = rgb { 137 197 148 }
+	color_ui = rgb { 137 197 148 }
+}

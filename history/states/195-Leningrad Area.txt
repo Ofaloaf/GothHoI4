@@ -1,29 +1,29 @@
 
 state={
 	id=195
-	name="STATE_195"
+	name="STATE_INGRIA"
 	manpower = 3750158
 	
 	state_category = city
 
 	history={
-		owner = VBG
+		owner = NOR
 		victory_points = {
-			3151 15
+			3151 10
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 6
+			infrastructure = 6
+			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 3
-			air_base = 10
+			air_base = 5
 			3151 ={
-				naval_base = 10
-				coastal_bunker = 5
+				naval_base = 8
+				coastal_bunker = 2
 			}
 		}
-		add_core_of = MDV
-		add_core_of = VBG
+		add_core_of = OST
+		add_core_of = NOR
 	}
 
 	provinces={

@@ -125,6 +125,7 @@ set_popularities = {
 create_faction = "Assembly of Nations"
 add_to_faction = GBI
 add_to_faction = BCG
+add_to_faction = ZBZ
 
 if = {
 	limit = {
@@ -137,8 +138,13 @@ if = {
 		target = BCG
 		autonomous_state = autonomy_integrated_puppet
 	}
+	set_autonomy = {
+		target = ZBZ
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = BCG
+		puppet = ZBZ
 	}
 }
 
