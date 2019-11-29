@@ -1,0 +1,19 @@
+state={
+	id=823
+	name="STATE_TAIRASHIRO"
+
+	history={
+		owner = KAI
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KAI
+	}
+
+	provinces={
+		1862 4607 4736 10422 12134 
+	}
+	manpower=13920
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

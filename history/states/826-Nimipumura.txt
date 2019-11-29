@@ -1,0 +1,21 @@
+state={
+	id=826
+	name="STATE_NIMIPUMURA"
+
+	history={
+		owner = KAI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = KAI
+	}
+
+	provinces={
+		1832 3781 4778 4838 7845 9616 10556 12124 12607 12676 
+	}
+	manpower=34040
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

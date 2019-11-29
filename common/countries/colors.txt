@@ -285,14 +285,24 @@ TNK = {
 	color_ui = rgb { 82 150 150 }
 }
 
-MAN = {
+MAN = { # Manchuria
 	color = rgb { 165  132  57 }
 	color_ui = rgb { 165  132  57 }
 }
 
-KOR = {
+KOR = { # Korea
 	color = rgb { 157  144  97 }
 	color_ui = rgb { 157  144  97 }	
+}
+
+KAI = {
+	color = rgb { 232 153 169 }
+	color_ui = rgb { 232 153 169 }
+}
+
+IBR = {
+	color = rgb { 211 71 24 }
+	color_ui = rgb { 211 71 24 }
 }
 
 ###############
