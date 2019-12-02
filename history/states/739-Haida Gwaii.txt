@@ -1,0 +1,24 @@
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = BNV
+		buildings = {
+			infrastructure = 1
+
+			1869 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = BNV
+	}
+
+	provinces={
+		1869
+	}
+	manpower=40684
+	buildings_max_level_factor=1	
+	state_category="small_island"
+}

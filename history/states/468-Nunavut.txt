@@ -1,0 +1,36 @@
+
+state={
+	id=468
+	name="STATE_HOCHELAGA"
+	resources={
+		aluminium=3.000
+	}
+
+	history={
+		owner = PEQ
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 3
+			12149 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = PEQ
+		victory_points = {
+			4345 20 
+		}
+		victory_points = {
+			12149 3 
+		}
+
+	}
+
+	provinces={
+		4345 4417 7289 7291 7345 9601 10230 10320 12149 
+	}
+	manpower=807880
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -46,8 +46,8 @@ BOY = {
 }
 
 THR = {
-	color = rgb { 149 175 149 }
-	color_ui = rgb { 149 175 149 }
+	color = rgb { 144 165 133 } # 149 175 149 # 138 155 116 #
+	color_ui = rgb { 144 165 133 }
 }
 
 ANT = {
@@ -303,6 +303,16 @@ KAI = {
 IBR = {
 	color = rgb { 211 71 24 }
 	color_ui = rgb { 211 71 24 }
+}
+
+BNV = {
+	color = rgb { 240 167 130 }
+	color_ui = rgb { 240 167 130 }
+}
+
+CND = {
+	color = rgb { 94 117 55 }
+	color_ui = rgb { 94 117 55 }
 }
 
 ###############

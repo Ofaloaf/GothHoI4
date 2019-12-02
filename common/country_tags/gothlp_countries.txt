@@ -55,6 +55,8 @@ ZBZ = "countries/BritishZambesia.txt"
 
 # NORTH AMERICA
 ANC		= "countries/Anahuac.txt"
+BNV		= "countries/Bonaventura.txt"
+CND		= "countries/NorseCanada.txt"
 KAI		= "countries/Kaigai.txt"
 MIS		= "countries/Missori.txt"
 PEQ		= "countries/Pequot.txt"

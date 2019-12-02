@@ -1,0 +1,26 @@
+
+state={
+	id=471
+	name="STATE_471"
+
+	history={
+		owner = BNV
+		buildings = {
+			infrastructure = 2
+			10548 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = BNV
+
+	}
+
+	provinces={
+		1799 1872 3606 4678 5403 7869 7891 10548 12508 12571 
+	}
+	manpower=766360
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

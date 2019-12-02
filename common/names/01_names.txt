@@ -561,7 +561,7 @@ BCG = { # British Kongo
 			Ibibongo Ilunga Ioannes Ieroni Iosep
 			Kamana Kampompo Kamongwa
 			Lutuma Luc Llawreint
-			Mewrig Masini Marc Migangel Merthin MAthew
+			Mewrig Masini Marc Migangel Merthin Mathew
 			Nigol
 			Padrig Pawl Pedr Philip
 			Samuel
@@ -893,5 +893,69 @@ SEC = {
 		Teixidor
 		Uys Ufardgudia
 		Vals Vidal Vidiella
+	}
+}
+
+BNV = {
+	male = {
+		names = {
+			Abraham Abbelino Aaron Adan Adamantius Advocatus Aidio Apariçio Aulus Agricola Agrippa Abel
+			Baltasar Bartholomeus Basilianus Beatus Benedictus
+			Caio Cornelius Calcedenio Crispus
+			Dato Davi Donimentius
+			Egenio Elias Eliseus
+			Facundus Flavius Flazinus Florentius
+			Gercorio Garsia Gaudenzo Generosus Gratus
+			Hector Honestus Honoratus Honorius
+			Iacob Iaquinti Ioab Iohannes Ionas Iustus 
+			Lucius Lazarus Laurenzo Leo Leontius Lopon
+			Marrequino Micael Magnus Manuel Marcello Marchus Mertinus Mateus Maurus Moyses
+			Nigolago
+			Octavianus Octavio
+			Paschasius Pascual Paterno Patre Patricius Pelaio Pero Poncius
+			Quiriacus Quinto
+			Ramulus Reparatus Reverentius Romaeus
+			Spurius Salomon Sancio Saturninus Septimus Servodei Silus Stephanus Symphonio
+			Titus Tiberius Thomas Timotheus
+			Vincemalus Vivenzu Vitus Vitalianus Valerio Verissimus Viator Vicentius Violentius
+			Ysmael
+			Zacaruas
+		}
+	}
+	female = {
+		names = {
+			Anna
+			Gercoria
+			Helaguntia Helisabeth
+			Maria
+			Romana
+			Ulpia
+			Viniola Vita
+		}
+	}
+	surnames = {
+		Aluastre Aano Adeganus Atrianus Aexcorio Agrestius Alsi Aruas Aquete Albus Aculeo Auripelli Avedon
+		Buteo Baleiro Barva Beida Bellarifonsus Bellaronius Belacco Bennatus Bernaldi Berredi Besilio Bitaco Buiso
+		Cixyla Chilcat Caepio Cinna Costa Culleo Cadenio Cardolfus Cegeri Cellala Cequei Centi Ciquilabe Comanco Conantius Conto Culepe Contatus
+		Dento Dorsuo Dedon Desteilli Diado Diazel Dongomiro Dononon Dunumdei Dulquitius
+		Effronio Egas Eikar Elam Eleras Enganisi Engladius Enni Eolalio Erdelelli Evoti Exon Exta Eyvua Ezar Emilianus
+		Fronto Fimbria Fullo Faccoi Fallustius Fangalosi Fare Felosite Fenesteiro Ferrario Ferreniolus Ferriolo Fomanu Fotes Fortes Fromilio Fructu Fulvidio
+		Galeo Glabrio Gaella Gafoi Galiano Galli Gatel Gaton Glacto
+		Harramel Hectus Holovio Horlonio Hornatus Hordonius
+		Ilchac Iunei Iatereus Iausar Ilianus Iotte Ipanne Iretius Iunait Iuneli Iurisius Iunnimius Iuvenes
+		Kanni Kareixo Karidoso Katon Keia Keiron Kellelello Kintinus
+		Lactuca Laenas Lurco Lucense Lalan Lalli Lalon Lelino Lelli Letimius Licidus Ligo Liliola Lillo Liuliani Liverto Lollo Lozepe Lucado Lucito Locrizo Lunes Lusidio Lutido Luzo
+		Macula Maro Merula Messalla Murena Malasco Mancius Marecco Mariolus Marso Maderno Mauni Maurecatellus Maurgado Moureton Maurenzo MauricellusMauriliz Menitius Minio Meotellius Mercolino Misinus Midon Moino Moldomi Moviga Muscani Muzuri
+		Maiorellus Naet Natal Neni Nelectus Nezero Ninui Numitius
+		Ocella Ozarius Olo Orbanus Orinoleo Orosius Osevio Osormeo Ovinius
+		Pavo Pera Piso Pabregildus Palatinus Palli Palmacius Pantaleus Parente Penti Petrunius Pexpi Pilotti Pinna Pinniolo Pintinus Placinus Polemius Pomedius Ponpilo Porcilianus Porfirius Posedonius Postonio Potenzus Precarius Preconius Presio Proamius Provicio Pruentus Puricello
+		Quintilabli Quintilanus
+		Reles Ralla Ruga Rafrac Raiolo Rauparius Recellus Renovado Revelius
+		Salinator Scaeva Sura Sabbatus Sabbatinus Saluta Salvadus Sanbandi Samzote Santoius Santon Sardinarius Sarracinus Sarranio Savinus Scemoso Segundinus Semeson Sempronio Serana Sereniano Sereno Sernuri Sero Servandus Solimius Soribonus Spendellus Sunze Superus
+		Tagius Tardenatus Teron Teiro Teorenius Teretianus Thurmaleobo Timimi Timinus Tiyon Todosio Toranzus Totodens Toutellus Teygoy Toutonius Tusto
+		Visclamundus Vimam Varro Verres Vela Velascus Velidi Venatori Venerandus Venero Vistriz Vivianus 
+		Wistuitus
+		Yspanni Yuame
+		Zamarius Zano Zuracco Zasio Zegioi Zieri Zili Zerno Zaalon Zallico Zasio Zumei
 	}
 }
