@@ -1,13 +1,16 @@
 
 state={
 	id=331
-	name="STATE_331"
-	manpower = 255060
+	name="STATE_VINLAND"
+	manpower = 421880
 	
 	state_category = rural
 
 	history={
 		owner = NOR
+		victory_points = {
+			12698 1 # Leifsbudir
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

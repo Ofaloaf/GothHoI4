@@ -2,14 +2,17 @@
 state={
 	id=465
 	name="STATE_LISTUGUJ"
-	manpower = 475020
+	manpower = 5152280
 	
 	state_category = town
 
 	history={
 		owner = LRT
 		victory_points = {
-			7379 3 # Fosen
+			7379 2 # Fosen
+		}
+		victory_points = {
+			4285 3 # Moldegard
 		}
 		buildings = {
 			infrastructure = 5
