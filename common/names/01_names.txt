@@ -959,3 +959,79 @@ BNV = {
 		Zamarius Zano Zuracco Zasio Zegioi Zieri Zili Zerno Zaalon Zallico Zasio Zumei
 	}
 }
+
+CND = {
+	male = {
+		names = {
+			Alfred Arnfinn Audun Axel
+			Bjørn
+			Claus
+			Erling Egil
+			Gunnar
+			Hans Harald Helge
+			Jan
+			Knut
+			Leif
+			Magne Mauritz
+			Oddvar Ole
+			Peder
+			Rolf
+			Thorleif
+		}
+	}
+	female = {
+		names = {
+			Berit
+			Grete
+		}
+	}
+	surnames = {
+		Amundsen Anshushaug
+		Bergersen Bendixen Bakken
+		Christoffersen
+		Helling Hayden
+		Kongshaug Klementsen Knudsen "von Krogh" "von Koss"
+		Larsen
+		Nilssen
+		Petersen
+		Svendsen
+	}
+}
+
+LRT = {
+	male = {
+		names = {
+			Alfred Arnfinn Audun Axel
+			Bjørn
+			Claus
+			Erling Egil
+			Gunnar
+			Hans Harald Helge
+			Jan
+			Knut
+			Leif
+			Magne Mauritz
+			Oddvar Ole
+			Peder
+			Rolf
+			Thorleif
+		}
+	}
+	female = {
+		names = {
+			Berit
+			Grete
+		}
+	}
+	surnames = {
+		Amundsen Anshushaug
+		Bergersen Bendixen Bakken
+		Christoffersen
+		Helling Hayden
+		Kongshaug Klementsen Knudsen "von Krogh" "von Koss"
+		Larsen
+		Nilssen
+		Petersen
+		Svendsen
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=465
+	name="STATE_LISTUGUJ"
+	manpower = 475020
+	
+	state_category = town
+
+	history={
+		owner = LRT
+		victory_points = {
+			7379 3 # Fosen
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			4285 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = LRT
+	}
+
+	provinces={
+		634 1424 4285 4342 4362 4432 7379 12289 
+	}
+}

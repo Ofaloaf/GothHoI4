@@ -1,14 +1,14 @@
-﻿capital = 828
+﻿capital = 464
 
 #oob = "SWE_1936"
 
 set_research_slots = 2
 
-add_ideas = {
-	neutrality_idea
-}
+#add_ideas = {
+#	neutrality_idea
+#}
 
-set_stability = 0.9
+set_stability = 0.8
 set_war_support = 0.1
 
 set_technology = {
@@ -59,15 +59,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1922.9.18"
-	election_frequency = 48
+	ruling_party = communism
+	last_election = "1922.7.7"
+	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 47
-	fascism = 19
-	communism = 34
+	communism = 59
+	democratic = 30
+	neutrality = 5
+	fascism = 6
 }
 
 set_convoys = 25
@@ -77,44 +78,44 @@ set_stability = 0.9
 
 
 create_country_leader = {
-	name = "Johan Christiansen"
+	name = "Erling Hol"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "knut_hamsun.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Halvor Kongsjorden"
+	name = "Alfred Syvertsen"
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gunnar Skredegaard"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = fascism_ideology
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Alfred von Koss"
-	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	name = "Sigvard Stokken"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "a_muhlenfeld.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = syndicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Rolf Thorstensen"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
 	traits = {
 		#
 	}
