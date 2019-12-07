@@ -1,3 +1,4 @@
+
 state={
 	id=812
 	name="STATE_HAUSALAND"
@@ -5,7 +6,7 @@ state={
 		rubber=1.000
 		steel=1.000
 	}
-	
+
 	history={
 		owner = HAU
 		add_core_of = HAU
@@ -13,14 +14,16 @@ state={
 			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			1891 3
+			1891 3 
 		}
+
 	}
-	
+
 	provinces={
-		1891 1932 1969 2025 4938 4972 8021 
+		1891 1932 1969 2025 4938 4972 8021 12817 
 	}
 	manpower=5640000
 	buildings_max_level_factor=1.000

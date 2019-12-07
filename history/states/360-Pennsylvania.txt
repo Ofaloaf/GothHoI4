@@ -2,7 +2,7 @@
 state={
 	id=360
 	name="STATE_ALLEGHANIA"
-	manpower = 9631346
+	manpower = 2543320
 	
 	state_category = city
 	

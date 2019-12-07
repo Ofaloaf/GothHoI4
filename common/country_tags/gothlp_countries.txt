@@ -62,6 +62,8 @@ LRT		= "countries/Laurentia.txt"
 MIS		= "countries/Missori.txt"
 PEQ		= "countries/Pequot.txt"
 SEC		= "countries/SudEst.txt"
+TNV		= "countries/Terranova.txt"
+UDN		= "countries/UnionDelNord.txt"
 
 # South America
 AVL		= "countries/Avallonia.txt"

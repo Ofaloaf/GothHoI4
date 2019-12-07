@@ -1,0 +1,38 @@
+
+state={
+	id=286
+	name="STATE_KAMPUCHEA_KROM"
+	resources={
+		rubber=55.000
+	}
+
+	history={
+		owner = CAM
+		add_core_of = CAM
+		victory_points = {
+			4401 3 
+		}
+		victory_points = {
+			1423 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1248 1285 1300 1328 1396 1400 1423 1605 1620 4223 4255 4284 4334 4341 4363 4401 4405 4596 7229 7238 7271 7303 7331 7347 7380 7645 10137 10162 10180 10204 10232 10261 10309 12109 12133 12150 12167 12176 12204 12232 
+	}
+	manpower=1342120
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

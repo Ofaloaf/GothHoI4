@@ -1,0 +1,22 @@
+state={
+	id=832
+	name="STATE_LAMU"
+	
+	history = {
+		owner = MOR
+		add_core_of = KEN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10976 1 
+		}
+	}
+	
+	provinces={
+		6020 10761 10976 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,7 +1,7 @@
 
 state={
 	id=363
-	name="STATE_363"
+	name="STATE_NOVA_ARMORICA"
 
 	history={
 		owner = MIS

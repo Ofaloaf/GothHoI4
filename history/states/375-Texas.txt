@@ -2,22 +2,22 @@
 state={
 	id=375
 	name="STATE_375"
-	manpower = 5824712
+	manpower = 180540
 	
 	
-	state_category = metropolis
+	state_category = large_town
 	
 	resources={
-		oil=220 # was: 580
-		aluminium=50 # was: 96
+		oil=120 # was: 580
+		aluminium=30 # was: 96
 	}
 
 
 	history={
 		owner = ANC
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 9
+			infrastructure = 4
+			industrial_complex = 1
 			air_base = 3
 			10337 = {
 				naval_base = 3
@@ -28,10 +28,10 @@ state={
 		}
 		add_core_of = ANC
 		victory_points = {
-			10337 10
+			10337 5
 		}
 		victory_points = {
-			3960 10 
+			3960 5
 		}
 		victory_points = {
 			12782 1 

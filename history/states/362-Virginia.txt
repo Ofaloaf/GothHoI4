@@ -1,7 +1,7 @@
 
 state={
 	id=362
-	name="STATE_362"
+	name="STATE_LAPPIHANNE"
 	
 	resources={
 		steel = 16
@@ -17,6 +17,9 @@ state={
 			fuel_silo = 1
 		}
 		add_core_of = MIS
+		victory_points = {
+			873 1
+		}
 	}
 
 	provinces={

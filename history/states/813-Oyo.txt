@@ -1,10 +1,10 @@
+
 state={
 	id=813
 	name="STATE_OYO"
 
 	history={
 		owner = GBI
-		#add_core_of = COG
 		victory_points = {
 			2050 1 
 		}
@@ -14,11 +14,13 @@ state={
 				naval_base = 3
 
 			}
+
 		}
+
 	}
-	
+
 	provinces={
-		2050 4952 12731 12817 12900 
+		2050 4952 12731 12900 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

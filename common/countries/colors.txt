@@ -320,6 +320,16 @@ LRT = {
 	color_ui = rgb { 0 101 189 }
 }
 
+TNV = {
+	color = rgb { 130 153 172 }
+	color_ui = rgb { 130 153 172 }
+}
+
+UDN = {
+	color = rgb { 198 197 166 }
+	color_ui = rgb { 198 197 166 }
+}
+
 ###############
 ### VANILLA ###
 ###############

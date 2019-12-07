@@ -1,0 +1,23 @@
+state=
+{
+	id=101
+	name="STATE_THULE"
+	manpower = 312240
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = TNV
+		buildings = {
+			infrastructure = 2
+			12512 ={
+				naval_base = 1
+			}
+		}
+		add_core_of = TNV
+	}
+	provinces={
+		10245 10636 12512 13058 13066
+	}
+}

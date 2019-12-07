@@ -1,0 +1,35 @@
+state={
+	id=829
+	name="STATE_MOSWETUSET"
+	
+	resources={
+		steel=6.000
+	}
+	
+	history = {
+		owner = UDN
+		add_core_of = UDN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+			air_base = 4
+			6732 = {
+				naval_base = 5
+			}
+		}
+		victory_points = {
+			905 10
+		}
+		victory_points = {
+			6732 5
+		}
+	}
+	provinces={
+		715 718 905 908 3710 3906 6732 11830 
+	}
+	manpower=1984680
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}
