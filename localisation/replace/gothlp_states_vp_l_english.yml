@@ -627,6 +627,7 @@
  STATE_NAUVA_AURLIANI: "Nauva Aurliani"
  VICTORY_POINTS_7552: "Naua Aurliani"
  STATE_PIPERIA: "Piperia"
+ VICTORY_POINTS_7959: "Portupipi"
  STATE_SONG_LAM: "Song Lam"
  VICTORY_POINTS_4397: "Vinh"
  STATE_KAMPUCHEA_KROM: "Kampuchea Krom"
@@ -635,3 +636,8 @@
  STATE_LAMU: "Lamu"
  VICTORY_POINTS_10976: "Lamu"
  STATE_ZANJ: "Zanj"
+ VICTORY_POINTS_12127: "Pegu"
+ STATE_KAMPUCHEA: "Kamupchea"
+ STATE_OTARIANA: "Otariana"
+ STATE_YUKON: "Yukon"
+ 

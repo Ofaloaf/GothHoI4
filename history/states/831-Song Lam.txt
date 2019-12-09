@@ -3,8 +3,8 @@ state={
 	name="STATE_SONG_LAM"
 	
 	history={
-		add_core_of = CAM
-		owner = CAM
+		add_core_of = PEG
+		owner = PEG
 		add_core_of = VIN
 		victory_points = {
 			4397 2

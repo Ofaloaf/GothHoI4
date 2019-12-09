@@ -10,7 +10,7 @@ state={
 		owner = FRK
 		add_core_of = FRK
 		victory_points = {
-			391 40 
+			391 30
 		}
 		victory_points = {
 			3211 10 

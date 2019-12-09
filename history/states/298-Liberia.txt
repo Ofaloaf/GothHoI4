@@ -20,7 +20,7 @@ state=
 			}
 		}
 		victory_points = {
-			7959 3
+			7959 3 # Portu Pipi
 		}
 		add_core_of = SIE
 	}

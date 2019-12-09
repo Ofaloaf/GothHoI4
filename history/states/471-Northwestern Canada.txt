@@ -1,7 +1,7 @@
 
 state={
 	id=471
-	name="STATE_471"
+	name="STATE_YUKON"
 
 	history={
 		owner = BNV

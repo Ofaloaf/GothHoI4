@@ -1,11 +1,12 @@
 
 state={
 	id=741
-	name="STATE_741"
+	name="STATE_KAMPUCHEA"
 
 	history={
 		add_core_of = CAM
-		owner = FRA
+		owner = PEG
+		add_core_of = PEG
 		victory_points = {
 			7376 1 
 		}

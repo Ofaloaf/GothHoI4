@@ -5,6 +5,7 @@ state={
 	history = {
 		owner = MOR
 		add_core_of = KEN
+		add_core_of = SOM
 		buildings = {
 			infrastructure = 3
 		}

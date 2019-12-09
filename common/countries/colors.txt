@@ -330,6 +330,16 @@ UDN = {
 	color_ui = rgb { 198 197 166 }
 }
 
+PEG = {
+	color = rgb { 140 210 160 }
+	color_ui = rgb { 140 210 160 }
+}
+
+MBA = {
+	color = rgb { 169 54 54 }
+	color_ui = rgb { 169 54 54 }
+}
+
 ###############
 ### VANILLA ###
 ###############
