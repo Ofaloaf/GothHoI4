@@ -1,7 +1,7 @@
 ﻿capital = 498
 
 
-#oob = "BRA_1936"
+oob = "0_AVL"
 
 # Starting tech
 set_technology = {
@@ -75,11 +75,21 @@ create_country_leader = {
 
 set_convoys = 40
 
+create_field_marshal = {
+	name = "Costenhin Odon"
+	picture = "Davis_Brainard.dds"
+	traits = { }
+	skill = 4
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 4
+    logistics_skill = 3
+}
 
 create_corps_commander = {
 	name = "Ysteffan Durow"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
-	traits = { ranger  }
+	picture = "e_a_helmick.dds"
+	traits = { ranger }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 3
@@ -89,7 +99,6 @@ create_corps_commander = {
 
 # Gioffri Saeson
 # Aleisandr Gweith
-# Costenhin Odon
 # Tewddur Cantur
 # Merddin Allt
 # Rhoberth Tewdosiog
