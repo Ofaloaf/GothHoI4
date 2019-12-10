@@ -421,13 +421,13 @@ GBI = {
 		Cyfeiliog Cothi Ceint Casnodyn Coetmor Ceri Cab Cabw Canyd Car Cel Clig Cybidd Cynsie Coilus
 		Drwyndwn Ddu Dui Dyfi Dere Dysbellur
 		Eryi
-		Frychan Flaidd Fras Fardd Ffol Foel ffeil Ffeirth Ferreir Ffurneir
+		Frychan Flaidd Fras Fardd Ffol Foel Ffeil Ffeirth Ferreir Ffurneir
 		Griffith Gwened Glas Gwrgan Gwerthrynion Gŵr Goch Gryg Gwynhagr Gorlech Gethin Glyn Glyndŵr Gadarn Gwynoro Glythun Gran Gras Gris Gwefer Gwenadur Gwithur
 		Hir Hewlin Harri
 		Ifan Iewen
 		Llaety Llygad Leiaf Llwyd Lingo Lladda Llefan Llewein Llîneir Llewel Lloneir Lollt
 		Mechain Magr Meddig Mendes Molineir Morgan Muin
-		Nanmor Nesc Nîr Noc Nepos
+		Nanmor Nesc Nîr Noc Nepos Nen
 		Offeiriad Ostur
 		Penllyn Pascen Pengras Penrhys Pereirin Prefder Puin
 		Rhyfel Rhedun Rhoch Rhui Rhys

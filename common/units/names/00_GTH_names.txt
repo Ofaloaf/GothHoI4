@@ -37,30 +37,35 @@
 		prefix = ""
 		generic = { "Crosaire Leugièr" } #
 		unique = {
+			Amalhac "Goffarius Pictus" Molineia Vichei París
 		}
 	}
 	heavy_cruiser = {
 		prefix = ""
 		generic = { "Crosaire" } # 'Cruiser'
 		unique = {
+			Liyunés Arletés Thifalha Digumés Argintoradés Provinça 
 		}
 	}
 	battle_cruiser = {
 		prefix = ""
 		generic = { "Crosaire de Batalha" } #
 		unique = {
+			Aquitania Novempopulania Guasconia Armorica Belgica Atlas
 		}
 	}
 	battleship = {
 		prefix = ""
 		generic = { "Cuirassat" } # 
 		unique = {
+			Revolució "Pèitre-Josép Prudhon" Liberador Ispartac Gàllia Italia
 		}
 	}	
 	carrier = {
 		prefix = ""
 		generic = { "Pòrta-Avions" } #
 		unique = {
+			Arquimèdes
 		}
 	}
 }
