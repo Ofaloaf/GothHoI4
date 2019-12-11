@@ -66,7 +66,7 @@ create_country_leader = {
 	desc = "POLITICS_AVL_TOMOS_LLINEIR_DESC"
 	picture = "Domicio_da_Gama.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = radicalism
 	traits = {
 		#
 	}
@@ -97,13 +97,23 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Hyw Yds"
+	picture = "j_m_petty.dds"
+	traits = { cavalry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 # Gioffri Saeson
 # Aleisandr Gweith
 # Tewddur Cantur
 # Merddin Allt
 # Rhoberth Tewdosiog
 # Padrig Dyflin
-# Hyw Yds
 # Ystin Dubr
 
 create_navy_leader = {
