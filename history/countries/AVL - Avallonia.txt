@@ -108,9 +108,29 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-# Gioffri Saeson
+create_corps_commander = {
+	name = "Gioffri Saeson"
+	picture = "white_house_visitor.dds"
+	traits = { career_officer brilliant_strategist }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tewddur Cantur"
+	picture = "johnson_hagood.dds"
+	traits = { infantry_officer }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
 # Aleisandr Gweith
-# Tewddur Cantur
 # Merddin Allt
 # Rhoberth Tewdosiog
 # Padrig Dyflin

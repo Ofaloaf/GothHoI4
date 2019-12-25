@@ -15,7 +15,7 @@ state=
 			3585 3
 		}
 		victory_points = {
-			11401 3
+			469 3
 		}
 		owner = SRB
 		buildings = {

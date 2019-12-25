@@ -1,6 +1,6 @@
 state= {
 	id=120
-	name="STATE_120"
+	name="STATE_INBHIRYS"
 	manpower = 265873
 	
 	state_category = rural
@@ -15,6 +15,7 @@ state= {
 		add_core_of = CLD
 		owner = GBI
 		victory_points = { 11064 1 }
+		victory_points = { 9075 2 }
 		buildings = {
 			infrastructure = 4
 			anti_air_building = 2
