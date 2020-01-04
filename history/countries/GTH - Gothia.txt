@@ -1,9 +1,12 @@
 ﻿capital = 20
 
 oob = "0_GTH"
-#if = {
-#	limit = { has_dlc = "Man the Guns" }
-#		set_naval_oob = "FRA_1936_naval_mtg"
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_naval_oob = "0_GTH_naval_mtg"
+}
 #	else = {
 #		set_naval_oob = "FRA_1936_naval_legacy"
 #	}
@@ -29,6 +32,8 @@ set_technology = {
 	early_bomber = 1
 	tactical_bomber1 = 1
 	CAS1 = 1
+	cv_early_fighter = 1
+	cv_naval_bomber1 = 1
 	early_airship = 1
 	trench_warfare = 1
 	fleet_in_being = 1
@@ -438,17 +443,299 @@ create_navy_leader = {
 	coordination_skill = 3
 }
 
-# 
+#create_navy_leader = {
+#	name = "Pol Chalretona"
+#	picture = "gothic_navy_05.dds"
+#	traits = { civilian_captain }
+#	skill = 1
+#	attack_skill = 1
+#	defense_skill = 1
+#	maneuvering_skill = 2
+#	coordination_skill = 1
+#}
+
 create_navy_leader = {
-	name = "Pol Chalretona"
-	picture = "gothic_navy_05.dds"
+	name = "Laurènç Belon"
+	picture = "gothic_navy_06.dds"
+	traits = { seawolf }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Quintil Sabateyr"
+	picture = "gothic_navy_07.dds"
 	traits = { civilian_captain }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	maneuvering_skill = 2
-	coordination_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
 }
 
-# Belon
-# Sabateyr
+if = {
+	limit = { has_dlc = "Man the Guns"}
+	### Carrier
+	create_equipment_variant = {			#
+		name = "Espirit Roge Class"
+		type = ship_hull_carrier_conversion_bb
+		name_group = GTH_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_deck_slot_1 = ship_deck_space
+			fixed_ship_deck_slot_2 = ship_deck_space
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	# Battleship
+	create_equipment_variant = {
+		name = "Galaxia Class"
+		type = ship_hull_heavy_1
+		name_group = GTH_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	### Heavy Cruiser Variants	
+	create_equipment_variant = {
+		name = "Liyunés Class"
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = GTH_REGIONS
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Victòria Class"
+		type = ship_hull_cruiser_1
+		name_group = GTH_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_medium_battery_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_anti_air_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Tolosan Class"
+		type = ship_hull_cruiser_1
+		name_group = GTH_REGIONS
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_medium_battery_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_anti_air_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Gloria Class"
+		type = ship_hull_cruiser_1
+		name_group = GTH_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_medium_battery_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_anti_air_1
+		}
+	}
+	### Light Cruiser Variants	
+	create_equipment_variant = {
+		name = "Vigilança Class"
+		type = ship_hull_cruiser_1
+		name_group = GTH_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Licgier Class"
+		type = ship_hull_cruiser_2
+		name_group = GTH_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = empty
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_1
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+
+	### Light Cruiser Variants	
+	create_equipment_variant = {
+		name = "Narbona Class"
+		type = ship_hull_cruiser_2
+		name_group = GTH_CITIES
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = ship_anti_air_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_airplane_launcher_2
+			rear_1_custom_slot = ship_light_medium_battery_2
+		}
+	}
+	### Destroyer Variants
+	create_equipment_variant = {
+		name = "Decisiu Class" 	
+		type = ship_hull_light_1
+		name_group = GTH_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Creatura Class" 		
+		type = ship_hull_light_1
+		name_group = GTH_DE_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Òme Universal Class"
+		type = ship_hull_heavy_2
+		name_group = GTH_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			fixed_ship_armor_slot = ship_armor_bb_2
+			front_1_custom_slot = ship_anti_air_1
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_airplane_launcher_2
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	### Submarine Variants
+	create_equipment_variant = {
+		name = "Seria JM-30"
+		type = ship_hull_submarine_1
+		name_group = GTH_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Seria JM-40"
+		type = ship_hull_submarine_2
+		name_group = GTH_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Seria JM-50"
+		type = ship_hull_submarine_2
+		name_group = GTH_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+}

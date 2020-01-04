@@ -15,7 +15,7 @@ GTH = {
 			Clamenç Caraules Cunstantin
 			Ebles Ermengau Evaric Ervige Eraric Estilicó Esclua
 			Filip Froila Flaurènç Flaín Frodoí Frederi Faluax
-			Garçi Gausbert Gilbèrt Godesteo Guntrodo Gudafres Guillemó Gabrieù Guidéric Guidimir Gomé Gauteric Gonçalo Gundisalf
+			Garçi Gausbert Gilbèrt Godesteo Gudafres Guillemó Gabrieù Guidéric Guidimir Gomé Gauteric Gonçalo Gundisalf Guitarit
 			Irmanric Ildebad Immanuèl Istève
 			Jehan Jorge Juli Josèp Jaufret Joël
 			Laurènç Liun Lozoïc Lup Lucàs Laülf Leuberic Lixandre
@@ -36,10 +36,10 @@ GTH = {
 		names = {
 			Aïna Amalasunda Alissia
 			Bòna 
-			Dulça
+			Dulça Dionysia
 			Froiloba
 			Loïsa
-			Maria
+			Maria Mariam
 			Peironèla Puelle
 			Terèsa Tiudora
 			Urraca Ursa
@@ -72,7 +72,7 @@ GTH = {
 		"de Warcia"
 		"d'Ycon"
 	}
-	callsigns = { "The Vandal" "The Scourge" "The Hun" "Nomad" "Half-Cocked" "Savage" "The Barbarian" }
+	callsigns = { "The Vandal" "The Scourge" "Foreman" "The Hun" "Nomad" "Half-Cocked" "Savage" "The Barbarian" "Red-Hot" }
 }
 
 FRK = {
@@ -1033,5 +1033,42 @@ LRT = {
 		Nilssen
 		Petersen
 		Svendsen
+	}
+}
+
+PCN = {
+	male = {
+		names = {
+			Alexius Atanasius Anastasius Alexander Anacletus Achilles Agricola Auriolus Adam Almacius Afriganus Amorolino Anfelagio
+			Bonifacius Benedictus Bonosus Bonaventura Barva Besilio Bianus Bitaco Belacco
+			Constans Caesarius Comentiolus Calvinus Calcedonio Centullus Constanzo Conparato Cornelius
+			Donatus Davi Deiservo Didago Domno Donumdei Dadeo
+			Egenio Egidius Ennegus Envolatus Effronio Exemeno
+			Facundus Fenesteiro Ferrario Ferriolo Ferrocinto Ferronio Fidelis Fulvidio Fructux Flavius
+			Gercorio Giorcio Genialis Galiano Gaudenzo
+			Hercules Honoratus Honorius
+			Innocentius Iacob Iaquinti Ilians Iohannis Iunas Ioab Iosidio Iuvenes Iose
+			Julius Justus Justinianus
+			Lucus Lucius Lucianus Leo Lalan Lopon Luzo
+			Marchus Marius Matthaeus Modestus Mertinus Martialis Marculus Micael Maurecatellus
+			Nigolago
+			Paulus Petrus Patricius Pius
+			Quintus Quodvultdeus Quiriacus
+			Ramulus Romaeus Remigius Renatus Romanus Revelius Renovado
+			Symmachus Stephanus Simplicius Symphorianus Symphonio Sancio Salvator Sexto Samuhel Servatus Servodeo Silus Silvanus
+			Timotheus Thomas Theodoro Theodosius Theophilo Theodosiolus Toutellus
+			Valentinus Valerianus Valerius Vincentius Vivenzu
+			Zeno Zephyrinus Zacarias Zarraco
+		}
+	}
+	female = {
+		names = {
+			Fides
+			Lucia Livia
+			Romula
+		}
+	}
+	surnames = {
+		Caepio
 	}
 }

@@ -44,6 +44,8 @@ PEG	= "countries/Pegu.txt"
 SLT = "countries/Selatan.txt"
 TNK = "countries/Tonkin.txt"
 
+HWI = "countries/Hawaii.txt"
+
 # Africa
 BCG = "countries/BritishKongo.txt"
 BSP = "countries/Bonasperantia.txt"

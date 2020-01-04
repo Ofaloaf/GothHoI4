@@ -11,8 +11,8 @@ GTH_DD_HISTORICAL = {
 	fallback_name = "%d Destroièr"					
 
 	unique = {											
-		Decisiu Exemplar Sevèr Austèr Coratge Agil Abelit Vitament Desgordit Rapid Adrech Guarda Divertida Gloriosa Modèrna Prudent
-		Excellent Atronador Perfecte Ferm Pregunta Intrèpid Tenaç Inspirador Inquiet Abjuracion Reflexiu Considerat 
+		Decisiu Exemplar Sevèr Austèr Coratge Agil Abelit Vitament Desgordit Dionís Rapid Adrech Guarda Divertida Gloriosa Modèrna Prudent
+		Excellent Atronador Perfecte Ferm Pregunta Intrèpid Tenaç Inspirador Inquiet Abjuracion Reflexiu Considerat Aristòtel Eòl Arcadia
 	}
 }
 
@@ -28,7 +28,7 @@ GTH_DE_HISTORICAL = {
 	fallback_name = "%d Leugièr Destroièr"					
 
 	unique = {											
-		Creatura Iscòrpi Rangièr Pantèra Guèine Amazon Aurora Dalfin Lop Arquet Ligombau
+		Creatura Iscòrpi Rangièr Pantèra Guèine Amazon Aurora Dalfin Lop Arquet Ligombau Rainal Aranha Grilh Rinocèros Angròla Cernalha Crocodil Antílop Zèbre Estrutz Vermilingua
 	}
 }
 
@@ -46,7 +46,7 @@ GTH_CL_HISTORICAL = {
 	unique = {
 		Vigilança Salvatge Feroç Inteligent Làmia India Hippodamia Pericles Astut Coratjós Seren Virtuós Valent Amistat Harmoniosa Valorós
 		Fervorós Ardent Zelós Apassionat Immutable Tempestuósa Violent Brutal Sorprenent Campion Defensor Jangolhar Cavalgada Entendent
-		Phoebe Sundila Ausonia Senatus Auzelhon Ferris Devedar Procelana
+		Phoebe Sundila Ausonia Senatus Auzelhon Ferris Devedar Procelana Gralhon Aquilles Asclèpi Tesèu Jason Aristèu Acteon
 	}
 }
 
@@ -62,7 +62,7 @@ GTH_CA_HISTORICAL = {
 	fallback_name = "%d Crosaire"
 
 	unique = {
-		Gloria Victòria Terrible Ors Centaure Faraon Increïble Nova Tigre Teia Saphrax Cranc Balena Tritó 
+		Victòria Gloria Apollon Terrible Ors Centaure Persèu Faraon Eracles Increïble Nova Tigre Teia Calliòp Saphrax Cranc Balena Tritó Orfèu Quiron
 	}
 }
 
@@ -96,7 +96,7 @@ GTH_BB_HISTORICAL = {
 	fallback_name = "%d Cuirassat"		
 
 	unique = {
-       Revolució Libertat Egalitat Fraternitat Patria Germanicus Sindicat Union Congrés Comuna Vithimiris Atlas Hyperion
+       Revolució Libertat Egalitat Fraternitat Patria Germanicus Prudhon Marx Sindicat Union Congrés Comuna Vithimiris Atlas Iperion Ajax Ulisses Elysium
 	}
 }
 
@@ -112,7 +112,7 @@ GTH_BC_HISTORICAL = {
 	fallback_name = "%d Crosaire de Batalha"		
 
 	unique = {
-		Posidó Atenas Phyrne Quimera Mercuri Infern Vulcan Hephaestus
+		Posidó Atenas Phyrne Quimera Mercuri Infern Vulcan Hephaestus Persefòna
 	}
 }
 
@@ -128,7 +128,7 @@ GTH_CV_HISTORICAL = {
 	fallback_name = "%d Pòrta-Avions"	
 
 	unique = {
-		Galatea Paphus Metharme Cínires Dedal Orio Artèmis Atalanta "Paris Lixandre" Teucre Fènix Menelau Àiax Antènor Menesteu 
+		Galatea Prometèu Paphus Metharme Cínires Dedal Orio Artèmis Atalanta "Paris Lixandre" Teucre Fènix Menelau Àiax Antènor Menesteu 
 		Pegàs Aigla Moisset Vèspa Drac
 	}
 }
@@ -182,7 +182,22 @@ GTH_REGIONS = {
 
 	unique = {
 		Liyunés Digumés Rodumnés Provença Aurlianés Armorica Belgica Aquitània Lemosin Inculisma Burdelhés Theiphalia Helvetia Alpes
-		Athrebatés Anjau Nivernés Beneharnum Pertica Picardia Viromandés Amianés Santonica Bituric Arvernia Alnés Arduenna Coloniensis
-		Treveri Argintoradés Walachra Toxandria Ripensis Trïassés Bracbantés Alencione
+		Athrebatés Anjau Nivernés Beneharnum Pertica Picardia Viromandés Amianés Santonica Bituric Arvernia Alnés Arduenna Coloniensis Aubrac
+		Treverés Argintoradés Walachra Toxandria Ripensis Trïassés Bracbantés Alencione Aubrac Artensa Vaudaina Rumanés Marjarida Velai
+		Limarga Faurés Blaiés Medoc Landés Nontronés Agenés Vasadés Rodanés Boriana Albret Armanhac Savés Astarac Senhans Marensin Castrés
+		Montalbanés Frontonés Lomanha Manhoac Fesensac Eusan Caunés Espinosa Cabardés Volvèstre Lodevés Santafrican Segalar Tèrrafort
+	}
+}
+
+GTH_CITIES = {
+	name = NAME_THEME_CITY
+	
+	for_Countries = { GTH }
+	
+	type = ship
+	
+	unique = {
+		Liyun Digum Tolosa Rodumno Treveri Burdelh Marselha Narbona Bresta "La Rocella" Nemausus Dieppa Constantina Casleto Caleeis Paris Graignovol Brujas Aquisgran Traiecto Andoverpis
+		Eindovia Camorac Insulano Brussèlas Namntas CAstelraolh Vichèi Arvernis Besontion Nanceia Sarabrei Rhemus Sedensi Arlaun Redonis Magalona Vienna
 	}
 }

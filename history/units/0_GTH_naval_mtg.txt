@@ -1,0 +1,274 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLITAN GOTHIA ###
+	fleet = {
+		name = "Flota del Nord"
+		naval_base = 575 # Dunkerque
+		task_force = {				
+			name = "1. Region Navala"			
+			location = 575 # Dunkerque			
+			# 
+			ship = { name = "Albatros" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Miltiad" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "India" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Salvatge" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Feroç" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Decisiu" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Exemplar" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Guèine" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Amazon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Aurora" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+		}
+		task_force = {				
+			name = "Josmarin Fòrça del Nord"			
+			location = 575 # Dunkerque	
+			# 
+			ship = { name = "JM-36" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-37" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-38" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-39" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+		}				
+	}
+		
+	fleet = {
+		name = "Flota del Oèst"
+		naval_base = 9737
+		task_force = {
+			name = "2. Region Navala"
+			location = 9737 # Burdelh			
+			ship = { name = "Espirit Roge" pride_of_the_fleet = yes definition = carrier equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GTH version_name = "Espirit Roge Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "GTH" amount = 18 }
+					cv_nav_bomber_equipment_1 =  { owner = "GTH" amount = 18 }
+				}
+			}
+			#
+			ship = { name = "Inteligent" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Làmia" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			#
+			ship = { name = "Sevèr" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Austèr" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Coratge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Agil" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			# 
+			ship = { name = "Creatura" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Iscòrpi" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Liaupard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			# 
+			ship = { name = "Dalfin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }
+			ship = { name = "Lop" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Arquet" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+		}				
+		task_force = {				
+			name = "Josmarin Fòrça del Atlantic"			
+			location = 9737 # Burdelh			
+			#
+			ship = { name = "JM-40" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-41" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-42" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-43" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-44" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-45" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-46" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+		}				
+	}
+
+	fleet = {
+		name = "Flota del Sud"			
+		naval_base = 11834
+		task_force = {				
+			name = "3. Region Navala"			
+			location = 11834
+			ship = { name = "Galaxia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GTH version_name = "Galaxia Classs" } } }
+			ship = { name = "Victòria" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }			
+			ship = { name = "Apollon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			ship = { name = "Terrible" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			ship = { name = "Ors" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			ship = { name = "Centaure" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			ship = { name = "Persèu" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			# 
+			ship = { name = "Vigilança" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Eleutèri" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Vigilança Class" } } }
+			ship = { name = "Pantèra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+			ship = { name = "Chacal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }
+			ship = { name = "Onça" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Creatura Class" } } }	
+		}				
+		task_force = {				
+			name = "Josmarin Fòrça de la Mediterranèa"			
+			location = 11834	
+			ship = { name = "JM-47" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-48" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			ship = { name = "JM-49" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GTH version_name = "Seria JM-40" } } }
+			
+			ship = { name = "JM-30" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-31" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
+			ship = { name = "JM-32" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
+			ship = { name = "JM-33" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-34" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "JM-35" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+		}				
+	}
+
+	### NORTH AFRICA ###				
+	fleet = {
+		name = "Flota d'Africa"			
+		naval_base = 2207 # Port Secheval
+		task_force = {				
+			name = "Flota d'Africa"			
+			location = 2207	
+			ship = { name = "Provença" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GTH version_name = "Galaxia Class" } } }		
+			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			# 
+			ship = { name = "Caçaire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Auragan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Tempesta" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Ièna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Fortuna" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Simoun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Tresmonts" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Tifó" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Tornada" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }
+			ship = { name = "Idealista" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+			ship = { name = "Granval" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GTH version_name = "Decisiu Class" } } }	
+		}		
+		task_force = {				
+			name = "Josmarin Fòrça d'Africa"			
+			location = 2207 # Port Secheval
+			# 11e Division des Sous-Marins
+			ship = { name = "Cronos" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
+			ship = { name = "Séchaval" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "Corèa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
+		}				
+	}
+
+	### FAR EAST ###				
+	fleet = {
+		name = "Flota de la Pacific"
+		naval_base = 1208 # Rapanui
+		task_force = {
+			name = "Flota de la Pacific"
+			location = 1208 # Rapanui	
+			ship = { name = "Saphrax" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
+			ship = { name = "Ardent" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GTH version_name = "Licgier Class" } } }
+		}
+	}
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	# Ship Production
+	# DD: Le Fantasque class (x4) ("Le Malin" "L'Indomptable" "Le Fantasque" "Le Triomphant")
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "GTH" 
+			version_name = "Decisiu Class"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "GTH" 
+			version_name = "Decisiu Class"
+		}
+		requested_factories = 1
+		progress = 0.85
+		amount = 1
+	}	
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "GTH" 
+			version_name = "Galaxia Class"
+		}
+		name = "Vaguista" 
+		requested_factories = 1
+		progress = 0.20
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "GTH" 
+			version_name = "Galaxia Class"
+		}
+		requested_factories = 1
+		progress = 0.10
+		amount = 1
+	}
+	 # CL: La Galissonnière class (x4) ("Jean de Vienne" "Marseillaise" "Gloire" "Montcalm") ("Georges Leygues" launched 24-Mar 1936)
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GTH"
+			version_name = "Narbona Class"
+		}
+		name = "Jehan de Vienna" 
+		requested_factories = 1
+		progress = 0.35
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GTH" 
+			version_name = "Narbona Class"
+		} 
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GTH" 
+			version_name = "Narbona Class"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "GTH" 
+			version_name = "Narbona Class"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 1
+	}
+	# 
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "GTH" 
+			version_name = "Seria JM-50"
+		}
+		requested_factories = 1
+		progress = 0.20
+		amount = 3
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_2
+			creator = "GTH" 
+			version_name = "Seria JM-50"
+		}
+		requested_factories = 1
+		progress = 0.20
+		amount = 2
+	}
+}
+
+#####################
