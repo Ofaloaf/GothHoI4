@@ -155,6 +155,16 @@ create_country_leader = {
 }
 
 create_country_leader = {
+	name = "Gundisalf Raynal"
+	desc = "POLITICS_GTH_LEADER_DESC"
+	picture = "santiago_ramon_y_cajal.dds"
+	expire = "1965.1.1"
+	ideology = syndicalism
+	traits = {
+	}
+}
+
+create_country_leader = {
 	name = "Perdiguer Montoliu"
 	desc = "POLITICS_GTH_LEADER_DESC"
 	picture = "A_P_Andrew.dds"

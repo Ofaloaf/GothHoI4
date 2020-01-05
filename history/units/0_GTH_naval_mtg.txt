@@ -81,7 +81,7 @@ units= {
 		task_force = {				
 			name = "3. Region Navala"			
 			location = 11834
-			ship = { name = "Galaxia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GTH version_name = "Galaxia Classs" } } }
+			#ship = { name = "Galaxia" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = GTH version_name = "Galaxia Class" } } }
 			ship = { name = "Victòria" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }			
 			ship = { name = "Apollon" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
 			ship = { name = "Terrible" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GTH version_name = "Victòria Class" } } }
@@ -138,7 +138,7 @@ units= {
 			location = 2207 # Port Secheval
 			# 11e Division des Sous-Marins
 			ship = { name = "Cronos" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
-			ship = { name = "Séchaval" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
+			ship = { name = "Sechaval" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }
 			ship = { name = "Corèa" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GTH version_name = "Seria JM-30" } } }				
 		}				
 	}

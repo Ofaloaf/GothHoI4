@@ -330,11 +330,11 @@ LRM = {
 		names = { 
 			Albert Ainrigh Alarigh Amalrigh Alexius Ajmon Antòni August Andrea Ariald Agustin
 			Bennàit Batista Bonaventura Bartomé Bernard
-			Carl Çesare Costans Caius
+			Carl Çesare Costans Caius Clement
 			Desiderius
 			Emanuel Emilian Evarigh Erarigh Evasi
-			Felis Filip
-			Giouan Gliçeio Giaco Giusep
+			Felis Filip Flavi
+			Giouan Gliçeio Giaco Giusep Giustin
 			Ignassi
 			Lançerotto Lissànder Lugh
 			Majoran Medeo Manfrèid Margh Milo Majeul Marslin Maté Melchior
@@ -343,7 +343,7 @@ LRM = {
 			Pastor Pero Pàul Pasqual
 			Remigirus
 			Scipion Simon Siril Sgond
-			Tiuderigh Tiberi Traian Tadé Tomà
+			Tiuderigh Tiberi Traian Tadé Tomà Tàcit
 			Vitòrio Vincens
 		}
 	}
@@ -1069,6 +1069,24 @@ PCN = {
 		}
 	}
 	surnames = {
-		Caepio
+		Apis Apiarius Anicio Arelio
+		Buticularius Bajulus
+		Caepio Caupo Cidlarius Coquus "de Cepiana"
+		Doliarius Dulciarius
+		Elius
+		Ferrarius Faber Figulus Fullo Fontanus
+		Gallinarius Gemmarius
+		Hortulanus
+		Institor
+		Lanius Lapicida Libellio Lignator "de Lacobriga"
+		Mango "de Mirobriga" Mirmillo Metallarius 
+		Nauta
+		Oenopola
+		Panetarius "de Paca" Pavimentarius Promus Piscator Plumbarius "de Rarapia"
+		Quadrator
+		Sartor Scindulario "de Salacia"
+		Tabularius Tessellator Textor Tonnarius Tonsor Topiarius 
+		Ulpius
+		Vespillo Vilicus
 	}
 }
