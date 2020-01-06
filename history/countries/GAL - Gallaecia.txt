@@ -67,7 +67,7 @@ set_stability = 0.75
 
 create_country_leader = {
 	name = "Alissiegino Noegus"
-	desc = "POLITICS_ANTÓNIO_DE_OLIVEIRA_SALAZAR_DESC"
+	desc = "POLITICS_GAL_DEM_DESC"
 	picture = "Portrait_Portugal_Antonio_de_Oliveira_Salazar.dds"
 	expire = "1965.1.1"
 	ideology = radicalism
@@ -78,8 +78,8 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Deiservo Alongu"
-	desc = "POLITICS_BENTO_GONCALVES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+	desc = "POLITICS_GAL_COM_DESC"
+	picture = "e_t_seton.dds"
 	expire = "1965.1.1"
 	ideology = left_wing_radicalism
 	traits = {
@@ -89,7 +89,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Tridallus de Cottaeobriga"
-	desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
+	desc = "POLITICS_GAL_FASH_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology

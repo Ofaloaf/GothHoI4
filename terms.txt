@@ -1,6 +1,8 @@
 Gothia
 	FDE Foncion de Dessenh Experimental/Bureau of Experimental Design
+	O Oficina (de Dessenh Experimental) - Alternate nameform
 		Surisna/Surisnas/Surisnae - Suresnes, HQ of Nieuport/Nieuport-Delage
+	
 	AC- designation for fighter aircraft
 		Avion de caça/Avion de Combat.
 	B- designation for bombers

@@ -29,7 +29,7 @@
  strat_bomber_equipment_4:0 "Strat Bomber IV"
  strat_bomber_equipment_4_desc:0 "Powerful new engines allow new designs unprecedented speed while maintaining a large payload and long range. These planes are built for a new era of weapons of mass destruction."
  #
- GTH_fighter_equipment_0:0 "FDE de Surisnas 28"
- GTH_fighter_equipment_0_short:0 "FDEdS-28" 
- GTH_fighter_equipment_1:0 "FDE de Surisnas 42"
- GTH_fighter_equipment_1_short:0 "FDEdS-42"
+ GTH_fighter_equipment_0:0 "Oficina de Surisnas AC-28"
+ GTH_fighter_equipment_0_short:0 "OS AC-28" 
+ GTH_fighter_equipment_1:0 "Oficina de Surisnas AC-42"
+ GTH_fighter_equipment_1_short:0 "OS AC-42"

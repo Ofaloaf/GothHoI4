@@ -282,6 +282,28 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
+create_navy_leader = {
+	name = "Rambert Kolling"
+	picture = "frankish_admiral_04.dds"
+	traits = { old_guard_navy navy_career_officer spotter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
+create_navy_leader = {
+	name = "Medardus van Rossem"
+	picture = "frankish_admiral_05.dds"
+	traits = { chief_engineer }
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	maneuvering_skill = 2
+	coordination_skill = 2
+}
+
 
 ### VARIANTS ###
 # 1936 Start #
