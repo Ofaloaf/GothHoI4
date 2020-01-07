@@ -72,6 +72,7 @@ UDN		= "countries/UnionDelNord.txt"
 # South America
 AVL		= "countries/Avallonia.txt"
 BRZ		= "countries/Brasil.txt"
+CHR 	= "countries/Charcas.txt"
 CUA		= "countries/Charrua.txt"
 PEU		= "countries/GothPeru.txt"
 TRT		= "countries/Terarient.txt"

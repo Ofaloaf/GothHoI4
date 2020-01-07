@@ -122,7 +122,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Celestin Iordanescu"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	portrait_path = "Portrait_ENG_dvduff.dds"
 	traits = { hill_fighter }
 	skill = 3
 	attack_skill = 1
