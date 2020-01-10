@@ -1,29 +1,33 @@
-
 state={
-	id=779
-	name="STATE_COSTA_DELS_QUAQUA"
-
+	id=835
+	name="STATE_LITUS_EBURNEUM"
+	
 	history={
-		owner = GTH
+		owner = GAL
 		add_core_of = IVO
 		victory_points = {
 			10803 1 
 		}
+		victory_points = {
+			10862 1 
+		}
 		buildings = {
 			infrastructure = 3
-			10762 = {
+			10803 = {
 				naval_base = 1
 
 			}
+			10862 = {
+				naval_base = 2
 
+			}
 		}
-
 	}
-
+	
 	provinces={
-		5013 5039 5070 8065 8122 10762 
+		10803 10862 
 	}
-	manpower=2673160
+	manpower=1170600
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }
