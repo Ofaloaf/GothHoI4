@@ -350,6 +350,16 @@ CHR = {
 	color_ui = rgb { 145 154 156 }
 }
 
+OYO = {
+	color = rgb { 211 184 179 }
+	color_ui = rgb { 211 184 179 }
+}
+
+ACR = {
+	color = rgb { 154 203 41 }
+	color_ui = rgb { 154 203 41 }
+}
+
 ###############
 ### VANILLA ###
 ###############

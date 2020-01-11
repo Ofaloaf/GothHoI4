@@ -1090,3 +1090,111 @@ PCN = {
 		Vespillo Vilicus
 	}
 }
+
+OYO = {
+	male = {
+		names = {
+			Aleisandr Andrew Antoin Awstin Abayomi Aina
+			Bola Bartholemew
+			Claudius Caraethag Costenhin Cristoffer
+			Dewidd Dunad
+			Erchyl Efan Emreis
+			Geory Garfan Gani
+			Iago Ieroni Iosep
+			Kunle
+			Luc Llawreint
+			Migangel Merthin Mewrig
+			Nennius Nigol
+			Olowe
+			Padrig Pawl Pedr Philip
+			Timothew Tomos
+			Wándé 
+			Ýstin Ysteffan
+		}
+	}
+	female = {
+		names = {
+			Avitoria
+			Buddeg
+			Catren
+			Greid
+			Mair
+		}
+	}
+	surnames = {
+		Adeboye Akinola Ayorinde Adenaike Ajiboye Ajosun
+		Bakare Bamiloye Babalola Buraimoh
+		Dallaje Dantata Dikko
+		Eleko Ezzidio Ezenne
+		Fadoma Fakeye Filano
+		Grillo Gbadamosi
+		Hazoumè
+		Idowu Ikoli
+		Jegede
+		Kumuyi Kuti Kouas Kuku
+		Layiwola Lagunju
+		Oyedepo Odubiyi Okundaye Odutokun Olufeko Onabolu Olomu Ojulari Omoniyi Obaseki Obisesan Odulate
+		Rufai
+		Senbanjo Solanke
+		Tunolase Tapa
+		Ugbabe
+		Wuduroma
+	}
+}
+
+ACR = {
+	male = {
+		names = {
+			Atanasius Alexander Adrianus Abenezer Amadeus Andreas Angelus
+			Benedictus Bonifacius Bonosus Basilius Basiliscus Balthasar
+			Claudius Caio Constanzo Comentiolus Caesarius Caietanus Clemens Cornelius Cassius Christianus Christophorus
+			Danielis Demetrius Didacus Desiderius
+			Egnatius Elias Emmanuel Eugenius Eusebius
+			Firmus Florianus Flavius
+			Grecorio Gercorio Gratus Gabriel
+			Honorius Honoratus Hieronymus Hilarius Horatius
+			Iohannis Iddris Ioab Iaquinti Iacobus
+			Leo Leonidas Laurentius
+			Modestus Moderatus Marcellus Matthaeus Maurus Maximus
+			Nigolago Nerva Nathaniel Nicetas
+			Otho Octavius
+			Paulus Petrus Patricius Pius Placidus
+			Quintus Quirinus Quadratus Quodvultdeus
+			Regis Ramulus Romaeus Rufus
+			Samuhel Spurius Sanctius Scipio Sebastianus Severus Severinus Saturninus Sosius Sulpitius Silvius Stephanus
+			Theodoro Thomas Theophilus Terentius
+			Urbanus
+			Vigilius Vitalis Victor Vincentius Valerius Valentinus Valentinianus
+			Zacarias
+		}
+	}
+	female = {
+		names = {
+			Claudia
+			Gloria
+			Lucia
+			Regina
+			Virginia
+		}
+	}
+	surnames = {
+		Adom Ababio Ackwei Akanbi Alabi Annan Appiah Armah Attoh Addo Azaglo Ani
+		Boahene Baah Busia
+		Damoah Danquah Dento
+		Evanonye
+		Fuseini Fronto Ferrarius
+		Gariba Goka
+		Honu
+		Sandu
+		Jamin
+		Kaledzi Konuah Kwakye
+		Mensah
+		Nana Nikoi Nkrumah
+		Obetsebi Ofori Okai Okyere Ollennu Oquaye
+		Papafio
+		Quao Quarshie
+		Sai Sumani Satorius
+		Tagoe Tetteh Torto Trebi
+		Yamoah Yeboah
+	}
+}

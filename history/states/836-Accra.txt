@@ -1,29 +1,31 @@
-
 state={
-	id=835
-	name="STATE_LITUS_EBURNEUM"
-
+	id=836
+	name="STATE_ACCRA"
+	
 	history={
 		owner = GAL
-		add_core_of = IVO
+		add_core_of = ACR
 		victory_points = {
-			10803 1 
+			10862 1 
 		}
 		buildings = {
 			infrastructure = 3
 			10803 = {
 				naval_base = 1
+
 			}
 			10862 = {
 				naval_base = 2
+
 			}
+
 		}
 	}
-
+	
 	provinces={
-		10803 
+		10862 
 	}
-	manpower=895120
+	manpower=275480
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
