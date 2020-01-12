@@ -131,6 +131,24 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_corps_commander = {
+	name = "Gheorghe Cristescu"
+	picture = "Portrait_KOJ_arab_policeman_1.dds"
+	traits = { trait_cautious career_officer }
+	skill = 2
+	rank = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+# Alexandru Ioan
+# Tiberiu Plagino
+# Ptolemeu Marinescu
+# Mihai Prajescu
+# Camil Miclescu
+
 
 ### VARIANTS ###
 # 1936 Start #

@@ -12,3 +12,8 @@ MON_DZH = {
 	color = rgb { 137 197 148 }
 	color_ui = rgb { 137 197 148 }
 }
+
+MJP_GOTH = {
+	color = rgb { 201 28 54 }
+	color_ui = rgb { 201 28 54 }
+}

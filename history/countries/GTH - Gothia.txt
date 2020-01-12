@@ -103,6 +103,7 @@ add_to_faction = GTH
 add_to_faction = LRM
 add_to_faction = COG
 add_to_faction = SOA
+add_to_faction = MJP
 
 if = {
 	limit = {
@@ -120,6 +121,13 @@ if = {
 		target = SOA
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
+	}
+	set_autonomy = {
+		target = MJP
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = MJP
 	}
 }
 

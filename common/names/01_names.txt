@@ -1198,3 +1198,42 @@ ACR = {
 		Yamoah Yeboah
 	}
 }
+
+MJP = {
+	male = {
+		names = {
+			Alaric Andrai
+			Gajah
+			Lukman
+			Margono Maram Maridjo Madek
+			Prapanca
+			Rabuyut Rakrian Rusli
+			Sumitro Sanjaya Syamsul
+			Tiuderic
+			Wuwus Wastu Warino
+		}
+	}
+	female = {
+		names = { 
+			Diah Siti Sannaha
+		}
+	}
+	surnames = {
+		Anggada Asadoma
+		Bolang
+		Djojohadikusumo Djiwandono Danudirdjo Dimyati
+		Gozal Gunawan
+		Hamsjin Hardjolukito Harahap
+		Iswandi
+		Kardiono
+		Lestanto
+		Mahargjani Moniaga 
+		Nenepath Niode Nasution
+		Oktohari
+		Polhaupessy Pandiangan Purnomo
+		Rieuwpassa Rukimin
+		Sigar Sudarmodjo Suharko Soeryadjaya Soeratman Sudewo Soei Suniar Sumono
+		Tanca Tadah Tjokroadiredjo Tahapari
+		Wirjodemedjo Witarsa Wassa Wihardja 
+	}
+}
