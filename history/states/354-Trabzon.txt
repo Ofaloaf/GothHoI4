@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = ANT
+		owner = IBR
 		
 		victory_points = {
 			9932 3 
@@ -18,7 +18,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = ANT
+		add_core_of = IBR
 		add_core_of = ARM
 	}
 

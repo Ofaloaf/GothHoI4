@@ -40,6 +40,7 @@ RUM = "countries/Rum.txt"
 # ASIA
 DZH = "countries/Dazhou.txt"
 GJT = "countries/Gujarat.txt"
+KTI = "countries/Kutai.txt"
 MJP = "countries/Majapahit.txt"
 PEG	= "countries/Pegu.txt"
 SLT = "countries/Selatan.txt"
