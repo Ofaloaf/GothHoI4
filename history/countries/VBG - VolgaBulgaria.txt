@@ -75,7 +75,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Timëreç Yiltabar"
+	name = "Timëreç Yiltawar"
 	gfx = "GFX_portrait_prc_chen_yi"
 	traits = { infantry_officer }
 	skill = 3
@@ -84,3 +84,47 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 2
 }
+
+create_corps_commander = {
+	name = "Tat-Ugek Chelbir"
+	picture = "Portrait_TODO.dds"
+	traits = { trait_cautious career_officer }
+	skill = 3
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Tuqyi Bezmer"
+	picture = "Portrait_TODO.dds"
+	traits = { infantry_officer trait_reckless }
+	skill = 3
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Elteber Oshel"
+	picture = "Portrait_TODO.dds"
+	traits = { old_guard politically_connected inflexible_strategist }
+	skill = 1
+	
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+# Airat Mö'min
+# Otrag Bragin
+# Kuchum Säydäsh
+# Akhat Tinchurin
+# Kärim Yarullin
+# Ruslan Nigmatulin
+# Talgat Chelebicihan 
