@@ -1,0 +1,183 @@
+focus_tree = {
+	id = gothia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GTH
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = GTH_special_convention
+		icon = GFX_focus_generic_treaty
+		x = 8
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = GTH_denounce_factionalism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GTH_special_convention }
+		mutually_exclusive = { focus = GTH_call_for_reforms }
+		x = -3
+		y = 1
+		relative_position_id = GTH_special_convention
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_call_for_reforms
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = GTH_special_convention }
+		mutually_exclusive = { focus = GTH_denounce_factionalism }
+		x = 3
+		y = 1
+		relative_position_id = GTH_special_convention
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		prerequisite = { focus = GTH_call_for_reforms }
+		x = -3
+		y = 2
+		relative_position_id = GTH_call_for_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		prerequisite = { focus = GTH_call_for_reforms }
+		x = 0
+		y = 2
+		relative_position_id = GTH_call_for_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		prerequisite = { focus = GTH_call_for_reforms }
+		x = 3
+		y = 2
+		relative_position_id = GTH_call_for_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+}		
