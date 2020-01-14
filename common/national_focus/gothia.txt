@@ -101,7 +101,10 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = GTH_general_security_committee
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = GTH_call_for_reforms }
+		mutually_exclusive = { focus = GTH_constitutional_committee focus = GTH_council_of_communes }
 		x = -3
 		y = 2
 		relative_position_id = GTH_call_for_reforms
@@ -128,7 +131,10 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = GTH_council_of_communes
+		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = GTH_call_for_reforms }
+		mutually_exclusive = { focus = GTH_general_security_committee focus = GTH_constitutional_committee }
 		x = 0
 		y = 2
 		relative_position_id = GTH_call_for_reforms
@@ -155,7 +161,10 @@ focus_tree = {
 	}
 	
 	focus = {
+		id = GTH_constitutional_committee
+		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = { focus = GTH_call_for_reforms }
+		mutually_exclusive = { focus = GTH_general_security_committee focus = GTH_council_of_communes }
 		x = 3
 		y = 2
 		relative_position_id = GTH_call_for_reforms
