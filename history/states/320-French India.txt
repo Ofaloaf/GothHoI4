@@ -1,0 +1,22 @@
+
+state={
+	id=320
+	name="STATE_320"
+	manpower = 286410
+
+	state_category = enclave
+
+	history={
+		owner = ADH
+		add_core_of = ADH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1			
+			10149 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={ 10149 }
+}

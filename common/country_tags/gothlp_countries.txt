@@ -38,6 +38,7 @@ KOJ = "countries/Jerusalem.txt"
 RUM = "countries/Rum.txt"
 
 # ASIA
+ADH = "countries/Andhra.txt"
 DZH = "countries/Dazhou.txt"
 GJT = "countries/Gujarat.txt"
 KTI = "countries/Kutai.txt"

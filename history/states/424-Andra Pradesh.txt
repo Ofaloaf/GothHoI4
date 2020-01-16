@@ -1,0 +1,26 @@
+
+state={
+	id=424
+	name="STATE_ANDHRA_PRADESH"
+	manpower = 1386120
+	state_category = city
+	
+
+	history={
+		owner = ADH
+		add_core_of = ADH
+		victory_points = {
+			10152 5 # Nellore
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			dockyards = 1
+		}	
+	}
+
+	provinces={
+		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+	}
+}

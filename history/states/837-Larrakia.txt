@@ -1,0 +1,31 @@
+state={
+	id=837
+	name="STATE_LARRAKIA"
+	resources={
+		steel=7.000
+	}
+	
+	history={
+		owner = TNT
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			7669 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			7669 5 
+		}
+		add_core_of = SLT
+
+	}
+	
+	provinces={
+		1217 1410 1422 1431 4415 7457 7669 10276 10288 10316 10518 12104 12246 12290 12326 12339 12499 
+	}
+	manpower=78000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
