@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = GTH_special_convention
 		icon = GFX_focus_generic_treaty
-		x = 8
+		x = 11
 		y = 0
 
 		cost = 10
@@ -45,9 +45,300 @@ focus_tree = {
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = GTH_special_convention }
 		mutually_exclusive = { focus = GTH_call_for_reforms }
-		x = -3
+		x = -5
 		y = 1
 		relative_position_id = GTH_special_convention
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_borsa_del_trabalh
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = GTH_denounce_factionalism }
+		x = -2
+		y = 1
+		relative_position_id = GTH_denounce_factionalism
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_civic_virtue
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = GTH_denounce_factionalism }
+		x = 2
+		y = 1
+		relative_position_id = GTH_denounce_factionalism
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_crack_down_on_marketeers
+		icon = GFX_focus_rom_parties_end
+		prerequisite = { focus = GTH_civic_virtue }
+		x = 1
+		y = 1
+		relative_position_id = GTH_civic_virtue
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_federation_of_agents
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = GTH_crack_down_on_marketeers }
+		x = 1
+		y = 1
+		relative_position_id = GTH_crack_down_on_marketeers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_unity_of_labor
+		icon = GFX_focus_ger_great_red_menace
+		prerequisite = { focus = GTH_civic_virtue }
+		x = -1
+		y = 1
+		relative_position_id = GTH_civic_virtue
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_continental_system
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = GTH_unity_of_labor }
+		prerequisite = { focus = GTH_crack_down_on_marketeers }
+		x = 0
+		y = 1
+		relative_position_id = GTH_unity_of_labor
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_pressure_the_irish
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = GTH_continental_system }
+		x = 0
+		y = 1
+		relative_position_id = GTH_continental_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_ultimatum_to_britannia
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = GTH_pressure_the_irish }
+		x = -1
+		y = 1
+		relative_position_id = GTH_pressure_the_irish
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_support_the_anti_fascists
+		icon = GFX_focus_generic_anti_fascist_diplomacy
+		prerequisite = { focus = GTH_continental_system }
+		x = 2
+		y = 1
+		relative_position_id = GTH_continental_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_anti_frankish_action
+		icon = GFX_goal_poland_goal
+		prerequisite = { focus = GTH_support_the_anti_fascists }
+		x = 0
+		y = 1
+		relative_position_id = GTH_support_the_anti_fascists
 
 		cost = 10
 
@@ -75,7 +366,7 @@ focus_tree = {
 		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = GTH_special_convention }
 		mutually_exclusive = { focus = GTH_denounce_factionalism }
-		x = 3
+		x = 7
 		y = 1
 		relative_position_id = GTH_special_convention
 
@@ -101,12 +392,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GTH_general_security_committee
+		id = GTH_central_economic_directorate
 		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = { focus = GTH_call_for_reforms }
-		mutually_exclusive = { focus = GTH_constitutional_committee focus = GTH_council_of_communes }
-		x = -3
-		y = 2
+		mutually_exclusive = { focus = GTH_localism focus = GTH_market_policies }
+		x = -4
+		y = 1
 		relative_position_id = GTH_call_for_reforms
 
 		cost = 10
@@ -131,12 +422,12 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GTH_council_of_communes
+		id = GTH_localism
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = GTH_call_for_reforms }
-		mutually_exclusive = { focus = GTH_general_security_committee focus = GTH_constitutional_committee }
+		mutually_exclusive = { focus = GTH_central_economic_directorate focus = GTH_market_policies }
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = GTH_call_for_reforms
 
 		cost = 10
@@ -161,13 +452,380 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GTH_constitutional_committee
+		id = GTH_market_policies
 		icon = GFX_focus_hol_the_foundations_of_defense
 		prerequisite = { focus = GTH_call_for_reforms }
-		mutually_exclusive = { focus = GTH_general_security_committee focus = GTH_council_of_communes }
-		x = 3
-		y = 2
+		mutually_exclusive = { focus = GTH_central_economic_directorate focus = GTH_localism }
+		x = 4
+		y = 1
 		relative_position_id = GTH_call_for_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_intendants
+		icon = GFX_focus_generic_military_mission
+		prerequisite = { focus = GTH_central_economic_directorate }
+		x = 0
+		y = 1
+		relative_position_id = GTH_central_economic_directorate
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_planned_factories
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = GTH_intendants }
+		x = 1
+		y = 1
+		relative_position_id = GTH_intendants
+		
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+
+		available_if_capitulated = yes
+
+		bypass = {
+			custom_trigger_tooltip =  {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 2
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = SOV_finish_five_year_plan_2IC }
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_finish_five_year_plan_2IC
+			}
+			random_owned_controlled_state = {
+				limit = {
+					industrial_complex > 0
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = SOV_finish_five_year_plan_2IC
+			}
+		}
+	}
+	
+	focus = {
+		id = GTH_democratic_centralism
+		icon = GFX_focus_generic_soviet_politics
+		prerequisite = { focus = GTH_intendants }
+		x = -1
+		y = 1
+		relative_position_id = GTH_intendants
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_committee_of_defense
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = GTH_democratic_centralism }
+		x = 0
+		y = 1
+		relative_position_id = GTH_democratic_centralism
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_grand_army_of_the_revolution
+		icon = GFX_focus_army_communist
+		prerequisite = { focus = GTH_committee_of_defense }
+		x = -1
+		y = 1
+		relative_position_id = GTH_committee_of_defense
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_armaments_committee
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = GTH_committee_of_defense }
+		x = 1
+		y = 1
+		relative_position_id = GTH_committee_of_defense
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GTH_project_prometheus
+		icon = GFX_focus_wonderweapons
+		prerequisite = { focus = GTH_armaments_committee }
+		x = -2
+		y = 1
+		relative_position_id = GTH_armaments_committee
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_mechanization_of_war
+		icon = GFX_focus_generic_license_production
+		prerequisite = { focus = GTH_armaments_committee }
+		x = 0
+		y = 1
+		relative_position_id = GTH_armaments_committee
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_arms_modernization
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = GTH_armaments_committee }
+		x = 2
+		y = 1
+		relative_position_id = GTH_armaments_committee
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_lei_dels_sospitosos
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = GTH_democratic_centralism focus = GTH_federation_of_agents }
+		x = -2
+		y = 1
+		relative_position_id = GTH_democratic_centralism
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = GTH_chair_of_the_committee
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = GTH_lei_dels_sospitosos }
+		x = 0
+		y = 3
+		relative_position_id = GTH_lei_dels_sospitosos
 
 		cost = 10
 

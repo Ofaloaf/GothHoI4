@@ -45,6 +45,7 @@ MJP = "countries/Majapahit.txt"
 PEG	= "countries/Pegu.txt"
 SLT = "countries/Selatan.txt"
 TNK = "countries/Tonkin.txt"
+TNT = "countries/Ternate.txt"
 
 HWI = "countries/Hawaii.txt"
 

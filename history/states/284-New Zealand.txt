@@ -1,0 +1,37 @@
+
+state={
+	id=284
+	name="STATE_PULAU_UTARA"
+	manpower = 78000
+	
+	state_category = pastoral
+	
+	history={
+		owner = TNT
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			4543 = {
+				naval_base = 2
+			}
+			1814 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			1814 3
+		}
+		victory_points = {
+			4345 1
+		}
+		victory_points = {
+			10334 1 
+		}
+		add_core_of = TNT
+	}
+
+	provinces={
+		1565 1713 1746 1786 1801 1814 4543 4615 4718 4748 4804 7692 7742 7783 7826 7887 10334 10373 10609 10710 12362 12604 12617 12664 
+	}
+}

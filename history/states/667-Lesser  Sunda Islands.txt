@@ -6,8 +6,8 @@ state={
 	}
 
 	history={
-		owner = MJP
-		add_core_of = MJP
+		owner = TNT
+		add_core_of = TNT
 		buildings = {
 			infrastructure = 3
 			1355 = {

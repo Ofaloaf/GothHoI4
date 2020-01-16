@@ -14,4 +14,9 @@ spriteTypes = {
 		name = "GFX_focus_anarcho_communism"
 		texturefile = "gfx/interface/goals/focus_anarcho_communism.dds"			
 	}
+
+	SpriteType = {
+		name = "GFX_focus_army_communist"
+		texturefile = "gfx/interface/goals/focus_army_communist.dds"			
+	}
 }
