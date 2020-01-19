@@ -4,6 +4,22 @@
 # Assigning the callsign is random - may be assigned or not. If we use the callsign, it will never be assigned to anyone again. Callsigns are not obligatory to script.
 # Picking up a gender is random, and is influenced by the amount of names scripted.
 
+default = {
+	male = {
+		names = { 
+			Claudius
+			Julius
+			Tiberius
+		}
+	}
+	female = {
+		names = { Julia Anna }
+		callsigns = { "Queen Of The Sky" "The Red Princess" }
+	}
+	surnames = { Publicola Poplicola Agricola Dento Fronto Aurelius }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+
 ###############################################################
 # The Majors
 ###############################################################
@@ -12,7 +28,7 @@ GTH = {
 		names = {  
 			Audoacre Atila Andrai Alaric
 			Diaco Dàvi
-			Clamenç Caraules Cunstantin
+			Clamenç Caraules Cunstantin Corneli
 			Ebles Ermengau Evaric Ervige Eraric Estilicó Esclua
 			Filip Froila Flaurènç Flaín Frodoí Frederi Faluax
 			Garçi Gausbert Gilbèrt Godesteo Gudafres Guillemó Gabrieù Guidéric Guidimir Gomé Gauteric Gonçalo Gundisalf Guitarit
@@ -94,10 +110,10 @@ FRK = {
 			Otto Odo
 			Pepijn Pieter Paschasius Pardulus Paul
 			Rudolf Richard Ruprecht Rombertus Ragnachar Rignomer Ricchar Rorich Rigobert Rothard Ratramnus Remigius Roelof
-			Sigibert Sigismund Schelte Simon Silvanus Sulpitius Salomon
+			Sigibert Sigismund Schelte Simon Silvanus Sulpitius Salomon Sibald
 			Theudebert Theuderich Theudebald Theodoor Teunis Theodulfus Theodard
 			Vedastus Vedulfus
-			Willem Womadus Wolfram Warnachar
+			Willem Wiomad Wolfram Warnachar
 		}
 	}
 	female = {
@@ -1235,5 +1251,376 @@ MJP = {
 		Sigar Sudarmodjo Suharko Soeryadjaya Soeratman Sudewo Soei Suniar Sumono
 		Tanca Tadah Tjokroadiredjo Tahapari
 		Wirjodemedjo Witarsa Wassa Wihardja 
+	}
+}
+
+NOR = {
+	male = {
+		names = {
+			Arne Anders Anton Askell Anker Alfred Arnfinn Axel
+			Bartholomaeus Bottolf 
+			Carl Christian
+			Daniel
+			Einar Eivind Erling Engebret
+			Fredrik Frithjof Frantz
+			Gustav Gunnar Gyrd Georg Gudbrand Guttorm
+			Henrik Håkon Hallgeir Hoskuld Halfdan Harald
+			Ivar Ingolf
+			Jørund Johan Jakob
+			Knud Ketil Kristian
+			Mathias Magnus Martin
+			Niels
+			Ole Olav Otto
+			Petter
+			Ragnvald
+			Søren Sigurd Simon Sigvard Severin Svein
+			Thoralf Thomas Theodor Thorvald
+			Vinald
+			Wollert
+		}
+	}
+	female = {
+		names = {
+			Astrid
+			Else
+			Gunhild
+			Holmfrid
+			Ingerid Ingebjørg 
+			Margret Malmfrid
+		}
+	}
+	surnames = {
+		Andersen Arup Aslason Asbjørnsson Aas
+		Berg Birgersson Bolt Bøckmann Bendssøn Boesen Bech Bugge Bang Berggrav Bertelsen Brodtkorb
+		Corneliussen
+		Dall Deichman Dorph Dietrichson Dahl
+		Eriksen Engelbrektson Eindridesson Essendorp Eyvindsson Engelsen Endrerud
+		Folkestad Falkenberg Finne Fegth Frydenlund
+		Gunnarsson Gislesen Guttormsen Gulbrandsen Glomnes
+		Hansen Halvorsen Hvoslef Hersleb Halldorsson Hoskuldsson Hille Hovdenak Herlofson Helgerud Hestdahl
+		Ivarsson
+		Karlsen Kalteisen Krogh Kildal Krefting
+		Johansen Jensen Juell Jebe
+		Larsen Lunde Løvold
+		Madssøn Munch Meling Monsen Maartmann
+		Nilsen Nannestad
+		Oldsen Ogmundsson Osmundsson Østensen
+		Pedersen Pålsson
+		Rosing Riber
+		Smitt Skaar Stockfleth Skagestad Scabo Saeterhaug Schjøth Skatteboe
+		Tandberg Thorgardsson Tausan Tvedt
+		Valkendorf Vinne Vighals
+		Wegner Weydahl
+	}
+}
+
+DEN = {
+	male = {
+		names = {
+			Ansgar Andreas Albert
+			Bo
+			Christian
+			Dieter 
+			Ebbe Eskil Esger Ejler Erik
+			Frederik
+			Gerhard
+			Hans Henrik Henning Herluf
+			Josef Jesper
+			Knud Kjeld
+			Niels
+			Ove
+			Peder
+			Skjalm Svend
+			Theodor Tyge Thomas
+			Ulrik
+		}
+	}
+	female = {
+		names = {
+		}
+	}
+	surnames = {
+		Albertsen Assersøn
+		Bornemann Balle Bonde Bølle Bertelsen Brochmand Braem Bildsøe Birch Brammer
+		Clausen
+		Damgaard
+		"von Euch"
+		Gjødesen
+		Hersleb Harboe Hansen Hygom Hee
+		Juul
+		Lodehat Lange
+		Madsen Münter Mynster Martensen Mogensen Matthiesen Mønster
+		Nielsen
+		Ostenfeld Ocksen
+		Palladius Paludan
+		Resen Rørdam
+		Scavenius Scane Sørensen Schiøler
+		Ugetsen
+		Vinstrup Vognsen
+		Wandal
+	}
+}
+
+OST = {
+	male = {
+		names = {
+			Abraham Anders
+			Canutus
+			David
+			Frans
+			Gabriel
+			Henrik Herman
+			Johannes
+			Ludvig
+			Magnus Martin
+			Nicolaus
+			Olaus
+			Paul Petrus
+			Viktor
+			Zacharias
+		}
+	}
+	female = {
+		names = {
+			Astrid
+			Julia
+		}
+	}
+	surnames = {
+		Alopaeus
+		Bjugg Brommius Bång 
+		Carelius Carstenius Cygnaeus
+		Elimaeus
+		Fortunius
+		Gezelius Gummerus
+		Hornborg
+		Juusten Johannis Juslenius
+		Krogius
+		Laurbecchius Lund
+		Melartopaeus Molander
+		Nycopensis Nylander
+		Ottelin
+		Råbergh 
+		Schauman
+		Thauvonius
+	}
+}
+
+ICE = {
+	male = {
+		names = {
+			Aage Astrathur Baldur Björn Dagbjartur Eggthor Freyr Hjörtur Lórens Oddleifur Sturlaugr Vagn Ögrim
+		}
+	}
+	female = {
+		names = {
+			Árný Arnfrithur Bjarnhildur Boghildur Dómhildur Drótt Freydís Gunnrún Rafney
+		}
+	}
+	surnames = {
+		Thorarensen Blöndal Aagesson Astrathursson Baldursson Björnsson Eggthorsson Hjörtursson Oddleifsson Vagnsson
+	}
+	callsigns = { }
+}
+
+LIT = {
+	male = {
+		names = { Adolfas Aleksandras Algirdas Andrius Antanas Arturas Arunas Augustinas Balys Boris
+		Bronislovas Danielius Darius Gendiminas Henrikas Jonas Jonusas Juozas Juras Jurgis
+		Justas Kazimieras Kazys Kipras Konstantinas Lukas Marijus Markas Mikalojus Mindaugas
+		Motejus Mykolas Paulius Petras Povilas Ramunas Ringaudas Rolandas Simonas Stasys
+		Steponas Valdas Valdemaras Viktoras Vilhelmas Visvaldas Vladimiras Vygantas Vytautas Zydrunas  }
+	}
+	female = {
+		names = { Birute Morta }
+	}
+	surnames = { Adamkus Almenas Avizienis Baltrusaitis Brazauskas Basanavicius Birutis Bradziunas Buga Ciurlionis
+		Danauskas Daukantas Dobkevicius Dubeneckis Dvarionas Galdikas Grinius Griskevicius Ivanauskas Jablonskis
+		Jucys Krupavicius Landsbergis Lozoraitis Merkys Paksas Paleckis Paulauskas Petrauskas Piskarkas
+		Pozela Radvila Sabaniauskas Schatz Simonavicius Sirvydas Slezevicius Semtona Snieckus Stauaitis
+		Straizys Stulginkis Svedas Terleckas Urbsys Vagnorius Valeska Voldemaras Zemaitis Zuokas
+	}
+	callsigns = { }
+}
+
+EST = {
+	male = {
+		names = { Aadu Alar Aleksander Andrus Artur August Bernard Dmitri Eduard Eerik
+		Elmar Ernst Georg Gustav Haman Harri Heino Hendrik Hjalmar Ivari
+		Jaan Jakob Johannes Joosep Juhan Julius Jüri Kaarel Kalev Konstantin
+		Lennart Ludvig Madis Mart Mikhel Nigul Olev Paavo Peeter Pent
+		Ragnar Siiri Sven Tarmo Tõnis Toomas Uno Valmar Villwm Voldemar
+		}
+	}
+	female = {
+		names = { Anna }
+	}
+	surnames = {
+		Aamisepp Aavik Adams Anvel Barbarus Bornhöhe Eenpalu Hint Hurt Jaakson
+		Kangro Kint Klaasen Koern Kõiv Kotli Kumari Kupine Kuusik Leppik
+		Lipping Lohk Mäe Männil Moora Natus Nurkse Nurmekund Õkva Öpik
+		Orkivu Päts Perna Piiper Poska Puusepp Ränk Rei Reinman Siinmaa
+		Sikkar Sirk Tõnisson Uluots Vaga Veske Vilbaste Vilms "von Uexküll" Warma
+	
+	 }
+	callsigns = { }
+}
+
+LAT = {
+	male = {
+		names = { Aaron Abrams Alberts Aleksandrs Aloisz Andrejs Arkadij Armands Arnolds Atis
+		Brunis Bruno Eduards Eliass Elmars Emils Evgenijs Filips Fricis Gustavs
+		Heinrihs Hermanis Izaks Janis Jazeps Jekabs Johans Juris Karlis Krisjanis
+		Leo Mark Martins Mihails Mikelis Nikolajs Oskars Pauls Peteris Rihards
+		Roberts Romans Sandis Sergejs Valdemars Valerians Valter Vilis Vladimirs Zigfrids
+		  }
+	}
+	female = {
+		names = { Anna }
+	}
+	surnames = { 
+		Abakovskis Apsenieks Balodis Baumanis Berkis Berzin Betins Braons Caks Cakste
+		Caps Celmins Dalins Dambitis Darzins Desslers Eizenteins Goppers Halsmans
+		Irbitis Kalnins Kalpaks Kucis Kovalevskis Krogzems Kronvalds Kuks Kviesis Lacis
+		Leiko Loskis Maters Matisons Meierovics Mihelssons Milenbahs Millers Needra Ozolins
+		Petrovs Plieksans Pumpurs Rothko Simanis Stucka Tumins Ulmanis Veidenbaums
+	}
+	callsigns = { }
+}
+
+SIA = {
+	male = {
+		names = { 
+			Nangklao Mongkut Rama Chulalongkorn Chao Vajiravudh Prajadhipok Naritsaranuwatiwong Phya Plaek
+		  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = {
+		Suriyawongse Saovabha Chichalerm Nitithada Phonphayuhasena
+	
+	 }
+	callsigns = { }
+}
+
+JAP = {
+	male = {
+		names = { 
+		Aritomo
+		Goro Gentaro Gonnohyoe
+		Heihachiro Hiroshi Hikonojo Hyoe Hayao
+		Iwao
+		Jiro Jinzaburo
+		Kiyotaka Kuranosuke Kozo Kantaro Koichiro Kagenori Kageaki Kotohito Keisuke Kazushige Kenkichi
+		Maresuke Masujiro Michisura Masatake Mitsuomi Mitsue Mineo
+		Nariaki Nobuyoshi
+		Rokuro
+		Sukeyuki Sukenori Shoin Sumiyoshi Samata Soroku Shichiro Shigeto Sotokichi Shigeru Sadao Shinsaku
+		Takayoshi Takamori Toshimichi Tsugumichi Tadakuni Tomonosuke Taro Toshiyoshi Tetsutaro Taruhito Takeaki Tamemoto Tomasaburo
+		Yoshika Yoshinobu Yoshimichi Yoshida Yasukata Yahachi Yusaku Yoshifuru Yoshinori Yasuyoshi
+		 }
+	}
+	female = {
+		names = { Aimi Asami Asuka }
+	}
+	surnames = { 
+		Arisugawa Arichi Akiyama Araki
+		Dewa
+		Enomoto
+		Hasegawa Honjo
+		Ito Inoue Ichinohe Itagaki
+		Kido Kuroda Katsura Kodama Kabayama Kawamura Kuroki Kawakami Kamimura Kataoka Kamio Kato Kanin Katsu
+		Makino Muto Minami Masaki Matsudaira
+		Nakamuta Nogi Nire Nozu
+		Okubo Oyama Omura Oku Okada Osumi
+		Saigo Suzuki Sato Sakura Shibayama Shimamura Shirakawa
+		Togo Takashima Tsuboi Tachibana Terauchi Tamon Takasugi Tokugawa
+		Uehara Uryu Ugaki Ueda
+		Yamagata Yamamoto Yamakawa Yashiro Yui Yamashita Yamaya
+	
+	}
+	callsigns = { Viper Lightning Devil Dragon Fury Bat Beer Sake Demon Dirty Lance Panther Shogun Vampire "War Lord" }
+}
+
+DZH = {
+	male = {
+		names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu  }
+	}
+	female = {
+		names = { }
+	}
+	surnames = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu }
+	callsigns = { }
+}
+
+MAD = {
+	male = {
+		names = {
+			Andriamihaja Augustus
+			Caesar
+			Heritovo
+			Lalaina
+			Rainiharo Rasanjy Rainilaiarivony Radama Rambolamasoandro
+			Sylvanus
+			Tsivandini Tisbite Tsilavina
+		}
+	}
+	female = {
+		names = {
+			Bako
+			Ranavalona Ravao
+		}
+	}
+	surnames = {
+		Andriamahazo Adrianifaha
+		Ivondro
+		Machamba
+		Rabemananjara Rabearivelo Rajoelina Razafinarivo Rasoanaivo Rabenja Ralainasolo Rafaralahy Rakotoarisoa Randrianari Rabenala Rakotomanga Rabetsara
+		Soloniaina Saholinirina
+		Tsiranana Tovondray
+	}
+}
+
+PPR = {
+	male = {
+		names = {
+			Annibal Alexsandru Andrea Agustinu
+			Costantinu
+			Didwho Dominigu Domnu Donatu
+			Egidiu
+			Flaviu
+			Gregori Gratzianu Gavrielu
+			Ignatzi
+			Joannei Josefu Jagu Juba Juliu Julianu Justinu Justu
+			Laurentzi Lorentzi Luca Luciu
+			Marcu Marcellu Marceh Mariu Mazeu Merkuriu Micheli Murtina Momolu
+			Nicola Nubelu
+			Pascale Paulu Peregrinu Petru
+			Rafiele Revocatus
+			Severinus Salomon Salvettor Samueli Sarafinu Saturnu Sergiu Stefanu
+			Tejan Tiberius Theodore Teofanu Terentzi Tobias Tulemeju Tomassu
+			Virgiliu
+		}
+	}
+	female = {
+		names = {
+			Maria
+		}
+	}
+	surnames = {
+		Aureliu
+		Boakai Borbor
+		Diabaté Daramy Dabo Dukuly Diawara
+		Foday Feindouno Foryoh Fayia
+		Hali
+		Jawara
+		Kabba Keita Kuyateh Kromah Kortu Kallon
+		Londo
+		Mansaray
+		Nyuma
+		Sesay Saccoh Sissoko
+		Twe
+		Weah
 	}
 }

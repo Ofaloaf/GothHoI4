@@ -1,25 +1,45 @@
-state=
-{
+
+state={
 	id=118
-	name="STATE_MONS_CALPE"
-	manpower=21372
-	
-	state_category = pastoral
+	name="STATE_BAETICA"
+
 	history={
 		owner = MOR
-		victory_points = { 4135 1 }
+		victory_points = {
+			1048 1 
+		}
+		victory_points = {
+			4135 1 
+		}
+		victory_points = {
+			7183 5 
+		}
+		victory_points = {
+			4080 1 
+		}
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 2
 			air_base = 2
 			4135 = {
 				naval_base = 4
 				coastal_bunker = 1
+
+			}
+			1048 = {
+				naval_base = 3
+
 			}
 		}
 		add_core_of = SPN
 		add_core_of = MOR
+
 	}
+
 	provinces={
-		4135
+		1048 3940 4080 4135 7098 7183 9815 10094 11749 12070 
 	}
+	manpower=21372
+	buildings_max_level_factor=1.000
+	state_category=town
 }
