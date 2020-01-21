@@ -1,0 +1,23 @@
+state=
+{
+	id=311
+	name="STATE_BALIS"
+	manpower = 96520
+	
+	state_category = rural
+	history=
+	{
+		add_core_of = FGY
+		owner = FGY
+		victory_points = {
+			2077 1 
+		}
+		buildings = {
+			infrastructure = 4
+			2077 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces= { 2077 }
+}
