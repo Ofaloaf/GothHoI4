@@ -11,6 +11,9 @@
  AVL_neutrality_party: "Party Newdinal"
  AVL_neutrality_party_long: "Party Newdinal"
  #
+ BRZ_democratic_party: "Party Conserfatiw"
+ BRZ_democratic_party_long: "Party Conserfatiw"
+ #
  DEN_communism_party: "Frivenstre"
  DEN_communism_party_long: "Frivenstre"
  DEN_democratic_party: "Centrum"
@@ -26,6 +29,9 @@
  DZH_fascism_party_long: "Reformist Nationalists"
  DZH_neutrality_party: "Imperial Clique"
  DZH_neutrality_party_long: "Imperial Clique"
+ #
+ FGY_democratic_party: "Partit Liberal"
+ FGY_democratic_party_long: "Partit Liberal"
  #
  FRK_communism_party: "Anarchisten"
  FRK_communism_party_long: "Anarchistische Congres"
@@ -54,6 +60,12 @@
  GTH_neutrality_party: "Lèga Imperial"
  GTH_neutrality_party_long: "Lèga Imperial"
  #
+ GTO_neutrality_party: "Partit dels Gautésos"
+ GTO_neutrality_party_long: "Partit dels Gautésos"
+ #
+ IWD_neutrality_party: "Blaid Unoliaethol"
+ IWD_neutrality_party_long: "Blaid Unoliaethol"
+ #
  LRM_communism_party: "Partì Radical"
  LRM_communism_party_long: "Partì Radical"
  LRM_democratic_party: "Partì Popular"
@@ -77,8 +89,20 @@
  NOR_democratic_party: "Moderate Venstre"
  NOR_democratic_party_long: "Moderate Venstre"
  #
+ PEU_fascism_party: "Partit Fassista"
+ PEU_fascism_party_long: "Partit Fassista"
+ #
  RNT_fascism_party: "KNS"
  RNT_fascism_party_long: "Karantanska Nacionalna Stranka"
+ #
+ RUM_communism_party: "SIF"
+ RUM_communism_party_long: "Sosyalist Işçi Federasyonu"
+ RUM_democratic_party: "AF"
+ RUM_democratic_party_long: "Ahali Firkasi"
+ RUM_fascism_party: "RF"
+ RUM_fascism_party_long: "Rumeli Firkasi"
+ RUM_neutrality_party: "Imparatorluk Klik"
+ RUM_neutrality_party_long: "Imparatorluk Klik"
  #
  SRB_communism_party: "SKS"
  SRB_communism_party_long: "Serbska Komunistiska Strona"
@@ -88,3 +112,6 @@
  #
  THR_fascism_party: "CT"
  THR_fascism_party_long: "Cruciada Tracianismului"
+ #
+ TRT_communism_party: "Party Lliberdad"
+ TRT_communism_party_long: "Party Lliberdad"

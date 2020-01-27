@@ -2,25 +2,27 @@
 state={
 	id=424
 	name="STATE_ANDHRA_PRADESH"
-	manpower = 1386120
-	state_category = city
-	
 
 	history={
 		owner = ADH
 		add_core_of = ADH
 		victory_points = {
-			10152 5 # Nellore
+			10152 5 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 1
 			dockyard = 1
-		}	
+
+		}
+
 	}
 
 	provinces={
-		1228 1344 1430 4321 4365 4414 7297 7310 7340 10152 10296 10756 10897 12180 12779 
+		1228 1430 4321 7297 7340 10152 12180 
 	}
+	manpower=1386120
+	buildings_max_level_factor=1.000
+	state_category=city
 }

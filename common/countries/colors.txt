@@ -390,6 +390,16 @@ FGY = {
 	color_ui = rgb { 39 84 129 }
 }
 
+GTO = {
+	color = rgb { 56 177 153 }
+	color_ui = rgb { 56 177 153 }
+}
+
+SIN = {
+	color = rgb { 135 104 85 }
+	color_ui = rgb { 135 104 85 }
+}
+
 ###############
 ### VANILLA ###
 ###############

@@ -10,8 +10,8 @@ state={
 	
 
 	history={
-		owner = RUM
-		add_core_of = RUM
+		owner = SIN
+		add_core_of = SIN
 		buildings = {
 			infrastructure = 2
 		}

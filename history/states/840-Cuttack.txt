@@ -1,0 +1,30 @@
+state={
+	id=840
+	name="STATE_CUTTACK"
+	
+	resources = {
+		steel = 1
+	}
+	
+	history={
+		owner = GTH
+		victory_points = {
+			10088 1 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			10088 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	
+	provinces={
+		4104 10088 10116 12063 
+	}
+	manpower=1072120
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

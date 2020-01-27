@@ -25,8 +25,8 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Zevegiin Naydan"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = GFX_portrait_mon_anandyn_amar
+	desc = "POLITICS_MON_NEUT_DESC"
+	picture = "Portrait_TAN_dondukkuular.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {

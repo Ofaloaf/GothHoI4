@@ -1624,3 +1624,62 @@ PPR = {
 		Weah
 	}
 }
+
+MOR = {
+	male = {
+		names = {
+			Alìssiu Andria Ànghelu Aristeu Atìliu Abbmelcar Aderbalu Antzioghu Apuleju Aureliu Arzoghu Antala
+			Bachis Baleri Btista Basili Beneitu Bonàriu Bonaentura Binmelcar
+			Crabiele Cristianu Cristolu Comita Costantzi
+			Dai Demitri Diunisi Diegu Dumìnigu Diodoru Domnigu
+			Elias Emili Efis Egidiu
+			Felle Fidele Firmadu Floru
+			Gerone Giorghi Gisepu Garmelu Galazi Gaetanu Gildon Gratzianu
+			Hospiton Hieronimu Habetdeus
+			Ilianu Iloches Iroxi Istèvoni Iscala Ignatzi
+			Jagu Juanne Josefu Juba
+			Larentzu Libòriu Lisandru Lussùrgiu Laurentzi Luciu Luca
+			Manuelli Marcu Marinelo Mateu Matia Maurìtziu Melchiorre Murru Magrinu Magrovi Massuna Mauru Maxsimu Micheli Mazighu
+			Nanghelu Nigola Nubelu Nartzalu
+			Onorau
+			Pantaleu Pascali Pàulu Pedrupàulu Popollu Posporu Pedru Pesutzu Pirillu Pompeju Possidzi
+			Revocatus Rafiele
+			Segostianu Serafinu Serju Servestru Sustianu Salomon Samueli Saturnu Stefanu
+			Tadeu Tiadoru Terentzi Tobias Tulemeju Tomas
+			Ursàriu
+			Virgiliu
+			Zecheddu
+		}
+	}
+	female = {
+		names = {
+			Alèssia
+			Beneita
+			Didon Dumìniga
+			Imashtarte
+			Zacobba
+		}
+	}
+	surnames = {
+		Arru Agus Araolla Asàra Aramu Atzei Altara Angius Aru Alepus "D'Aquinu" Aangaliu "d'Adrumetu"
+		Bardanzellu Bixiu Balistreri
+		Cadeddu Cassiga Chirigheddu Chessa Caria Calvia Casu Casula Congia Canalis Carta Ciusa Campus Cuccureddu "di Curubis"
+		Deledda Dalma Deffenu
+		Essebsi
+		Fresu Festa Fini Fiori Frau Fresi
+		Ghessa Ganau
+		Inconis
+		Jolzi "di Jovis"
+		Livi Loi Lussu Lai Lilliu
+		Melis Murenu Masala Murgia Majeroni Masu Melis Marras Maludrottu Mancosu "De Magistris" Mulas "di Maxila" Machliu Masguinus
+		Nuvoli Niffoi Nazzari Nivola
+		Ortu
+		Piras Piga Poddighe Pes Pedruangheli Piras Palmas Pisanu
+		Ruiu "de Riu"
+		Sanna Satta Soriga Scanu Soru Sotgiu Saragat Spissu Sau Sbisa Sagheddu Siccanu "di Silvani"
+		Tavolara Turchi Todde Tola Tuveri Tortu "di Tucca" "di Tuburbo"
+		Uccheddu Udella
+		Virdis Viridiu "di Veresvi"
+		Zatrilla Zola Zauecu
+	}
+}

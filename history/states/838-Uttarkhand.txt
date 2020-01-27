@@ -1,0 +1,21 @@
+state={
+	id=838
+	name="STATE_UTTARKHAND"
+	
+	history={
+		owner = SIN
+		add_core_of = SIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+	}
+	
+	provinces={
+		1129 1898 2002 2032 2076 3989 5002 5157 7106 10021 10729 12708 
+	}
+	manpower=5552920
+	buildings_max_level_factor=1.000
+	state_category=city
+}
