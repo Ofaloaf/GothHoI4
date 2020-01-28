@@ -1,6 +1,6 @@
 state={
 	id=838
-	name="STATE_UTTARKHAND"
+	name="STATE_UTTARAKHAND"
 	
 	history={
 		owner = SIN
