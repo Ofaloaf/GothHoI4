@@ -1,0 +1,22 @@
+state={
+	id=845
+	name="STATE_BASTAR"
+	
+	history={
+		owner = GJT
+		add_core_of = GJT
+		victory_points = {
+			7428 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	provinces={
+		1622 7428 7465 10171 12490 
+	}
+	manpower=281880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,13 +1,13 @@
 
 state={
 	id=218
-	name="STATE_218"
-	manpower = 1501076
+	name="STATE_TANAIS"
+	manpower = 1056480
 	
 	state_category = city
 
 	history={
-		owner = IBR
+		owner = VBG
 		victory_points = {
 			9417 15 
 		}
@@ -20,7 +20,7 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = IBR
+		add_core_of = VBG
 	}
 
 	provinces={

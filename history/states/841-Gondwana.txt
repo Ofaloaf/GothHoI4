@@ -1,0 +1,28 @@
+state={
+	id=841
+	name="STATE_GONDWANA"
+	
+	resources = {
+		steel = 1
+	}
+	
+	history={
+		owner = GWD
+		add_core_of = GWD
+		victory_points = {
+			1101 3
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+	
+	provinces={
+		1101 1538 1579 4513 7574 9946 10060 10428 10469 
+	}
+	manpower=515520
+	buildings_max_level_factor=1.000
+	state_category=town
+}

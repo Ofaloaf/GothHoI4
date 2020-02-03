@@ -1,0 +1,29 @@
+state={
+	id=843
+	name="STATE_JUTLAND"
+	
+	history={
+		owner = FRK
+		victory_points = {
+			6235 3
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			air_base = 2
+			394 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = FRK
+		add_core_of = DEN
+	}
+	
+	provinces={
+		316 332 394 399 3206 6235 11251 
+	}
+	manpower=964120
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,7 +1,7 @@
 
 state={
 	id=320
-	name="STATE_320"
+	name="STATE_MADRAS"
 
 	history={
 		owner = ADH
@@ -26,7 +26,7 @@ state={
 	provinces={
 		1268 1381 1409 4327 4416 4420 7265 7363 7436 8067 10149 10246 10278 10808 12164 12247 
 	}
-	manpower=286410
+	manpower=10511120
 	buildings_max_level_factor=1.000
 	state_category=town
 }

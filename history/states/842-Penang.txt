@@ -1,0 +1,27 @@
+state={
+	id=842
+	name="STATE_PENANG"
+	
+	history={
+		owner = GBI
+		add_core_of = PEG
+		victory_points = {
+			7342 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+			7342 = {
+				naval_base = 4
+			}
+		}
+	}
+	
+	provinces={
+		1291 1364 1376 4310 7342 12144 12215 
+	}
+	manpower=820280
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
