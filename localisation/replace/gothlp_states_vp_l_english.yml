@@ -1,5 +1,8 @@
 ﻿l_english:
+ STRATEGICREGION_LOEGRIA: "Loegria"
+ STRATEGICREGION_CAMBRIA: "Cambria & Cumbria"
  STRATEGICREGION_5: "Belgica"
+ STRATEGICREGION_18: "Oceanus Britannicus"
  STRATEGICREGION_19: "Armorica"
  STRATEGICREGION_20: "The Seven Provinces"
  STRATEGICREGION_148: "Outer Manchuria"
@@ -804,3 +807,4 @@
  VICTORY_POINTS_7381: "Sunda Kelapa"
  VICTORY_POINTS_7564: "Yugara"
  VICTORY_POINTS_2197: "Otautahi"
+ VICTORY_POINTS_1221: "Maynilà"
