@@ -1,0 +1,34 @@
+
+state={
+	id=723
+	name="STATE_723"
+	resources={
+		tungsten=4.000
+	}
+
+	history={
+		owner = TGR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+			2197 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			2197 1 
+		}
+		add_core_of = TGR
+
+	}
+
+	provinces={
+		2197 4819 5195 7839 8204 8212 10650 12632 12966 12974 
+	}
+	manpower=16200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

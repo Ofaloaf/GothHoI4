@@ -322,7 +322,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_fighter1
+			leads_to_tech = adv_fighter1
 			research_cost_coeff = 1
 		}
 		
@@ -415,14 +415,14 @@ technologies = {
 		}
 	}
 	
-	jet_fighter1 = {
+	adv_fighter1 = {
 
 		enable_equipments = {
-				jet_fighter_equipment_1
+				adv_fighter_equipment_1
 		}
 			
 		path = {
-			leads_to_tech = jet_fighter2
+			leads_to_tech = adv_fighter2
 			research_cost_coeff = 1
 		}
 
@@ -431,7 +431,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1945
+		start_year = 1936
 
 		folder = {
 			name = air_techs_folder
@@ -440,7 +440,6 @@ technologies = {
 		
 		categories = {
 			light_air
-			jet_technology
 		}
 
 		ai_will_do = {
@@ -456,14 +455,14 @@ technologies = {
 		}
 	}
 	
-	jet_fighter2 = {
+	adv_fighter2 = {
 
 		enable_equipments = {
-			jet_fighter_equipment_2
+			adv_fighter_equipment_2
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1939
 
 		folder = {
 			name = air_techs_folder
@@ -472,7 +471,6 @@ technologies = {
 		
 		categories = {
 			light_air
-			jet_technology
 		}
 		
 		ai_will_do = {
@@ -1001,7 +999,7 @@ technologies = {
 		#}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = 4 y = 8 }
@@ -1053,7 +1051,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1944
+		start_year = 1933
 		
 		categories = {
 			naval_air
@@ -1190,7 +1188,7 @@ technologies = {
 		#}
 
 		research_cost = 2
-		start_year = 1944
+		start_year = 1933
 		folder = {
 			name = air_techs_folder
 			position = { x = -2 y = 8 }
@@ -1219,7 +1217,7 @@ technologies = {
 		}
 		allow_branch = { has_dlc = "La Resistance" }
 		research_cost = 2
-		start_year = 1936
+		start_year = 1925
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 4 }
@@ -1261,7 +1259,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1929
 		folder = {
 			name = air_techs_folder
 			position = { x = 10 y = 6 }
@@ -1406,7 +1404,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = jet_tactical_bomber1
+			leads_to_tech = tactical_bomber4
 			research_cost_coeff = 1
 		}
 
@@ -1446,14 +1444,14 @@ technologies = {
 		}
 	}
 	
-	jet_tactical_bomber1 = {
+	tactical_bomber4 = {
 
 		enable_equipments = {
-			jet_tac_bomber_equipment_1
+			tac_bomber_equipment_4
 		}
 		
 		path = {
-			leads_to_tech = jet_tactical_bomber2
+			leads_to_tech = tactical_bomber5
 			research_cost_coeff = 1
 		}
 		
@@ -1462,7 +1460,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1945
+		start_year = 1936
 		
 		folder = {
 			name = air_techs_folder
@@ -1471,7 +1469,6 @@ technologies = {
 		
 		categories = {
 			medium_air
-			jet_technology
 			tactical_bomber
 		}
 		
@@ -1484,14 +1481,14 @@ technologies = {
 		}
 	}
 	
-	jet_tactical_bomber2 = {
+	tactical_bomber5 = {
 
 		enable_equipments = {
-			jet_tac_bomber_equipment_2
+			tac_bomber_equipment_5
 		}
 		
 		research_cost = 2
-		start_year = 1950
+		start_year = 1939
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 14 }
@@ -1499,7 +1496,6 @@ technologies = {
 		
 		categories = {
 			medium_air
-			jet_technology
 			tactical_bomber
 		}
 		

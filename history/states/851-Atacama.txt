@@ -1,0 +1,25 @@
+state={
+	id=851
+	name="STATE_ATACAMA"
+	
+	history={
+		owner = CHR
+		add_core_of = CHR
+		buildings = {
+			infrastructure = 3
+			8217 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			8231 1 # Calama
+		}
+	}
+	
+	provinces={
+		8217 8231 
+	}
+	manpower=100880
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

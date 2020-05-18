@@ -1,0 +1,23 @@
+state={
+	id=847
+	name="STATE_MONGYANG"
+	
+	history={
+		owner = MNY
+		add_core_of = MNY
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4318 3 # Putao
+		}
+	}
+	
+	provinces={
+		1197 1934 4318 4996 
+	}
+	manpower=464560
+	buildings_max_level_factor=1.000
+	state_category=town
+}

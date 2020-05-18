@@ -16,7 +16,7 @@ state={
 		}
 		add_core_of = TRT
 		victory_points = {
-			2152 2
+			2152 3
 		}
 
 	}

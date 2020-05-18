@@ -1,14 +1,16 @@
+
 state={
 	id=830
 	name="STATE_RIU_ROGE"
-	resources = {
-		aluminium = 4
+	resources={
+		aluminium=4.000
 	}
-	
+
 	history={
 		owner = ANC
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = ANC
 		victory_points = {
@@ -16,9 +18,9 @@ state={
 		}
 
 	}
-	
+
 	provinces={
-		1503 7485 7543 12458 12489 12778 
+		1503 7485 12458 12778 
 	}
 	manpower=33720
 	buildings_max_level_factor=1.000

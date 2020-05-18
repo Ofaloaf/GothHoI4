@@ -85,7 +85,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Leontin Felecan"
-	gfx = GFX_Portrait_hungary_geza_lakatos
+	picture = "constantin_neculcea.dds"
 	traits = {  }
 	skill = 3
 	attack_skill = 3
@@ -129,7 +129,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Lucian Constantinescu"
-	gfx = GFX_Portrait_hungary_ferenc_feketehalmy_czeydner
+	picture = "octav_vorobchievici.dds"
 	traits = { }
 	skill = 2
 	attack_skill = 2

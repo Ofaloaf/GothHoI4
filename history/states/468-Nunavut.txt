@@ -1,7 +1,7 @@
 
 state={
 	id=468
-	name="STATE_HOCHELAGA"
+	name="STATE_KEBEC"
 	resources={
 		aluminium=3.000
 	}

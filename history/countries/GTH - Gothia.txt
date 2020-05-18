@@ -27,7 +27,6 @@ set_technology = {
 	interwar_antiair = 1
 	gwtank = 1
 	basic_light_tank = 1
-	improved_light_tank = 1
 	early_fighter = 1
 	early_bomber = 1
 	tactical_bomber1 = 1
@@ -39,6 +38,7 @@ set_technology = {
 	fleet_in_being = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	armored_car1 = 1
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -138,7 +138,10 @@ if = {
 }
 
 add_ideas = {
-	limited_conscription
+	volunteer_only
+	GTH_home_of_revolution
+	GTH_entrenched_old_guard
+	GTH_commune_militias
 }
 
 create_country_leader = {

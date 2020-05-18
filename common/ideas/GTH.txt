@@ -1,0 +1,138 @@
+ideas = {
+	country = {
+		GTH_home_of_revolution = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = home_of_revolution
+			
+			modifier = {
+				drift_defence_factor = 0.5
+			}
+			rule = {
+				can_create_factions = yes
+			}
+		}
+		
+		GTH_entrenched_old_guard = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_disjointed_gov
+			
+			modifier = {
+				political_power_cost = 0.5
+				political_advisor_cost_factor = 0.335
+			}
+		}
+		
+		GTH_commune_militias = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			picture = generic_reserve_divisions
+			
+			modifier = {
+				mobilization_speed = 0.3
+				command_power_gain_mult = -0.5
+			}
+		}
+	}
+	political_advisor = {	
+		GTH_avit_nedran = {
+			
+			#picture = idea_GTH_karl_von_motesiczky
+			
+			allowed = {
+				original_tag = GTH
+			}
+			
+			available = {
+				NOT = { has_autonomy_state = autonomy_supervised_state }
+			}
+			
+			traits = { fascist_demagogue }
+	
+			do_effect = {
+				NOT = {
+					has_government = fascism
+				}
+			}
+			
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+	theorist = {
+		GTH_guillemo_mareschaldus = {
+			ledger = army
+			
+			
+			allowed = {
+				original_tag = GTH
+			}
+			
+			cost = 250
+			
+			research_bonus = {
+				cat_grand_battle_plan = 0.15
+			}
+			
+			traits = { grand_battle_plan_expert }
+		}
+	}
+	
+	high_command = {
+		GTH_astrugha_blanxart = {
+			ledger = army
+			
+			
+			allowed = {
+				original_tag = GTH
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	
+	army_chief = {
+		GTH_teresa_valharguas = {
+			
+			allowed = {
+				original_tag = GTH
+			}
+			
+			traits = { army_chief_reform_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}	
+	}
+}

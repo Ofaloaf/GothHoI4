@@ -2,14 +2,17 @@
 state={
 	id=474
 	name="STATE_474"
-	manpower = 440289
+	manpower = 1083440
 	
-	state_category = rural
+	state_category = large_town
 
 	history={
-		owner = ANC
+		owner = JCT
 		buildings = {
 			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
 			air_base = 1
 			4904 = {
 				naval_base = 2
@@ -18,7 +21,7 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = ANC
+		add_core_of = JCT
 		#victory_points = {
 		#	12715 3
 		#}

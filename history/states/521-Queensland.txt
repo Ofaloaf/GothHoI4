@@ -1,7 +1,7 @@
 
 state={
 	id=521
-	name="STATE_521"
+	name="STATE_NEGERI_KARANG" # "State of Coral"
 	manpower = 916800
 	
 	state_category = town
@@ -25,10 +25,13 @@ state={
 			}
 		}
 		victory_points = {
-			7564 5 
+			7651 20 # Rockhampton/Bayali
 		}
 		victory_points = {
-			7566 1 
+			7564 10 # Brisbane/Yugara
+		}
+		victory_points = {
+			7566 1 # Townsville/Manbarra
 		}
 		add_core_of = SLT
 	}

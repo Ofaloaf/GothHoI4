@@ -36,4 +36,32 @@ spriteTypes = {
 		name = "GFX_strategic_bomber4_medium"
 		texturefile = "gfx/interface/technologies/strategic_bomber4.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_tactical_bomber5_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber5.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_adv_fighter1_medium"
+		texturefile = "gfx/interface/technologies/adv_fighter1.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_adv_fighter2_medium"
+		texturefile = "gfx/interface/technologies/adv_fighter2.dds"
+	}
+}
+
+spriteTypes = {
+	spriteType = { 
+		name = "GFX_unit_air_zeppelin_icon_small"
+		texturefile = "gfx/interface/counters/air_small/onmap_zeppelin.dds"
+		noOfFrames = 2
+	}
 }

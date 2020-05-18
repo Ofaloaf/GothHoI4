@@ -1,0 +1,19 @@
+state={
+	id=852
+	name="STATE_JUJUY"
+	
+	history={
+		owner = CHR
+		add_core_of = CHR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	
+	provinces={
+		2224 5229 11001 
+	}
+	manpower=138520
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

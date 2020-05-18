@@ -8,16 +8,16 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = MYS
+		add_core_of = MYS
 		victory_points = {
 			8011 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
+			arms_factory = 1
 		}
-
 	}
 
 	provinces={
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=5640000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

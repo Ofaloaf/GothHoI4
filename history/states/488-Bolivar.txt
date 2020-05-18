@@ -1,7 +1,7 @@
 
 state={
 	id=488
-	name="STATE_488"
+	name="STATE_ORINOG"
 	manpower = 245642
 	
 	state_category = pastoral

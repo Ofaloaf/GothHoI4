@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = "POLITICS_TRT_COM_DESC"
 	picture = "robert_l_bacon.dds"
 	expire = "1965.1.1"
-	ideology = syndicalism
+	ideology = left_wing_radicalism
 	traits = {
 		#
 	}

@@ -3,4 +3,4 @@ tags={
 	"Alternative History"
 }
 name="Goth LP"
-supported_version="1.8.1"
+supported_version="1.9.*"

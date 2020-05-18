@@ -6,4 +6,10 @@ objectTypes = {
 		file = "gfx/models/units/planes/generic_ww1_airship.mesh"
 		animation = { id = "idle" type = "bomber_default_idle_animation" }
 	}
+
+	pdxmesh = {
+		name = "generic_monoplane_mesh"
+		file = "gfx/models/units/planes/generic_plane_monoplane.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
 }

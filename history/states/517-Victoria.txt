@@ -1,7 +1,7 @@
 
 state={
 	id=517
-	name="STATE_517"
+	name="STATE_MARIBYRNONG"
 	
 	manpower = 2219500
 	

@@ -49,7 +49,7 @@ if = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1920.7.17"
+	last_election = "1922.7.17"
 	election_frequency = 48
 	elections_allowed = yes
 }

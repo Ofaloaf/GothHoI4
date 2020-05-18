@@ -4,7 +4,7 @@ state={
 
 	history={
 		owner = VBG
-		add_core_of = SIK
+		add_core_of = XIN
 		add_core_of = VBG
 		buildings = {
 			infrastructure = 1

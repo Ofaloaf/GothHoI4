@@ -28,6 +28,12 @@
  helicopter_CAS_equipment:0 "Attack Helicopter"
  strat_bomber_equipment_4:0 "Strat Bomber IV"
  strat_bomber_equipment_4_desc:0 "Powerful new engines allow new designs unprecedented speed while maintaining a large payload and long range. These planes are built for a new era of weapons of mass destruction."
+ adv_fighter_equipment_1: "Advanced Fighter I"
+ adv_fighter_equipment_1_desc: "Improvements in airframe design and new engineering techniques have made the widespread use of monoplanes in the military feasible at last."
+ adv_fighter_equipment_2: "Advanced Fighter II"
+ adv_fighter_equipment_2_desc: "The pinnacle of fighter design, these aircraft are the true kings of the air."
+ tac_bomber_equipment_4: "Tac Bomber IV"
+ tac_bomber_equipment_5: "Tac Bomber V"
  #
  GTH_fighter_equipment_0:0 "Oficina de Surisnas AC-28"
  GTH_fighter_equipment_0_short:0 "OS AC-28" 

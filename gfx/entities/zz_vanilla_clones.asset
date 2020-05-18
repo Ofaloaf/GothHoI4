@@ -10,3 +10,43 @@ entity = {
 	clone = "ITA_heavy_plane_entity"
 	name = "FRK_THR_plane_entity"
 }
+
+entity = { 
+	clone = "JAP_armored_car_0_entity"
+	name = "GTH_armored_car_0_entity"
+}
+
+entity = { 
+	clone = "JAP_armored_car_1_entity"
+	name = "GTH_armored_car_1_entity"
+}
+
+entity = { 
+	clone = "JAP_armored_car_0_entity"
+	name = "LRM_armored_car_0_entity"
+}
+
+entity = { 
+	clone = "JAP_armored_car_1_entity"
+	name = "LRM_armored_car_1_entity"
+}
+
+entity = { 
+	clone = "SOV_armored_car_0_entity"
+	name = "GBI_armored_car_0_entity"
+}
+
+entity = { 
+	clone = "ITA_armored_car_1_entity"
+	name = "GBI_armored_car_1_entity"
+}
+
+entity = { 
+	clone = "FRA_armored_car_0_entity"
+	name = "VBG_armored_car_0_entity"
+}
+
+entity = { 
+	clone = "SOV_armored_car_1_entity"
+	name = "VBG_armored_car_1_entity"
+}

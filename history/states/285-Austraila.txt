@@ -1,7 +1,7 @@
 
 state={
 	id=285
-	name="STATE_285"
+	name="STATE_NEGERI_ILLAWARRA"
 	manpower = 2563100
 	state_category = large_city
 	
@@ -25,15 +25,15 @@ state={
 			}
 		}
 		victory_points = {
-			7859 30 
+			7859 10 # Canberra/Ohpir
 		}
 		
 		victory_points = {
-			12406 20.0
+			12406 5 # Sydney/Pelabuhan Gadigal
 		}
 		
 		victory_points = {
-			7520 1 
+			7520 1 # Newcastle/Bandarekalipt
 		}
 		add_core_of = SLT
 	}

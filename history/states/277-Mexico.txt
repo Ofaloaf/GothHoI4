@@ -1,14 +1,14 @@
 
 state={
 	id=277
-	name="STATE_277"
-	manpower = 3424403
+	name="STATE_ANAHUAC"
+	manpower = 3559920
 	
 	state_category = city
 
 	resources={
 		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
-	}
+	}	
 	
 	history={
 		owner = ANC
@@ -20,10 +20,13 @@ state={
 		}
 		add_core_of = ANC
 		victory_points = {
-			1965 25
+			7913 15
 		}
 		victory_points = {
-			2008 10
+			1965 10
+		}
+		victory_points = {
+			2008 5
 		}
 	}
 

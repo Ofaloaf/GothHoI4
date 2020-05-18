@@ -25,10 +25,10 @@ state={
 		}
 		add_core_of = PEQ
 		victory_points = {
-			6845 20
+			6845 10
 		}
 		victory_points = {
-			11800 15
+			11800 5
 		}
 
 	}

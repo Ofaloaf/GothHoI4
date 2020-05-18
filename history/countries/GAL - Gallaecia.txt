@@ -81,7 +81,7 @@ create_country_leader = {
 	desc = "POLITICS_GAL_COM_DESC"
 	picture = "e_t_seton.dds"
 	expire = "1965.1.1"
-	ideology = left_wing_radicalism
+	ideology = marxism
 	traits = {
 		#
 	}

@@ -11,6 +11,9 @@ bookmarks = {
 			history = "GTH_LP_CAMPAIGN_DESC"
 			ideology = communism
 			ideas = {
+				GTH_home_of_revolution
+				GTH_entrenched_old_guard
+				GTH_commune_militias
 			}
 			focuses = {
 			}

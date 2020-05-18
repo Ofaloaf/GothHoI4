@@ -1,3 +1,4 @@
+
 state={
 	id=601
 	name="STATE_601"
@@ -6,20 +7,22 @@ state={
 	}
 
 	history={
-		owner = DZH
-		add_core_of = DZH
+		owner = MNY
+		add_core_of = MNY
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
-			10856 1
+			10856 1 
 		}
+
 	}
 
 	provinces={
-		4407 5018 5080 5102 8041 8059 10741 10856 
+		4407 5018 5102 8041 8059 10856 
 	}
-	manpower=368200
+	manpower=627120
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

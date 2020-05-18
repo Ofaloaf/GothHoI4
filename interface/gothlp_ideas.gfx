@@ -5,14 +5,90 @@
 #	}
 #}
 
+# IDEOLOGIES ###################
+
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_anarchist_communism"
+		texturefile = "gfx/interface/ideologies/anarchist_communism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_radicalism"
+		texturefile = "gfx/interface/ideologies/radicalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_syndicalism"
+		texturefile = "gfx/interface/ideologies/syndicalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_vanguardism"
+		texturefile = "gfx/interface/ideologies/vanguardism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_marxism"
+		texturefile = "gfx/interface/ideologies/marxism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_fascism_ideology"
+		texturefile = "gfx/interface/ideologies/fascism_ideology.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_folk_nationalism"
+		texturefile = "gfx/interface/ideologies/folk_nationalism.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_futurism"
+		texturefile = "gfx/interface/ideologies/futurism.dds"
+	}
+}
+
 # GENERIC ######################
 
 spriteTypes = {	
 	spriteType = {
 		name = "GFX_idea_generic_no_morale"
 		texturefile = "gfx/interface/ideas/generic_no_morale.dds"
-	}	
-}
+	}
+
 
 # FRK - Frankia ##################################################################
 
+	spriteType = {
+		name = "GFX_idea_FRK_vrijkorps_1"
+		texturefile = "gfx/interface/ideas/idea_FRK_vrijkorps_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_FRK_vrijkorps_2"
+		texturefile = "gfx/interface/ideas/idea_FRK_vrijkorps_2.dds"
+	}	
+
+# GTH - Gothia ###################################################################
+
+	spriteType = {
+		name = "GFX_idea_GTH_avit_nedran"
+		texturefile = "gfx/interface/ideas/idea_GTH_karl_von_motesiczky.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_GTH_guillemo_mareschaldus"
+		texturefile = "gfx/interface/ideas/idea_GTH_salvation_army_11.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GTH_astrugha_blanxart"
+		texturefile = "gfx/interface/ideas/idea_GTH_salvation_army_17.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_GTH_teresa_valharguas"
+		texturefile = "gfx/interface/ideas/idea_GTH_salvation_army_16.dds"
+	}
+}

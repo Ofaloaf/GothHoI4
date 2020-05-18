@@ -1,7 +1,7 @@
 state=
 {
 	id=559
-	name="STATE_559"
+	name="STATE_SOMALIA"
 	manpower = 1028895
 	
 	state_category = rural

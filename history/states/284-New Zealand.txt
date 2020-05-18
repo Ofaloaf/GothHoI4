@@ -2,16 +2,14 @@
 state={
 	id=284
 	name="STATE_PULAU_UTARA"
-	manpower = 78000
+	manpower = 134120
 	
-	state_category = pastoral
+	state_category = rural
 	
 	history={
-		owner = TNT
+		owner = TGR
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
-			air_base = 1
 			4543 = {
 				naval_base = 2
 			}
@@ -28,7 +26,7 @@ state={
 		victory_points = {
 			10334 1 
 		}
-		add_core_of = TNT
+		add_core_of = TGR
 	}
 
 	provinces={

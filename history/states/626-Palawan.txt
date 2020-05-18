@@ -1,0 +1,23 @@
+state=
+{
+	id=626
+	name="STATE_626"
+	manpower = 717720
+	
+	state_category = rural
+	
+	history=
+	{
+		owner = SBY
+		buildings = {
+			infrastructure = 3
+			4429 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SBY
+	}
+	provinces={
+		4429 7419 10145 
+	}
+}

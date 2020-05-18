@@ -72,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_SRB_MARXISM_DESC"
 	picture = "carl_alois_philipp_garre.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = vanguardism
 	traits = {
 		#
 	}

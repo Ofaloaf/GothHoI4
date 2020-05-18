@@ -24,7 +24,7 @@ create_country_leader = {
 	name = "Erastus Kaujeua"
 	picture = "george_woodson.dds"
 	expire = "1965.1.1"
-	ideology = syndicalism
+	ideology = left_wing_radicalism
 	traits = {
 	}
 }

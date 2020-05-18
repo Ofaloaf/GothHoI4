@@ -1683,3 +1683,44 @@ MOR = {
 		Zatrilla Zola Zauecu
 	}
 }
+
+MEW = {
+	male = {
+		names = {
+			Amar
+			Aminuddin
+			Arvind
+			Bhim
+			Bhupal
+			Hamir
+			Jagat
+			Jai
+			Lalit
+			Mahendra
+			Nand
+			Rajesh
+			Ramkrishna
+			Wasifuddin
+			Zahiruddin
+		}
+	}
+	female = {
+		names = {
+			Bhakti
+			Dineshnandini
+			Nirupama
+		}
+	}
+	surnames = {
+		Bhagora
+		Bhandari
+		Chaturvedi
+		Chordia
+		Dagar
+		Dalmia
+		Kataria
+		Maheshwari
+		Sharmi
+		Soni
+	}
+}

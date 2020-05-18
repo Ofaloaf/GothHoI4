@@ -1602,17 +1602,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1926.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1927.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1928.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1633,7 +1633,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1929
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1940 }
@@ -1649,17 +1649,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1926.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1927.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1928.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1675,7 +1675,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1942
+		start_year = 1931
 		folder = {
 			name = infantry_folder
 			position = { x = 4 y = @1942 }
@@ -1695,17 +1695,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1926.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1927.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1928.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1734,17 +1734,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1926.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1938.1.1"
+				date > "1927.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1939.1.1"
+				date > "1928.1.1"
 			}
 			modifier = {
 				is_major = no

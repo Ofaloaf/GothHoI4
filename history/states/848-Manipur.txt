@@ -1,0 +1,26 @@
+state={
+	id=848
+	name="STATE_MANIPUR"
+	
+	history={
+		add_core_of = PEG
+		owner = PEG
+		victory_points = {
+			1581 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11968 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={
+		997 1525 1553 1581 7179 9991 10090 10514 11968 12010 12322 
+	}
+	manpower=1773940
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

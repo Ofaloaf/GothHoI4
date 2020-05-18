@@ -41,7 +41,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Brigade Montanha"  		# Mountain Brigades were 2x2 Rgts + support
+	name = "Brigada Montanha"  		# Mountain Brigades were 2x2 Rgts + support
 	#division_names_group = SPR_MNT_01
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
@@ -54,7 +54,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Brigade de Infantaría" 		# Infantry Brigade - Used for smaller garrison units
+	name = "Brigada de Infantaría" 		# Infantry Brigade - Used for smaller garrison units
 	#division_names_group = SPR_GAR_01
 
 	regiments = {
@@ -65,6 +65,18 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }   # Eng Bn
+	}
+}
+
+division_template = {
+	name = "Brigada de Veitura" 		# Infantry Brigade - Used for smaller garrison units
+	#division_names_group = SPR_GAR_01
+
+	regiments = {
+		armored_car = { x = 0 y = 0 }	
+		armored_car = { x = 0 y = 1 }	
+		armored_car = { x = 1 y = 0 }	
+		armored_car = { x = 1 y = 1 }	
 	}
 }
 
@@ -91,13 +103,23 @@ units = {
 		division_template = "Division de Infantaría"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
-	}		
+	}	
+
+	division = { # "1r Brigada de Veitura"		
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6613  #
+		division_template = "Brigada de Veitura"
+		start_experience_factor = 0.3
+	}	
 	
 	### PORT SECHEVAL GARRISON
 	division = { # 
 		name = "Garnison de Pòrt Secheval"		
 		location = 2207  #
-		division_template = "Brigade de Infantaría"
+		division_template = "Brigada de Infantaría"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 	}

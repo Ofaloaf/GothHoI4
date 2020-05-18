@@ -2,7 +2,7 @@
 state={
 	id=104
 	name="STATE_DOMAVIA"
-	manpower =2457400
+	manpower = 2206520
 	
 	
 	state_category = town

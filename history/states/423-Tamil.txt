@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = TRA
+		add_core_of = TRA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2

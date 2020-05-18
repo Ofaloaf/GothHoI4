@@ -1,0 +1,26 @@
+state={
+	id=850
+	name="STATE_ARICA"
+	
+	history={
+		owner = PEU
+		add_core_of = PEU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			5131 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			5131 2
+		}
+	}
+	
+	provinces={
+		5131 
+	}
+	manpower=742760
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

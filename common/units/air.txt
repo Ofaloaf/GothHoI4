@@ -7,6 +7,15 @@ sub_units = {
 		need = { fighter_equipment = 1 }
 		categories = { category_fighter }
 	}
+	
+	scout_plane = {
+		sprite = light_plane
+		priority = 1
+		active = yes
+		type = { scout_plane }
+		need = { scout_plane_equipment = 1 }
+		categories = { category_scout_plane }
+	}
 
 	cv_fighter = {
 		sprite = light_plane
@@ -25,9 +34,18 @@ sub_units = {
 		need = { heavy_fighter_equipment = 1 }
 		categories = { category_heavy_fighter }
 	}
+	
+	adv_fighter = {
+		sprite = monoplane
+		priority = 1
+		active = yes
+		type = { fighter }
+		need = { adv_fighter_equipment = 1 }
+		categories = { category_fighter }
+	}
 
 	jet_fighter = {
-		sprite = light_plane
+		sprite = monoplane
 		priority = 1
 		active = yes
 		type = { fighter }

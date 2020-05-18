@@ -2,18 +2,17 @@
 state={
 	id=383
 	name="STATE_383"
-	manpower = 1880998
+	manpower = 66520
 	resources={
 		oil=30 # was: 42
 	}
 	
-	state_category = large_town
+	state_category = rural
 
 	history={
 		owner = ANC
 		buildings = {
 			infrastructure = 4
-			arms_factory = 1
 			industrial_complex = 1
 		}
 		add_core_of = ANC

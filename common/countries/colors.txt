@@ -111,8 +111,8 @@ BCG = {
 }
 
 SOA = {
-	color = rgb { 197 92 106 }
-	color_ui = rgb { 197 92 106 }
+	color = rgb { 197 106 92 }
+	color_ui = rgb { 197 106 92 }
 }
 
 ILY = {
@@ -375,6 +375,11 @@ TNT = {
 	color_ui = rgb { 176 232 64 }
 }
 
+TGR = {
+	color = rgb { 197 198 51 }
+	color_ui = rgb { 197 198 51 }
+}
+
 ADH = {
 	color = rgb { 200 25 65 }
 	color_ui = rgb { 200 25 65 }
@@ -403,6 +408,56 @@ SIN = {
 GWD = {
 	color = rgb { 224 146 113 }
 	color_ui = rgb { 224 146 113 }
+}
+
+MEW = {
+	color = rgb { 209 251 255 }
+	color_ui = rgb { 209 251 255 }
+}
+
+MYS = {
+	color = rgb { 184 193 89 }
+	color_ui = rgb { 184 193 89 }
+}
+
+TRA = {
+	color = rgb { 134 166 117 }
+	color_ui = rgb { 134 166 117 }
+}
+
+YPN = {
+	color = rgb { 188 78 118 }
+	color_ui = rgb { 188 78 118 }
+}
+
+VST = {
+	color = rgb { 83 113 149 }
+	color_ui = rgb { 83 113 149 }
+}
+
+JCT = {
+	color = rgb { 201 153 109 }
+	color_ui = rgb { 201 153 109 }
+}
+
+MNY = {
+	color = rgb { 103 168 215 }
+	color_ui = { 103 168 215 }
+}
+
+EQU = {
+	color = rgb { 249 146 98 }
+	color_ui = rgb { 255 190 127 }
+}
+
+XIN = {
+	color = rgb { 255 234 174 }
+	color_ui = rgb { 255 234 174 }
+}
+
+SBY = {
+	color = rgb { 92 87 122 }
+	color_ui = rgb { 92 87 122 }
 }
 
 ###############

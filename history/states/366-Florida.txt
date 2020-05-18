@@ -28,9 +28,11 @@ state={
 		}
 		add_core_of = SEC
 		victory_points = {
-			1843 5 
+			1843 2
 		}
-
+		victory_points = {
+			1572 3
+		}
 	}
 
 	provinces={
