@@ -2,12 +2,9 @@
 state={
 	id=313
 	name="STATE_313"
-	manpower = 969030
 	resources={
-		chromium=4 # was: 6
+		chromium=4.000
 	}
-	
-	state_category = town
 
 	history={
 		owner = FGY
@@ -19,7 +16,9 @@ state={
 			air_base = 1
 			10886 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = FGY
 		victory_points = {
@@ -29,7 +28,9 @@ state={
 	}
 
 	provinces={
-		4991 10842 10886 13085 
+		10842 10886 13085 
 	}
-	
+	manpower=969030
+	buildings_max_level_factor=1.000
+	state_category=town
 }

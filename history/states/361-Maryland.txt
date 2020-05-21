@@ -2,9 +2,6 @@
 state={
 	id=361
 	name="STATE_CHESAPEAKE"
-	manpower = 393400
-	
-	state_category = large_town
 
 	history={
 		owner = PEQ
@@ -21,16 +18,22 @@ state={
 			air_base = 3
 			6984 = {
 				naval_base = 2
+
 			}
 			3957 = {
 				naval_base = 1
+
 			}
+
 		}
 		add_core_of = PEQ
 
 	}
 
 	provinces={
-		3917 3957 6823 6892 6929 6984 9758 9786 11892 
+		822 847 3847 3917 3957 6872 6885 6892 6929 6984 9758 9786 9804 11758 11892 
 	}
+	manpower=921640
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }

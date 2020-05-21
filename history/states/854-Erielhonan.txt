@@ -1,0 +1,24 @@
+state={
+	id=854
+	name="STATE_ERIELHONAN"
+	
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = PEQ
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = PEQ
+	}
+	
+	provinces={
+		702 734 862 3697 9664 9836 11654 11680 11817 
+	}
+	manpower=418440
+	buildings_max_level_factor=1.000
+	state_category=town
+}

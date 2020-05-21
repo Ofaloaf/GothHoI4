@@ -1724,3 +1724,86 @@ MEW = {
 		Soni
 	}
 }
+
+MIS = { # Missori
+	male = {
+		names = {
+			Alaric Andrai Alfèu Amalaric Atalaric Apollinar Anfós
+			Bartolomèu Barnabèu Boeci Bruno
+			Constant
+			Eraric
+			Felip
+			Godesteo Guion
+			Hyacinthus
+			Ildebad
+			Jehan
+			Matèu Marc
+			Nicodim Namatius
+			Pèitre Pol Pons Projecte
+			Simon Simmac Sidòni
+			Tiuderic Teia Tadèu Tomàs Tiudat Tiberius
+			Zebedèu
+		}
+	}
+	female = {
+		names = {
+			Amalasonta
+			Bòna 
+			Dulça Dionysia
+			Maria
+			Romana
+		}
+	}
+	surnames = {
+		Aubert
+		Balard Baratier Bellon Bompard Brandolini Blatin Blanc
+		Cabanel Carol Cambon Castellan Claparède Comelade Cusachs Costas Cariol Conchon
+		Dauberval Delmas Dugès Dumal Dellon Duprat
+		Fredoli Floret Ferarrius Fisquet FAnget
+		Giral Goldard Grasset Godard Grimardias Gaillard Gondard Girard
+		Héral Havard
+		Jullian Juquin
+		Lordat Lajard Ligron Ledru Lecuellé Longchambom
+		Magnol Maillart Malet Malherbe Malzieu Maurin Mabru Mège Melchissédec Malleret Michelin
+		Nourrit Noé Néri
+		Orbal
+		Pellicier Peraudi Paladilhe Ponge Peuch Poncillon Pochet Piguet Pachon Pérès Pascal Pingeot Pognon Pingusson
+		Quillot Quittard
+		Ricard Ranc Roumégas Reboul Renon
+		Salavy Séchan Suco Sablon
+		Thomazeau Torres Terrisse Tixier Taillandier
+		Ungher
+		Vendell Vergnet
+		Wacquant
+	}
+}
+
+PEG = {
+	male = {
+		names = {
+			Ba
+			"E Law" "E Laung"
+			Han Htay
+			Linka
+			Nyut Nwe "Ngan-Mohn"
+			Panthagu Pyanchi
+			Shwe
+			Tin
+			"U"
+			Wa Wun
+		}
+	}
+	female = {
+		names = {
+			Daung
+			Nandar Ne Na
+			Phwa
+		}
+	}
+	surnames = {
+		Hlaing
+		"Kyi Kyi"
+		Maung Myaing "Min Hla" Min
+		Thein
+	}
+}

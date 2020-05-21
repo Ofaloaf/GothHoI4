@@ -10,7 +10,7 @@ set_technology = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1920.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -24,7 +24,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Thalun III"
 	desc = "POLITICS_PEG_NEUT_DESC"
-	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
+	picture = "siamese_noble.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -33,7 +33,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Shin Htwe Lay"
+	name = "Chapata Dein"
 	desc = "POLITICS_PEG_FASH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
@@ -44,11 +44,11 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Thalun III"
+	name = "Taksin Maung"
 	desc = "POLITICS_MOHAMMED_ZAHIR_SHAH_DESC"
 	picture = "Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = liberalism
 	traits = {
 		#
 	}
