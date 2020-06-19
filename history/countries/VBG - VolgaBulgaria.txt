@@ -17,7 +17,7 @@ set_stability = 0.6
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.11.27"
+	last_election = "1922.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -35,9 +35,19 @@ add_ideas = {
 create_country_leader = {
 	name = "Paväl Ilteber"
 	desc = "POLITICS_VBG_DEM_DESC"
-	picture = "Vladimir_Burtsev.dds"
+	picture = "hristo_danov.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Otrag Bragin"
+	desc = "POLITICS_VBG_FASH_DESC"
+	picture = "konstantin_mosttras.dds"
+	expire = "1965.1.1"
+	ideology = directorialism
 	traits = {
 	}
 }
@@ -54,18 +64,30 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Yençepi Tölis"
-	gfx = "GFX_portrait_prc_mao_zedong"
+	picture = "finnish_officer.dds"
 	traits = { defensive_doctrine trait_cautious politically_connected }
 	skill = 4
 	attack_skill = 2
-	defense_skill = 4
+	defense_skill = 3
 	planning_skill = 3
 	logistics_skill = 4
 }
 
+create_field_marshal = {
+	name = "Elteber Oshel"
+	picture = "khoja_niyaz.dds"
+	traits = { old_guard politically_connected inflexible_strategist }
+	skill = 2
+	
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
 create_corps_commander = {
 	name = "Gostun Bersula"
-	gfx = "GFX_portrait_prc_zhu_de"
+	picture = "sls865.dds"
 	traits = { infantry_officer organizer }
 	skill = 4
 	attack_skill = 3
@@ -76,13 +98,13 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Timëreç Yiltawar"
-	gfx = "GFX_portrait_prc_chen_yi"
+	picture = "ota311.dds"
 	traits = { infantry_officer }
-	skill = 3
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -109,21 +131,31 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
-create_field_marshal = {
-	name = "Elteber Oshel"
+create_corps_commander = {
+	name = "Kuchum Säydäsh"
 	picture = "Portrait_TODO.dds"
-	traits = { old_guard politically_connected inflexible_strategist }
-	skill = 1
+	traits = { }
+	skill = 2
 	
-	attack_skill = 1
-	defense_skill = 1
+	attack_skill = 2
+	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 1
+	logistics_skill = 2
 }
 
-# Airat Mö'min
-# Otrag Bragin
-# Kuchum Säydäsh
+# Navy!
+
+create_navy_leader = {
+	name = "Airat Mö'min"
+	picture = "finnish_fisherman.dds"
+	traits = { green_water_expert }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
 # Akhat Tinchurin
 # Kärim Yarullin
 # Ruslan Nigmatulin

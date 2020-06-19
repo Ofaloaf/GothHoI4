@@ -1,0 +1,25 @@
+ideas = {
+	country = {
+		LRM_military_collapse = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+			
+			removal_cost = -1
+			
+			picture = SPR_disbanded_army
+						
+			modifier = {
+				command_power_gain_mult = -0.1
+				max_planning = -0.1
+				army_org_factor = -0.1
+				military_leader_cost_factor = 1.00
+			}
+		}
+	}
+}

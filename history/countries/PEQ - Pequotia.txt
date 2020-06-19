@@ -1,6 +1,6 @@
 ﻿capital = 358
 
-#oob = "BRA_1936"
+oob = "0_PEQ"
 
 # Starting tech
 set_technology = {

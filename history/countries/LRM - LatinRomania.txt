@@ -87,6 +87,8 @@ set_popularities = {
 
 
 add_ideas = {
+	LRM_military_collapse
+	limited_conscription
 }
 
 create_country_leader = {
@@ -136,16 +138,16 @@ create_field_marshal = {
 	logistics_skill = 1
 }
 
-create_corps_commander = {
-	name = "Olderigh Mainardus"
-	picture = "Portrait_ITA_randolfo_pacciardi.dds"
-	traits = { trait_mountaineer organizer }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
+#create_corps_commander = {
+#	name = "Olderigh Mainardus"
+#	picture = "Portrait_ITA_randolfo_pacciardi.dds"
+#	traits = { trait_mountaineer organizer }
+#	skill = 4
+#	attack_skill = 3
+#	defense_skill = 3
+#	planning_skill = 3
+#	logistics_skill = 4
+#}
 
 create_corps_commander = {
 	name = "Svetònio Zoppis"
@@ -190,6 +192,17 @@ create_corps_commander = {
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ròmol Becut"
+	picture = "emilio_lussu.dds"
+	traits = { militia_captain harsh_leader }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
 create_corps_commander = {

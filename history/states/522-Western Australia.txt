@@ -1,7 +1,7 @@
 
 state={
 	id=522
-	name="STATE_522"
+	name="STATE_NEGERI_NOONGAR"
 	
 	manpower = 367200
 	state_category = rural

@@ -1,7 +1,7 @@
 
 state={
 	id=485
-	name="STATE_485"
+	name="STATE_TEPECUACUILCO"
 	manpower = 1598311
 	
 	state_category = rural

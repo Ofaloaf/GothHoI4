@@ -1,0 +1,22 @@
+ideas = {
+	country = {
+		KOJ_crusader_state = {
+			removal_cost = -1
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				war_support_factor = 0.05
+			}
+		}
+	}
+}

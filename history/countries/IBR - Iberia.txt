@@ -75,9 +75,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Arsen Xaghbakian"
+	name = "Arsen XII"
 	desc = ""
-	picture = "Portrait_ARM_garegin_nzhdeh.dds"
+	picture = "H_H_Topakyan.dds"
 	expire = "1953.3.1"
 	ideology = oligarchism
 	traits = {
@@ -99,7 +99,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Levon Smbatian"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "Portrait_ARM_garegin_nzhdeh.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {

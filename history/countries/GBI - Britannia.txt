@@ -242,8 +242,18 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 
+create_navy_leader = {
+	name = "Keswallon Durow"
+	picture = "GBI_admiral_01.dds"
+	traits = { battleship_adherent spotter }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 4
+	maneuvering_skill = 3
+	coordination_skill = 4
+}
+
 # Llawreint Arn
-# Keswallon Durow
 # Tomos Anderith
 # Philip Alawn
 # Margell Tanath

@@ -1,7 +1,7 @@
 
 state={
 	id=561
-	name="STATE_561" # Amur
+	name="STATE_HEILONG_JIANG" # Heilong Jiang, previously Amur
 	manpower = 454281
 	
 	state_category = rural

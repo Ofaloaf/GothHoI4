@@ -42,7 +42,7 @@ GTH = {
 			Quintil
 			Raolf Ranimiro Rubèrt Rodericho Raimond Romà Ricard Raugier Remistau Riculf
 			Sans Savarics Simaun Sidauni Suneario Sever Suer Sergi
-			Tiuderic Tumas Turismau Tiudermir Tiudat Tiudòsi Teia Tacite Tiudor Telo Tacite
+			Tiuderic Tumas Turismau Tiudemir Tiudat Tiudòsi Teia Tacite Tiudor Telo Tacite
 			Ubald Uc Úlfila
 			Vézian Vicenç Veremundo Vigitino Valaric
 			Walia Wifredo
@@ -67,7 +67,7 @@ GTH = {
 		Bluss Barril Bujon Buada Brison Boussac Balansa Brossozas Brugeyra
 		Cadraut Cunce Candacius "de Carilocus" "de Cabillaun" Causidicus "de Cambes" Clavellus Cathena Crozat Cailla "de Cadartz"
 		Codax "de Caersi" "de Capduelh" Cassan Cros Coll Codorniol Clot
-		Drautine "de Decotia" "de Dibio" Dius Delyduun Daza "de Daniceus" "de Diurnus" Debrus Domenech
+		Drautine "de Decotia" "de Dibio" Dius Delyduun Daza "de Daniceus" "de Diurnus" Debrus Domenech Durliat
 		Ermengau Ecochard
 		Fanci Falgario "de Fulhonibus" "de Floriac" Fonsalada Figueira Fagedet Fellous Fournil
 		Gabics Guisardo "de Guimballo" "de Gaunus" "de Grandris" Gaido Granella Garriga Gryphius Girard
@@ -224,7 +224,7 @@ KOJ = {
 	}
 	surnames = {
 		Anastasiade Apostol Abraham "de Acra" Aretescu "de Arbela" "de Arabiam" "de Amouda" "de Apollonia" "de Apabella" "de Amathus" Andronescu Apostolescu
-		Bentia Berechet Borlovan "de Beersheva" "de Beirut" Brailoiu Bogdanei "de Betleem" "de Betmaus" "de Betsaida" Barlas Boerescu Barbulescu
+		Bentia Berechet Borlovan "de Beersheva" "de Beirut" Brailoiu Bogdanei "de Betleem" "de Betmaus" "de Betsaida" Barlas Boerescu Barbulescu Bestavros
 		Cociociaho Cratunescu Crum Crishan Calineshti Cocos Calugareanu Costescu Constantinide "de Cezarea" "de Chalpe" Cantacuzino "de Capernaum" "de Chabolo" "de Caiphas" "de Cacho" Clerides Cominovici
 		David Dolcsko Draghici "de Damasc" Dutulescu Davila
 		Evaristus Eugenius Emeterius Ene
@@ -1767,7 +1767,7 @@ MIS = { # Missori
 		Magnol Maillart Malet Malherbe Malzieu Maurin Mabru Mège Melchissédec Malleret Michelin
 		Nourrit Noé Néri
 		Orbal
-		Pellicier Peraudi Paladilhe Ponge Peuch Poncillon Pochet Piguet Pachon Pérès Pascal Pingeot Pognon Pingusson
+		Pellicier Peraudi Paladilhe Ponge Peuch Poncillon Pochet Piguet Pachon Pérès Pascal Pingeot Pognon Pingusson Possinus
 		Quillot Quittard
 		Ricard Ranc Roumégas Reboul Renon
 		Salavy Séchan Suco Sablon
@@ -1805,5 +1805,162 @@ PEG = {
 		"Kyi Kyi"
 		Maung Myaing "Min Hla" Min
 		Thein
+	}
+}
+
+ANC = {
+	male = {
+		names = {
+			Alaric Andrai Amadeus Abraam Abèl Aristeu Apollon Apollinar
+			Caraules
+			Dàvid Dionís
+			Eraric Elias Enèu
+			Gundisalf
+			Isaac
+			Josuè Jonatan Jacòb Jehan
+			Luc Lixandre Levi
+			Miquel Marc Moïses Matèu
+			Pol Péitre
+			Ruben
+			Salomon
+			Tiudor Tiuderic Tiudòsi Tacite
+			Ulisses
+			Zenon Zabulon
+		}
+	}
+	female = {
+		names = {
+			Eugenia
+			Romana Rachèl
+			Zenobia
+		}
+	}
+	surnames = {
+		Ayari Augert Améris Ayglerius Aunemundus
+		Blanc Barizza Balmain Bayet Bellon Bernicat Bertholon Bonafous
+		Chastagnol Claveyrolat Clerc Croze Cadot Chapsal Cinqarbres Chalandon Caillot Charrin Cornillac Cornu Cottenet Crastes
+		Delétraz Deslot Dalcin Delpeuch Devès Dantin Dastur Deray Devic Duran Duphot Dalfinus
+		Fodéré Falcon Farjat Flandrin Florent Foly Frenay Froment Faber Fabricius
+		Gotineac Gaillard Galland Gantillon Garel Genod Géret Gilibert Godart Goullus Greppo Grandon Guirado
+		Halinart Herpin Hennequin Husson
+		Jacomin Jal Jalabert Janmot Jolivet Joatton Juvenet
+		Lafon Lafont Lambron Lipina Locart Lonchampt Loras
+		Marillat Marin Messina Marvingt Mézard Mafféi Manglart Marin Martinalt Martinon Massis Mayet Meller Mesplet Miro Mirtel Montalard Morgon Moltal
+		Nicolas Néel
+		Perrin Pascal Patrin Péju Péladan Pélissard Oélisson Pellos Perben Perrat Planès Pleynet Pothinus Potton Privas Payrolerius
+		Quidant Queyranne
+		Reycend Rispal Raynal Ribeiro Rodin Rognon Roubiliac Ruffer
+		Saby Saez Sabon Sarrabat Sclavis Seyvos Sonnerat Spon Stella Stoléru Sublet
+		Tasca Terrot Terver Testud Thomarat Tirant
+		Vidal Valera Vallon Véron Verpillat Vesco Viventiolus Vollon Vuillart
+		Willermoz
+	}
+}
+
+EGY = {
+	male = {
+		names = {
+			Anastasios Antonios Arkadios Alexandros Alexios Andronikos
+			Basileios
+			Dimitrios David
+			Evagrios
+			Georgios
+			Ioannis Isaakios
+			Konstantinos
+			Lazaros Leon Leontios
+			Makarios
+			Nikolaos Nestoras Nikephoros Neilos
+			Petros Ptolemaios Philippikos Pakhomios
+			Romanos
+			Stefanos Serapion Staurakios
+			Theodoros Theodosios Tiberios Theophilos
+		}
+	}
+	female = {
+		names = {
+			Antigone
+			Charicleia
+			Syncletica
+			Theodora
+			Zoe
+		}
+	}
+	surnames = {
+		Averof Armanious
+		Boutros Benakis Batzaria Belimace Barakat Bakhoum Bogdan
+		Christou Carcalechi Cozacovici Chalkias Charobim
+		Foti Fanous
+		Guli Girgis Gabra Greiss Ghalioungui Gerges Gheran
+		Horemis Habachi
+		Iolas Iliopoulos Irini Iskandar Ishak Istrati
+		Kavafis Kasdaglis Khalil Kaldas
+		Leonardos Lecca
+		Mazloum Moustaki Michalitsianos Murato Matussis Moscopolites Mounir Makary Mahfouz
+		Nassief Nakhla
+		Onassis Ornea
+		Photiade Parthenis Perakis Proyas Parvan
+		Roussos Rizk Randa
+		Stournaras Stratos Sawiris Stinio Sarofim Saber Sonbol Sedarous Soliman
+		Tositsas Tsanaklis Tsaldaris Tsiforos Tsamis Tulliu Talex
+		Valsami
+		Wassef
+		Xenakis Xanthopoulos
+		Youssef Youhanna Yacoub
+		Zouboulaki
+	}
+}
+
+VBG = {
+	male = {
+		names = {
+			Almish Andriyan Asparukh Atner Airat Akhat
+			Batbayan Bozchin
+			Dergun
+			Elteber
+			Fargat
+			Ghabdul Guar Gostun
+			Ille
+			Külerkin Keshtenttin Karaton Kezhedey Krum Kotrag Kuber Kubrat Kuchum Kärim
+			Malamir
+			Nurutdin
+			Omurtag Orunza Otrag
+			Paväl
+			Ruslan
+			Sespel Shilki Sabin
+			Tutugek Toktu Telerig Timëreç Tuqyi Talgat
+			Uturgur
+			Vakrim
+			Yerneslu Yençepi
+		}
+	}
+	female = {
+		names = {
+			Ipek
+			Mala
+			Sarantay
+		}
+	}
+	surnames = {
+		Asagel Anatri Aygi Augal Altsikurs Amrak Apa Akhasir
+		Bezmer Burta Barsil Bilar Barskhan Beserman Bagrasik Bichurin Bersula Bagha Balanjar Bilar
+		Chelbir Celepi Cantak Chakarar
+		Dulo Djagfar Dirmar Duar Disuyuhan Doulun Dengshuzi Datans
+		Esegel Ermiyar
+		Husankaj Hutsze
+		Ishbara Issik Ishtemi Ilteber Illig
+		Kashgu Kupibulkar Küriyer Kangti Keluo Kozar Kidar Kazarig
+		Lir
+		Mishshi Mitta Mohotu Mumo Mangeti Muqan
+		Nigmatullin Nushibi Nagai
+		Olxontor
+		Pascatir Pilesh Pihouba Poluomen
+		Rangan
+		Serep Saragur Sundica Stasis Sampsi Shaz Shetu Suvar Sabir
+		Tawile Tekin Turi Tuktash Terbelis Teletzes Töremen Tardu Taspar Tunugui Tiefa Tatpar Tölis Tughruq
+		Ugain
+		Virjal Vitti Vokil Vestranna
+		Xwalis
+		Yiltabar Yardy
+		Zhenli
 	}
 }

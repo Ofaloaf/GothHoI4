@@ -1,7 +1,7 @@
 
 state={
 	id=246
-	name="STATE_246"
+	name="STATE_LOCHA"
 	manpower = 1025458
 	
 	state_category = rural
@@ -11,8 +11,11 @@ state={
 
 	history={
 		owner = VBG
+		#victory_points = { # Rzhev
+		#	11349 1
+		#}
 		victory_points = {
-			11349 1
+			287 1
 		}
 		buildings = {
 			infrastructure = 5

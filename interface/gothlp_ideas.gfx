@@ -91,4 +91,11 @@ spriteTypes = {
 		name = "GFX_idea_GTH_teresa_valharguas"
 		texturefile = "gfx/interface/ideas/idea_GTH_salvation_army_16.dds"
 	}
+
+# KOJ - Jerusalem ################################################################
+
+	spriteType = {
+		name = "GFX_idea_KOJ_crusader_state"
+		texturefile = "gfx/interface/ideas/idea_KOJ_crusader_state.dds"
+	}	
 }

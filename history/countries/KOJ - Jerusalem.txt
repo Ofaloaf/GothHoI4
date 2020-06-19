@@ -12,6 +12,7 @@
 set_research_slots = 3
 
 add_ideas = {
+	KOJ_crusader_state
 	limited_conscription
 }
 

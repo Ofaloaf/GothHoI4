@@ -78,12 +78,23 @@ set_convoys = 40
 create_field_marshal = {
 	name = "Costenhin Odon"
 	picture = "Davis_Brainard.dds"
-	traits = { }
-	skill = 4
+	traits = { thorough_planner }
+	skill = 3
+    attack_skill = 3
+    defense_skill = 2
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_field_marshal = {
+	name = "Rhoberth Tewdosiog"
+	picture = "N_E_Irwin.dds"
+	traits = { fast_planner }
+	skill = 3
     attack_skill = 4
     defense_skill = 2
-    planning_skill = 4
-    logistics_skill = 3
+    planning_skill = 3
+    logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -130,9 +141,19 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-# Aleisandr Gweith
+create_corps_commander = {
+	name = "Aleisandr Gweith"
+	picture = "US_Grant_III.dds"
+	traits = { jungle_rat career_officer }
+	skill = 3
+	
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
 # Merddin Allt
-# Rhoberth Tewdosiog
 # Padrig Dyflin
 # Ystin Dubr
 

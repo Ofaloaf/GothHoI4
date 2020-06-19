@@ -1,6 +1,6 @@
 ﻿capital = 373
 
-#oob = "NZL_1936"
+oob = "0_MIS"
 
 # Starting tech
 set_stability = 0.8
@@ -15,7 +15,10 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	early_fighter = 1
-	naval_bomber1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	CAS1 = 1
+	early_airship = 1
 	trench_warfare = 1
 	fleet_in_being = 1
 }
@@ -103,6 +106,61 @@ create_country_leader = {
 }
 
 set_convoys = 70
+
+create_field_marshal = {
+	name = "Claudi Vialaret"
+	picture = "arthur_murray.dds"
+	traits = { old_guard offensive_doctrine }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Miquel Aldin"
+	picture = "phillip_nicholson.dds"
+	traits = { hill_fighter career_officer }
+	skill = 3
+    attack_skill = 2
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Evaric Michanol"
+	picture = "gen_sibley.dds"
+	traits = { old_guard cavalry_officer }
+	skill = 2
+    attack_skill = 3
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Luc Jalras"
+	picture = "csa_vet.dds"
+	traits = { career_officer trait_cautious }
+	skill = 3
+    attack_skill = 4
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ainric Polhiès"
+	picture = "cap_west.dds"
+	traits = { infantry_officer }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 2
+    logistics_skill = 2
+}
 
 
 ### VARIANTS ###

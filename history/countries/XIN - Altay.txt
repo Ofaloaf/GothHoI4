@@ -1,6 +1,6 @@
 ﻿capital = 617
 
-oob = "XSM_1936"
+oob = "0_XIN"
 
 # Starting tech
 set_technology = {

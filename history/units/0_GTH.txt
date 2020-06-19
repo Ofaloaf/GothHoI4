@@ -1,8 +1,7 @@
 ﻿##### Division Templates #####
 division_template = {
 	name = "Division de Infantaría" 		# Used for both regular infantry divisions and larger garrison divisions
-	#division_names_group = SPR_INF_01
-	# Note: Spanish divisions were 2x brigades of 2x2 rgts each, + support
+	division_names_group = GTH_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -20,7 +19,7 @@ division_template = {
 }
 division_template = {
 	name = "Division de Cavalariá"  		# Only one Cavalry Division (3x bge of 2x2 Rgts)
-	#division_names_group = SPR_CAV_01
+	division_names_group = GTH_CAV_01
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
@@ -42,7 +41,7 @@ division_template = {
 }
 division_template = {
 	name = "Brigada Montanha"  		# Mountain Brigades were 2x2 Rgts + support
-	#division_names_group = SPR_MNT_01
+	division_names_group = GTH_MNT_02
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
 		mountaineers = { x = 0 y = 1 }
@@ -55,7 +54,7 @@ division_template = {
 }
 division_template = {
 	name = "Brigada de Infantaría" 		# Infantry Brigade - Used for smaller garrison units
-	#division_names_group = SPR_GAR_01
+	division_names_group = GTH_INFB_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }	
@@ -70,7 +69,7 @@ division_template = {
 
 division_template = {
 	name = "Brigada de Veitura" 		# Infantry Brigade - Used for smaller garrison units
-	#division_names_group = SPR_GAR_01
+	division_names_group = GTH_MOT_02
 
 	regiments = {
 		armored_car = { x = 0 y = 0 }	

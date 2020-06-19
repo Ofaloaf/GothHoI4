@@ -1,0 +1,543 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+##### This is the generic set of namelists for all Spanish-speaking countries ####
+	# xxx_01 lists based primarily on Mexican historical/modern naming (most Latin American countries follow the same naming)
+	# xxx_02 lists based primarily on Argentinian and Chilean historical/modern naming (several other Latin American countries follow the same naming)
+GTH_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Division de Infantaría"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division de Infantaría" }
+		2 = { "%da Division de Infantaría" }
+		3 = { "%da Division de Infantaría" }
+		4 = { "%da Division de Infantaría" }
+		5 = { "%da Division de Infantaría" }
+		6 = { "%da Division de Infantaría" }
+		7 = { "%da Division de Infantaría" }
+		8 = { "%da Division de Infantaría" }
+		9 = { "%da Division de Infantaría" }
+		10 = { "%da Division de Infantaría" }
+		11 = { "%da Division de Infantaría" }
+		12 = { "%da Division de Infantaría" }
+		13 = { "%da Division de Infantaría" }
+		14 = { "%da Division de Infantaría" }
+		15 = { "%da Division de Infantaría" }
+		16 = { "%da Division de Infantaría" }
+		17 = { "%da Division de Infantaría" }
+		18 = { "%da Division de Infantaría" }
+		19 = { "%da Division de Infantaría" }
+		20 = { "%da Division de Infantaría" }		
+	}
+}
+
+GTH_INFB_01 = 
+{
+	name = "Infantry Brigade"
+
+	for_countries = { PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Brigada de Infantaría"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada de Infantaría" }
+		2 = { "%da Brigada de Infantaría" }
+		3 = { "%da Brigada de Infantaría" }
+		4 = { "%da Brigada de Infantaría" }
+		5 = { "%da Brigada de Infantaría" }
+		6 = { "%da Brigada de Infantaría" }
+		7 = { "%da Brigada de Infantaría" }
+		8 = { "%da Brigada de Infantaría" }
+		9 = { "%da Brigada de Infantaría" }
+		10 = { "%da Brigada de Infantaría" }
+		11 = { "%da Brigada de Infantaría" }
+		12 = { "%da Brigada de Infantaría" }
+		13 = { "%da Brigada de Infantaría" }
+		14 = { "%da Brigada de Infantaría" }
+		15 = { "%da Brigada de Infantaría" }
+		16 = { "%da Brigada de Infantaría" }
+		17 = { "%da Brigada de Infantaría" }
+		18 = { "%da Brigada de Infantaría" }
+		19 = { "%da Brigada de Infantaría" }
+		20 = { "%da Brigada de Infantaría" }		
+	}
+}
+
+GTH_INF_02 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GTH_INF_01 }
+
+	fallback_name = "%da Division del Exèrcit"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division del Exèrcit" }
+		2 = { "%da Division del Exèrcit" }
+		3 = { "%da Division del Exèrcit" }
+		4 = { "%da Division del Exèrcit" }
+		5 = { "%da Division del Exèrcit" }
+		6 = { "%da Division del Exèrcit" }
+		7 = { "%da Division del Exèrcit" }
+		8 = { "%da Division del Exèrcit" }
+		9 = { "%da Division del Exèrcit" }
+		10 = { "%da Division del Exèrcit" }
+		11 = { "%da Division del Exèrcit" }
+		12 = { "%da Division del Exèrcit" }
+		13 = { "%da Division del Exèrcit" }
+		14 = { "%da Division del Exèrcit" }
+		15 = { "%da Division del Exèrcit" }
+		16 = { "%da Division del Exèrcit" }
+		17 = { "%da Division del Exèrcit" }
+		18 = { "%da Division del Exèrcit" }
+		19 = { "%da Division del Exèrcit" }
+		20 = { "%da Division del Exèrcit" }		
+	}
+}
+
+GTH_INFB_02 = 
+{
+	name = "Infantry Brigade"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GTH_INF_01 }
+
+	fallback_name = "%da Brigada del Exèrcit"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada del Exèrcit" }
+		2 = { "%da Brigada del Exèrcit" }
+		3 = { "%da Brigada del Exèrcit" }
+		4 = { "%da Brigada del Exèrcit" }
+		5 = { "%da Brigada del Exèrcit" }
+		6 = { "%da Brigada del Exèrcit" }
+		7 = { "%da Brigada del Exèrcit" }
+		8 = { "%da Brigada del Exèrcit" }
+		9 = { "%da Brigada del Exèrcit" }
+		10 = { "%da Brigada del Exèrcit" }
+		11 = { "%da Brigada del Exèrcit" }
+		12 = { "%da Brigada del Exèrcit" }
+		13 = { "%da Brigada del Exèrcit" }
+		14 = { "%da Brigada del Exèrcit" }
+		15 = { "%da Brigada del Exèrcit" }
+		16 = { "%da Brigada del Exèrcit" }
+		17 = { "%da Brigada del Exèrcit" }
+		18 = { "%da Brigada del Exèrcit" }
+		19 = { "%da Brigada del Exèrcit" }
+		20 = { "%da Brigada del Exèrcit" }		
+	}
+}
+
+GTH_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Division de Cavalariá"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division de Cavalariá" }
+		2 = { "%da Division de Cavalariá" }
+		3 = { "%da Division de Cavalariá" }
+		4 = { "%da Division de Cavalariá" }
+		5 = { "%da Division de Cavalariá" }
+		6 = { "%da Division de Cavalariá" }
+		7 = { "%da Division de Cavalariá" }
+		8 = { "%da Division de Cavalariá" }
+		9 = { "%da Division de Cavalariá" }
+		10 = { "%da Division de Cavalariá" }
+	}
+}
+
+GTH_CAVB_01 = 
+{
+	name = "Cavalry Brigade"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Brigada de Cavalariá"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada de Cavalariá" }
+		2 = { "%da Brigada de Cavalariá" }
+		3 = { "%da Brigada de Cavalariá" }
+		4 = { "%da Brigada de Cavalariá" }
+		5 = { "%da Brigada de Cavalariá" }
+		6 = { "%da Brigada de Cavalariá" }
+		7 = { "%da Brigada de Cavalariá" }
+		8 = { "%da Brigada de Cavalariá" }
+		9 = { "%da Brigada de Cavalariá" }
+		10 = { "%da Brigada de Cavalariá" }
+	}
+}
+
+GTH_MOT_01 = 
+{
+	name = "Motorized Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Division de Veitura"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division de Veitura" }
+		2 = { "%da Division de Veitura" }
+		3 = { "%da Division de Veitura" }
+		4 = { "%da Division de Veitura" }
+		5 = { "%da Division de Veitura" }
+		6 = { "%da Division de Veitura" }
+		7 = { "%da Division de Veitura" }
+		8 = { "%da Division de Veitura" }
+		9 = { "%da Division de Veitura" }
+		10 = { "%da Division de Veitura" }
+	}
+}
+
+GTH_MOT_02 = 
+{
+	name = "Motorized Infantry"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GTH_INF_02 }
+
+	fallback_name = "%da Brigada de Veitura"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada de Veitura" }
+		2 = { "%da Brigada de Veitura" }
+		3 = { "%da Brigada de Veitura" }
+		4 = { "%da Brigada de Veitura" }
+		5 = { "%da Brigada de Veitura" }
+		6 = { "%da Brigada de Veitura" }
+		7 = { "%da Brigada de Veitura" }
+		8 = { "%da Brigada de Veitura" }
+		9 = { "%da Brigada de Veitura" }
+		10 = { "%da Brigada de Veitura" }
+	}
+}
+
+GTH_MEC_01 = 
+{
+	name = "Mechanized Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GTH_INF_01 }
+
+	fallback_name = "%da Division Mecanica"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division Mecanica" }
+		2 = { "%da Division Mecanica" }
+		3 = { "%da Division Mecanica" }
+		4 = { "%da Division Mecanica" }
+		5 = { "%da Division Mecanica" }
+		6 = { "%da Division Mecanica" }
+		7 = { "%da Division Mecanica" }
+		8 = { "%da Division Mecanica" }
+		9 = { "%da Division Mecanica" }
+		10 = { "%da Division Mecanica" }
+	}
+}
+
+GTH_ARM_01 = 
+{
+	name = "Armored Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Division Blindata"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division Blindata" }
+		2 = { "%da Division Blindata" }
+		3 = { "%da Division Blindata" }
+		4 = { "%da Division Blindata" }
+		5 = { "%da Division Blindata" }
+		6 = { "%da Division Blindata" }
+		7 = { "%da Division Blindata" }
+		8 = { "%da Division Blindata" }
+		9 = { "%da Division Blindata" }
+		10 = { "%da Division Blindata" }
+	}
+}
+
+GTH_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SPAN_INF_01 }
+
+	fallback_name = "%da Division de Montanha"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division de Montanha" }
+		2 = { "%da Division de Montanha" }
+		3 = { "%da Division de Montanha" }
+		4 = { "%da Division de Montanha" }
+		5 = { "%da Division de Montanha" }
+		6 = { "%da Division de Montanha" }
+		7 = { "%da Division de Montanha" }
+		8 = { "%da Division de Montanha" }
+		9 = { "%da Division de Montanha" }
+		10 = { "%da Division de Montanha" }
+	}
+}
+
+GTH_MNT_02 = 
+{
+	name = "Mountain Infantry"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { SPAN_INF_02 }
+
+	fallback_name = "%da Brigada Montanha"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Brigada Montanha" }
+		2 = { "%da Brigada Montanha" }
+		3 = { "%da Brigada Montanha" }
+		4 = { "%da Brigada Montanha" }
+		5 = { "%da Brigada Montanha" }
+		6 = { "%da Brigada Montanha" }
+		7 = { "%da Brigada Montanha" }
+		8 = { "%da Brigada Montanha" }
+		9 = { "%da Brigada Montanha" }
+		10 = { "%da Brigada Montanha" }
+	}
+}
+
+GTH_GAR_01 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GTH_INF_01 }
+
+	fallback_name = "%da Division de Infantaría"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division de Infantaría" }
+		2 = { "%da Division de Infantaría" }
+		3 = { "%da Division de Infantaría" }
+		4 = { "%da Division de Infantaría" }
+		5 = { "%da Division de Infantaría" }
+		6 = { "%da Division de Infantaría" }
+		7 = { "%da Division de Infantaría" }
+		8 = { "%da Division de Infantaría" }
+		9 = { "%da Division de Infantaría" }
+		10 = { "%da Division de Infantaría" }
+		11 = { "%da Division de Infantaría" }
+		12 = { "%da Division de Infantaría" }
+		13 = { "%da Division de Infantaría" }
+		14 = { "%da Division de Infantaría" }
+		15 = { "%da Division de Infantaría" }
+		16 = { "%da Division de Infantaría" }
+		17 = { "%da Division de Infantaría" }
+		18 = { "%da Division de Infantaría" }
+		19 = { "%da Division de Infantaría" }
+		20 = { "%da Division de Infantaría" }		
+	}
+}
+
+GTH_GAR_02 = 
+{
+	name = "Garrison Division"
+
+	for_countries = { GTH MIS ANC SEC UDN TNV GTO JCT FGY EQU CHR PEU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { GTH_INF_02 }
+
+	fallback_name = "%da Division del Exèrcit"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%da Division del Exèrcit" }
+		2 = { "%da Division del Exèrcit" }
+		3 = { "%da Division del Exèrcit" }
+		4 = { "%da Division del Exèrcit" }
+		5 = { "%da Division del Exèrcit" }
+		6 = { "%da Division del Exèrcit" }
+		7 = { "%da Division del Exèrcit" }
+		8 = { "%da Division del Exèrcit" }
+		9 = { "%da Division del Exèrcit" }
+		10 = { "%da Division del Exèrcit" }
+		11 = { "%da Division del Exèrcit" }
+		12 = { "%da Division del Exèrcit" }
+		13 = { "%da Division del Exèrcit" }
+		14 = { "%da Division del Exèrcit" }
+		15 = { "%da Division del Exèrcit" }
+		16 = { "%da Division del Exèrcit" }
+		17 = { "%da Division del Exèrcit" }
+		18 = { "%da Division del Exèrcit" }
+		19 = { "%da Division del Exèrcit" }
+		20 = { "%da Division del Exèrcit" }		
+	}
+}

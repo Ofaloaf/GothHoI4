@@ -73,6 +73,7 @@ bookmarks = {
 			history = "LRM_LP_CAMPAIGN_DESC"
 			ideology = communism
 			ideas = {
+				LRM_military_collapse
 			}
 			focuses = {
 			}
@@ -87,7 +88,7 @@ bookmarks = {
 			history = "KOJ_LP_CAMPAIGN_DESC"
 			ideology = neutrality
 			ideas = {
-				
+				KOJ_crusader_state
 			}
 			focuses = {
 			}
@@ -104,16 +105,27 @@ bookmarks = {
 			}
 		}
 		
-		#"DZH"={
-		#	minor = yes
-		#	history = "VBG_LP_CAMPAIGN_DESC"
-		#	ideology = fascism
-		#	ideas = {
-		#		
-		#	}
-		#	focuses = {
-		#	}
-		#}
+		"DZH"={
+			minor = yes
+			history = "VBG_LP_CAMPAIGN_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
+		
+		"MIS"={
+			minor = yes
+			history = "MIS_LP_CAMPAIGN_DESC"
+			ideology = fascism
+			ideas = {
+				
+			}
+			focuses = {
+			}
+		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !

@@ -1,0 +1,38 @@
+#######################################
+#### LRM - CLONED ANARCHIST SPAIN  ####
+#######################################
+
+entity = { 
+	clone = "POR_infantry_entity"
+	name = "LRM_infantry_entity"
+}
+
+entity = { 
+	clone = "POR_infantry_2_entity"
+	name = "LRM_infantry_2_entity"
+}
+
+entity = { 
+	clone = "POR_infantry_2_entity"
+	name = "LRM_infantry_3_entity"
+}
+
+entity = { 
+	clone = "POR_cavalry_entity"
+	name = "LRM_cavalry_entity"
+}
+
+entity = { 
+	clone = "POR_cavalry_2_entity"
+	name = "LRM_cavalry_2_entity"
+}
+
+entity = { 
+	clone = "POR_mechanized_entity"
+	name = "LRM_mechanized_entity"
+}
+
+entity = { 
+	clone = "POR_motorized_entity"
+	name = "LRM_motorized_entity"
+}

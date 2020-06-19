@@ -286,8 +286,8 @@ TNK = {
 }
 
 MAN = { # Manchuria
-	color = rgb { 165  132  57 }
-	color_ui = rgb { 165  132  57 }
+	color = rgb { 201 142 38 }
+	color_ui = rgb { 201 142 38 }
 }
 
 KOR = { # Korea
@@ -331,8 +331,8 @@ UDN = {
 }
 
 PEG = {
-	color = rgb { 140 210 160 }
-	color_ui = rgb { 140 210 160 }
+	color = rgb { 90 160 110 }
+	color_ui = rgb { 90 160 110 }
 }
 
 MBA = {

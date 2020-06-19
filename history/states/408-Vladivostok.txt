@@ -1,7 +1,7 @@
 
 state={
 	id=408
-	name="STATE_408"
+	name="STATE_HAISHENWAI"
 	manpower = 841465
 	resources={
 		chromium=20 # was: 28

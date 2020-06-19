@@ -1,7 +1,7 @@
 
 state={
 	id=560
-	name="STATE_560" # Nikolayevsk
+	name="STATE_FUYORI" # Fuyori, previously Nikolayevsk
 	manpower = 97663
 	
 	state_category = rural

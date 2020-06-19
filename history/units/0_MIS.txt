@@ -1,0 +1,280 @@
+﻿division_template = {
+	name = "Division de Infantaría"
+
+	division_names_group = GTH_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Brigada de Infantaría"
+
+	division_names_group = GTH_INFB_01
+
+	#is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Division de Cavalariá"
+
+	division_names_group = GTH_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+	support = {
+       	artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Ejército Mexicano #####
+	division= {	# "1a Division de Infantaría"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4569 # Sent Lozoic
+		division_template = "Division de Infantaría"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	
+	division= {	
+		name = "Estat Major Presidencial"
+		location = 4569 # Sent Lozoic
+		division_template = "Division de Infantaría"
+		start_experience_factor = 0.3
+	}
+
+	division= {	# "2a Division de Infantaría"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6710 # Listrech
+		division_template = "Division de Infantaría"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division= {	# "3a Division de Infantaría"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 4464
+		division_template = "Division de Infantaría"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+
+	division= {	# "1a Division de Cavalariá"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4449 # THE DAYLIGHT
+		division_template = "Division de Cavalariá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+	division = {	# "2a Division de Cavalariá"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 1836
+		division_template = "Division de Cavalariá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+	}
+
+	division = {
+		location = 1747
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 1866 # Minneapolis
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 9450 # Chicago
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 10412 # Ricamont
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 873 # Alexandria
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 788 # Scigoa
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 11783 # unnamed
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 12501 # not Nashville
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 12489 # Petita-Roca
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 10717 # Missoriopolis
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 1770 # Dels Monges
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 5205 # Sault Ste. Marie
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 6890 # Ciutat Selva
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 6855 # Scioto
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+
+	division = {
+		location = 1595 # Nazaret
+		division_template = "Brigada de Infantaría"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+}
+
+air_wings = {
+	### Fuerza Aérea Mexicana -- Mexico City
+	363 = {
+		# CAS Air Group -- de Haviland DH-4Bs
+		CAS_equipment_1 =  {
+			owner = "MIS" 
+			amount = 12
+		}
+		fighter_equipment_0 =  {
+			owner = "MIS"
+			amount = 6
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "MIS"
+			amount = 6
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MIS"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "MIS"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "MIS" 
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = convoy_1
+			creator = "MIS" 
+		}
+		requested_factories = 2
+		progress = 0.20
+		efficiency = 100
+	}
+}
