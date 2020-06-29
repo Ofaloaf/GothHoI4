@@ -29,6 +29,7 @@ GTH_DE_HISTORICAL = {
 
 	unique = {											
 		Creatura Iscòrpi Rangièr Pantèra Guèine Amazon Aurora Dalfin Lop Arquet Ligombau Rainal Aranha Grilh Rinocèros Angròla Cernalha Crocodil Antílop Zèbre Estrutz Vermilingua
+		Astraea Beluga Berart Blezo Cairèl Carnalatge
 	}
 }
 
@@ -198,6 +199,7 @@ GTH_CITIES = {
 	
 	unique = {
 		Liyun Digum Tolosa Rodumno Treveri Burdelh Marselha Narbona Bresta "La Rocella" Nemausus Dieppa Constantina Casleto Caleeis Paris Graignovol Brujas Aquisgran Traiecto Andoverpis
-		Eindovia Camorac Insulano Brussèlas Namntas CAstelraolh Vichèi Arvernis Besontion Nanceia Sarabrei Rhemus Sedensi Arlaun Redonis Magalona Vienna
+		Eindovia Camorac Insulano Brussèlas Namntas Castelraolh Vichèi Arvernis Besontion Nanceia Sarabrei Rhemus Sedensi Arlaun Redonis Magalona Viana Colonzèla Taurs Trecassis Fois Pàmias
+		Cadumno Biturigas Valença 
 	}
 }
