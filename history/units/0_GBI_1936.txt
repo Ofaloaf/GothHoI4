@@ -23,6 +23,16 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Brigada di llo Car"
+	#division_names_group = ENG_ARM_02
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+	}
+}
+
 units = {
 	#####LAND UNITS #####
 	### MAINLAND UNITS ###
@@ -35,7 +45,14 @@ units = {
 		division_template = "Puiddes Difisiwn"
 		start_experience_factor = 0.3
 	}
+	division= {	
+		name = "I. Brigada di llo Car"
+		location = 9239
+		division_template = "Brigada di llo Car"
+		start_experience_factor = 0.3
+	}
 	
+	# COLONIAL
 	division = {
 		name = "Cafal di Zambesia"		
 		#division_name = {
