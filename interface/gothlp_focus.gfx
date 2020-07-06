@@ -16,7 +16,37 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "GFX_focus_army_anarchist"
+		texturefile = "gfx/interface/goals/focus_army_anarchist.dds"			
+	}
+
+	SpriteType = {
 		name = "GFX_focus_army_communist"
 		texturefile = "gfx/interface/goals/focus_army_communist.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_industrial"
+		texturefile = "gfx/interface/goals/focus_industrial.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_industrial_2"
+		texturefile = "gfx/interface/goals/focus_industrial_2.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_syndicalist_industry"
+		texturefile = "gfx/interface/goals/focus_syndicalist_industry.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_revolutionaries"
+		texturefile = "gfx/interface/goals/focus_revolutionaries.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_crush_capitalism"
+		texturefile = "gfx/interface/goals/focus_crush_capitalism.dds"			
 	}
 }
