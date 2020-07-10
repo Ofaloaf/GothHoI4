@@ -319,17 +319,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.6"
+				date > "1932.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1933.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "1934.1.1"
 			}
 		}
 	}
@@ -412,17 +412,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.6"
+				date > "1933.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "1934.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1946.1.1"
+				date > "1935.1.1"
 			}
 		}
 	}
@@ -1102,17 +1102,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.9"
+				date > "1934.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1946.1.1"
+				date > "1935.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1946.1.6"
+				date > "1936.1.6"
 			}
 		}
 	}
@@ -1444,22 +1444,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1942.1.6"
+				date > "1931.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1943.1.1"
+				date > "1932.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1944.1.1"
+				date > "1933.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1945.1.1"
+				date > "1934.1.1"
 			}
 			modifier = {
 				has_war = yes
