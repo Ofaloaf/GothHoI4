@@ -3,7 +3,7 @@ state={
 	name="STATE_ACCRA"
 	
 	history={
-		owner = GAL
+		owner = GBI
 		add_core_of = ACR
 		victory_points = {
 			10862 1 

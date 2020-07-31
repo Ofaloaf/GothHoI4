@@ -102,7 +102,6 @@ create_faction = "Commune League"
 add_to_faction = GTH
 add_to_faction = LRM
 add_to_faction = COG
-add_to_faction = SOA
 add_to_faction = MJP
 
 if = {
@@ -114,11 +113,6 @@ if = {
 	}
 	set_autonomy = {
 		target = COG
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	set_autonomy = {
-		target = SOA
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.4
 	}

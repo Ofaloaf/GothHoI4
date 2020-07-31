@@ -1964,3 +1964,59 @@ VBG = {
 		Zhenli
 	}
 }
+
+FRI = {
+	male = {
+		names = {
+			Adelbrik Albertus Angilram
+			Balthasar Berengarius Boudewijn Bertholdus Bartholomeus
+			Cornelis Christian Childerik Charibert Clemens Christiaan Casparus Constant Chararik Clodoald Constantijn Caius
+			Dodo Dagobert David Dirk
+			Eggerik Enno Eustachius Eberhard Egilbert Eginhard Eleutherius
+			Franciscus Formosus Frederik Ferdinand Floribert Fardulf Fulco Filips
+			Guntram Gerrit Gerold Gondulfus Grimoald
+			Hendrik Hugo Hugobert Hunold Hildebold Hildegar Hildegrim Hermannus
+			Jancko Johannes Julius Justus Jonas Jacobus
+			Karel Koenraad Kunibert
+			Lotharius Lodewijk Leopold Laurens Levold Lambert Lantfrid
+			Maurits Magnus Maximiliaan Matthias Michael Martin
+			Nicolaas Norbert
+			Odo
+			Pieter Pepijn Paschasius Pardulus Paul
+			Reinier Rombertus Ragnachar Rignomer Rorich Rothard Remigius Roelof
+			Sjoerd Salomon Sibald Silvanus Sigismund Sulpitius
+			Titus Theudebert Theuderich Theudebald Theodulfus Theodard
+			Vedastus Vedulfus
+			Wybrand Wijard Willem Wolfram Warnachar
+		}
+	}
+	female = {
+		names = {
+			Cynthia
+			Geertruida
+			Margaretha
+		}
+	}
+	surnames = {
+		Accama Andresen Acronius Alting
+		Brandsma Baur Baren Braren Botnia Bonninga Bogerman Brenneysen Bosboom Bakhuizen Boelsen
+		Camminga
+		Dykstra Donia Dekama Dall Duurkoop
+		Emmius Escher Euken "van Eminga" Erlebach Eilts
+		Fabricius Frankena Frisius Forteman
+		Galama "de Geest" Gaukes "de Graeff"
+		Hebbel "van Harlingen" Hania Hafner Hanken
+		Jelckama Jelgersma Jessen Jelmera Juwinga
+		Kittel "von Koningsveld" Krüger
+		Lenige Ludigman Lornsen Lampadius "van Linge" Lutma
+		Mommsen Momsen Matthiessen Martena Meentzen "van Musscher"
+		Nannen
+		Olufs "van Ompteda" Ovens
+		Paulsen Petersen
+		Quedens
+		Sjaerdema Springer Seba Scheller
+		Terpstra "van Thabor" Tönnies
+		"de Vries"
+		Wiarda Waalkes
+	}
+}
