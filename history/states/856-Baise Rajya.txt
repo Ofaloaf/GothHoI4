@@ -1,0 +1,20 @@
+state={
+	id=856
+	name="STATE_BAISE_RAJYA"
+
+	history={
+		owner = GJT
+		add_core_of = GJT
+		add_core_of = NEP
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		4386 7374 10825 10910 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -12,8 +12,6 @@ state={
 		add_core_of = DZH
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 1
-
 		}
 	}
 }
