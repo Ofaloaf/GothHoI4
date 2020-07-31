@@ -3,7 +3,8 @@ state={
 	name="STATE_KURNOOL"
 	
 	history={
-		owner = GJT
+		owner = ADH
+		add_core_of = ADH
 		add_core_of = GJT
 		buildings = {
 			infrastructure = 3

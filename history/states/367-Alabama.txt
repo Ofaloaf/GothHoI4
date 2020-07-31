@@ -4,7 +4,7 @@ state={
 	name="STATE_367"
 
 	history={
-		owner = MIS
+		owner = SEC
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
@@ -14,14 +14,15 @@ state={
 			}
 
 		}
-		add_core_of = MIS
+		add_core_of = SEC
 		victory_points = {
 			7480 1 
 		}
+
 	}
 
 	provinces={
-		492 860 4594 4622 4756 7422 7480 7640 10520 11509 11942 
+		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 
 	}
 	manpower=2069080
 	buildings_max_level_factor=1.000

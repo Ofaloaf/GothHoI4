@@ -3,7 +3,7 @@ state={
 	name="STATE_JUTLAND"
 	
 	history={
-		owner = FRK
+		owner = DEN
 		victory_points = {
 			6235 3
 		}
@@ -16,7 +16,6 @@ state={
 
 			}
 		}
-		add_core_of = FRK
 		add_core_of = DEN
 	}
 	

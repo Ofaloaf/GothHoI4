@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = TRT
+		owner = CUA
+		add_core_of = CUA
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

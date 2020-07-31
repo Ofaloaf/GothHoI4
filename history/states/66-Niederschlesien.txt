@@ -11,7 +11,7 @@ state={
 	state_category = large_city
 
 	history={
-		owner = SRB
+		owner = BOY
 		victory_points = {
 			9570 10 
 		}
@@ -26,7 +26,7 @@ state={
 			industrial_complex = 1
 			air_base = 6
 		}
-		add_core_of = SRB
+		add_core_of = BOY
 	}
 
 	provinces={

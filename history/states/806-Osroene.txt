@@ -1,26 +1,27 @@
+
 state={
 	id=806
 	name="STATE_OSROENE"
-	
+
 	history={
-		owner = RUM
+		owner = KOJ
 		victory_points = {
-			901 1 # Circesium
+			901 1 
 		}
 		victory_points = {
-			1634 1 # Callinicum
+			1634 1 
 		}
 		buildings = {
 			infrastructure = 2
 
 		}
 		add_core_of = SYR
-		add_core_of = RUM
+		add_core_of = KOJ
 
 	}
-	
+
 	provinces={
-		901 1549 1578 1606 1634 6883 10882 
+		901 1578 1606 1634 6883 10882 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

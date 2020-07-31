@@ -8,9 +8,10 @@ state={
 	}
 
 	history={
+		owner = PEG
 		add_core_of = TNK
-		owner = TNK
 		add_core_of = VIN
+		add_core_of = PEG
 		victory_points = {
 			4075 3 
 		}

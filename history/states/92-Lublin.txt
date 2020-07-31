@@ -1,3 +1,4 @@
+
 state={
 	id=92
 	name="STATE_92"
@@ -6,19 +7,19 @@ state={
 		victory_points = {
 			11399 1 
 		}
-		owner = SRB
+		owner = RUT
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 1
 
 		}
-		add_core_of = SRB
+		add_core_of = RUT
 
 	}
 
 	provinces={
-		3521 3559 6484 6580 9452 9521 9544 11399 11466 
+		466 3434 3521 3559 6484 6499 6522 6580 9452 9494 9521 9544 11399 11466 11507 
 	}
 	manpower=2464600
 	buildings_max_level_factor=1.000

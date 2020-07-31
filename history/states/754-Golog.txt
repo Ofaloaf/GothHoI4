@@ -8,7 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	state_category = rural
 	history={
-		owner = DZH
+		owner = VBG
 		add_core_of = DZH
 		victory_points = {
 			12732 3 

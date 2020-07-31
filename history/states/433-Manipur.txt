@@ -13,7 +13,8 @@ state={
 		victory_points = {
 			12829 3 # Udaipur
 		}
-		owner = MEW
+		owner = GJT
+		add_core_of = GJT
 		add_core_of = MEW
 		buildings = {
 			infrastructure = 3

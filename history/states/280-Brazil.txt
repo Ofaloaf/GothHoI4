@@ -4,17 +4,17 @@ state={
 	name="STATE_MATH_GROS"
 
 	history={
-		owner = AVL
+		owner = PEU
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = AVL
+		add_core_of = PEU
 
 	}
 
 	provinces={
-		2142 2147 8175 10982 11010 12939 
+		2142 2147 8175 10960 10982 11010 12917 12939 
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000

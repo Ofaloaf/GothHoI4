@@ -7,14 +7,14 @@ state={
 	state_category = town
 
 	history={
-		owner = VBG
+		owner = RUT
 		victory_points = {
 			9461 1
 		}
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = VBG
+		add_core_of = RUT
 	}
 
 	provinces={

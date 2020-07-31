@@ -9,10 +9,7 @@ state= {
 		victory_points = {
 			6389 10 
 		}
-		victory_points = {
-			9347 20
-		}
-		owner = FRK
+		owner = DEN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -23,9 +20,10 @@ state= {
 			}
 		}
 		add_core_of = FRK
+		add_core_of = DEN
 	}
 
 	provinces= {
-		317 3231 3368 6257 6389 9320 9347 11331 11366
+		317 3231 3368 6257 6389 11331 11366
  	}
 }

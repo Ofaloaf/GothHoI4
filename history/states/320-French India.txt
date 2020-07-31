@@ -4,8 +4,9 @@ state={
 	name="STATE_MADRAS"
 
 	history={
-		owner = ADH
+		owner = MYS
 		add_core_of = ADH
+		add_core_of = MYS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

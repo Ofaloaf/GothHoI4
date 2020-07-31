@@ -3,7 +3,8 @@ state={
 	name="STATE_LLO_COMITHEM"
 	
 	history={
-		owner = TRT
+		owner = CUA
+		add_core_of = CUA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

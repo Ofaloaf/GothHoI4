@@ -4,7 +4,7 @@ state={
 	name="STATE_435"
 
 	history={
-		owner = VBG
+		owner = GJT
 		add_core_of = GJT
 		victory_points = {
 			4516 1 

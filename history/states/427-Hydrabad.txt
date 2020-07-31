@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GJT
+		owner = GBI
 		add_core_of = GJT
 		victory_points = {
 			8087 1 

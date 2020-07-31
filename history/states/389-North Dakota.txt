@@ -10,7 +10,8 @@ state={
 	}
 
 	history={
-		owner = MIS
+		owner = PEQ
+		add_core_of = PEQ
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

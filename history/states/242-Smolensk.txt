@@ -1,13 +1,13 @@
 
 state={
 	id=242
-	name="STATE_242"
+	name="STATE_SMOLA"
 	manpower = 1300028
 	
 	state_category = large_town
 
 	history={
-		owner = VBG
+		owner = MDV
 		victory_points = {
 			306 15
 		}
@@ -17,7 +17,6 @@ state={
 			air_base = 5
 		}
 		add_core_of = MDV
-		add_core_of = VBG
 	}
 
 	provinces={

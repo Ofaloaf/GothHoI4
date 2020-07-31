@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = ANC
+		owner = MIS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 
 			}
 		}
-		add_core_of = ANC
+		add_core_of = MIS
 		victory_points = {
 			7552 10 
 		}
